@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGC_APERAK_V23B_CL</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>APERAK message processing class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_APERAK_V23B_CL</CLSNAME>
+     <CMPNAME>GC_ASSIGNED_CODE_APERAK_21A</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ASSOCODE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_APERAK_V23B_CL</CLSNAME>
+     <CMPNAME>GC_MSCOD_APERAK_004</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Logische Nachrichtenvariante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_APERAK_V23B_CL</CLSNAME>
+     <CMPNAME>GS_CL_SEG_FTX_03</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>FTX Textformat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_APERAK_V23B_CL</CLSNAME>
+     <CMPNAME>Z_ISU_APERAK_OUT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Outbound processing for APERAK</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

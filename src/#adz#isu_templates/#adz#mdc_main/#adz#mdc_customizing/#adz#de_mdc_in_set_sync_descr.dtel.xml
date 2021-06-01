@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADZ/DE_MDC_IN_SET_SYNC_DESCR</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/ADZ/D_MDC_IN_SET_SYNC_DESCR</DOMNAME>
+    <HEADLEN>29</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>29</SCRLEN3>
+    <DDTEXT>SDÄ: Konfiguration Eingang SD-Synchronisation Beschreibung</DDTEXT>
+    <REPTEXT>Stammdaten automatisch ändern</REPTEXT>
+    <SCRTEXT_S>Auto</SCRTEXT_S>
+    <SCRTEXT_M>Automatisch ändern</SCRTEXT_M>
+    <SCRTEXT_L>Stammdaten automatisch ändern</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

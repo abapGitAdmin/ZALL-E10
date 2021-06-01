@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Klasse für allgemeine Methoden zum Datenaustausch</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>ADD_AMID_TO_PROC_STEP_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüf-ID ermitteln und einfügen auf Basis der Vergleichsdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>ADD_SERVPROVS_AND_BMID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Empfänger und BMID in Prozessdaten schreiben im DATEXCONNECT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>ADD_SERVPROVS_TO_PROC_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Empfänger in die Prozessdaten schreiben im DATEXCONNECT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>CONDENSE_PROC_STEP_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prozessschrittdaten zusammenführen im DATEXCONNECT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>CREATE_ERROR_PDOC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Error PDoc erzeugen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>DISABLE_DATEX</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenaustausch deaktivieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>ENABLE_DATEX</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenaustausch aktivieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>GET_BMID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüf-ID ermitteln auf Basis der Vergleichsdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>GET_SEND_FLAG_FROM_CUSTOMIZING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Customizing lesen und als Flag zurückgeben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>GET_SEND_FLAG_FROM_DATEX</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktivierung lesen und als Flag zurückgeben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>GR_PREVIOUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DATEX_UTILITY</CLSNAME>
+     <CMPNAME>UPDATE_MTD_CODE_RESULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabelle MTD_CODE_RESULT updaten</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CAR_RESERVATIONS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Klasse für Mietwagenreservierungen</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CAR_RESERVATIONS</CLSNAME>
+     <CMPNAME>CAR_RESERVATIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klasse für Mietwagenreservierungen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CAR_RESERVATIONS</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CAR_RESERVATIONS</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CAR_RESERVATIONS</CLSNAME>
+     <CMPNAME>MAKE_RESERVATION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Trage Reservierungen ein</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CAR_RESERVATIONS</CLSNAME>
+     <CMPNAME>PERSIST_RESERVATIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Speicherer Reservierungen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

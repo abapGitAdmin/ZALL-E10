@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>shared memory area</DESCRIPT>
+    <CATEGORY>45</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>S</RSTAT>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>AREA_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name einer Gebietsklasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>ATTACH_FOR_READ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anfordern einer Lesesperre</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>ATTACH_FOR_UPDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anfordern einer Änderungssperre</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>ATTACH_FOR_WRITE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anfordern einer Schreibsperre</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>BUILD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Direkter Aufruf des Gebietskonstruktors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>DETACH_AREA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aufheben aller Sperren auf alle Instanzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>FREE_AREA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löschen aller Instanzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>FREE_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löschen einer Instanz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>GET_GENERATOR_VERSION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Generator-Version abfragen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>GET_INSTANCE_INFOS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Namen aller Instanzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>INVALIDATE_AREA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktive Versionen aller Instanzen werden auf veraltet gesetzt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>INVALIDATE_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktive Version einer Instanz wird auf veraltet gesetzt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>ROOT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SHM: Modell einer Datenklasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>SET_ROOT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzt Wurzelobjekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>_LIFE_CONTEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lebensdauer eines Gebiets (Konstanten in CL_SHM_AREA)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>_TRACE_ACTIVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(intern) Flag: Trace aktiv?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>_TRACE_SERVICE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(intern) Referenz auf Trace-Klasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZHA_CL_SMO_AREA</CLSNAME>
+     <CMPNAME>_VERSION_</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(intern)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

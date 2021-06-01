@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>ZBOE_T_MITARBEITER</TYPENAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <ROWTYPE>ZBOE_S_MITARBEITER</ROWTYPE>
+    <ROWKIND>S</ROWKIND>
+    <DATATYPE>STRU</DATATYPE>
+    <ACCESSMODE>T</ACCESSMODE>
+    <KEYDEF>K</KEYDEF>
+    <KEYKIND>N</KEYKIND>
+    <KEYFDCOUNT>0001</KEYFDCOUNT>
+    <DDTEXT>Tabelle für Mitarbeiter</DDTEXT>
+   </DD40V>
+   <DD42V>
+    <DD42V>
+     <TYPENAME>ZBOE_T_MITARBEITER</TYPENAME>
+     <KEYFDPOS>0001</KEYFDPOS>
+     <ROWTYPEPOS>0001</ROWTYPEPOS>
+     <KEYFIELD>PERNR</KEYFIELD>
+    </DD42V>
+   </DD42V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

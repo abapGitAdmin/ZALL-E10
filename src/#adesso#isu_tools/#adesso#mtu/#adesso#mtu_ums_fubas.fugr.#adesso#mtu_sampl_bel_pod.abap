@@ -1,0 +1,22 @@
+FUNCTION /ADESSO/MTU_SAMPL_BEL_POD.
+*"----------------------------------------------------------------------
+*"*"Lokale Schnittstelle:
+*"  IMPORTING
+*"     REFERENCE(FIRMA) TYPE  EMG_FIRMA
+*"  TABLES
+*"      MELDUNG STRUCTURE  /ADESSO/MT_MESSAGES OPTIONAL
+*"      IPOD_UIHEAD STRUCTURE  EUI_AUTO_HEAD OPTIONAL
+*"      IPOD_UISRC STRUCTURE  EUI_AUTO_SOURCE OPTIONAL
+*"      IPOD_UITANL STRUCTURE  EMG_UI_AUTO_ANLAGE OPTIONAL
+*"      IPOD_ZWNUMM STRUCTURE  EUI_AUTO_LZW OPTIONAL
+*"      IPOD_UIEXT STRUCTURE  EUI_AUTO_EXTUI OPTIONAL
+*"      IPOD_UIGRID STRUCTURE  EUI_AUTO_GRID OPTIONAL
+*"  CHANGING
+*"     REFERENCE(OLDKEY_POD) TYPE  EMG_OLDKEY
+*"----------------------------------------------------------------------
+
+* SAMPLE-Baustein zur Umschlüsselung des Zählpunkt (Point of Delivery)
+
+
+
+ENDFUNCTION.

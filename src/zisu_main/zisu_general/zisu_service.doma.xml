@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZISU_SERVICE</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Services</DDTEXT>
+    <APPENDNAME>SERVCD</APPENDNAME>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZISU_SERVICE</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>90</DOMVALUE_L>
+     <DDTEXT>Übertragungsnetzbetreiber</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

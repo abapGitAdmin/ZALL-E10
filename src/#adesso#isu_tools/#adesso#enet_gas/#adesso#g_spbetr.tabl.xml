@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADESSO/G_SPBETR</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>Speicher Betreiber (Gas)</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/ADESSO/G_SPBETR</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>1</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_NR</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>ID des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_NAME</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000300</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000150</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Name des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_KUERZEL</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Kürzel des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_STRASSE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Straße des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_PLZST</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>Postleitzahl (straßenbezogen) des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_ORT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Ort des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_TEL</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Telefonnummer des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_FAX</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Faxnummer des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_POSTFACH</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Postfach des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_PLZPF</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>Postleitzahl des Postfachs des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_PLZ_GROSSKUNDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>N</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>NUMC</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  NUMC</MASK>
+     <DDTEXT>Großkundenpostleitzahl des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_DVGW_NETZBETR_NR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>N</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>NUMC</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  NUMC</MASK>
+     <DDTEXT>DVGW-Nummer des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_BEMERKUNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Bemerkung zum Speicherbetreiber</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_INTERNET</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Internetadresse des Speicherbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_AKTUELLER_BETREIBER</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000001</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Wird aktuell ein Speicher betrieben? 1=ja, 0=nein</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_ANSPRECHPARTNER</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000200</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000100</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Name des Ansprechpartners beim Speicherbetreiber</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_ANSPRECHPARTNER_TEL</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Telefonnummer des Ansprechpartners beim Speicherbetreiber</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_ANSPRECHPARTNER_FAX</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Faxnummer des Ansprechpartners beim Speicherbetreiber</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SPBETR_ANSPRECHPARTNER_EMAIL</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Emailadresse des Ansprechpartners beim Speicherbetreiber</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

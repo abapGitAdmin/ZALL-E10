@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/ADZ/V_HMV_SG</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>/ADZ/HMV_SEGN</ROOTTAB>
+    <DDTEXT>Status der IDOC-Segmente</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/ADZ/V_HMV_SG</VIEWNAME>
+     <TABNAME>/ADZ/HMV_SEGN</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/ADZ/HMV_SEGN</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>SEGNAM</VIEWFIELD>
+     <TABNAME>/ADZ/HMV_SEGN</TABNAME>
+     <FIELDNAME>SEGNAM</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>DATETO</VIEWFIELD>
+     <TABNAME>/ADZ/HMV_SEGN</TABNAME>
+     <FIELDNAME>DATETO</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>DATEFROM</VIEWFIELD>
+     <TABNAME>/ADZ/HMV_SEGN</TABNAME>
+     <FIELDNAME>DATEFROM</FIELDNAME>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

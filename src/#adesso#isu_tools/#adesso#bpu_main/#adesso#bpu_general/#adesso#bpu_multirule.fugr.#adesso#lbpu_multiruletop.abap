@@ -1,0 +1,3 @@
+FUNCTION-POOL /ADESSO/BPU_MULTIRULE.        "MESSAGE-ID ..
+
+* INCLUDE /ADESSO/LBPU_MULTIRULED...         " Local class definition

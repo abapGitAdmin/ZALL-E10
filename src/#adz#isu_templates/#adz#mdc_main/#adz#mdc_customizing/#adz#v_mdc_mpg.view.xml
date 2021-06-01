@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/ADZ/V_MDC_MPG</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>/ADZ/MDC_MPG</ROOTTAB>
+    <DDTEXT>SDÄ: Customizing Marktpartnergruppen</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/ADZ/V_MDC_MPG</VIEWNAME>
+     <TABNAME>/ADZ/MDC_MPG</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/ADZ/MDC_MPG</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>/ADZ/MDC_MPG</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>MP_GROUP_ID</VIEWFIELD>
+     <TABNAME>/ADZ/MDC_MPG</TABNAME>
+     <FIELDNAME>MP_GROUP_ID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>MP_GROUP_TYPE</VIEWFIELD>
+     <TABNAME>/ADZ/MDC_MPG</TABNAME>
+     <FIELDNAME>MP_GROUP_TYPE</FIELDNAME>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <VALEXI>X</VALEXI>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>USER_COMMENT</VIEWFIELD>
+     <TABNAME>/ADZ/MDC_MPG</TABNAME>
+     <FIELDNAME>USER_COMMENT</FIELDNAME>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

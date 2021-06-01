@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Bildschirmbilder für Mietwagenbeispiel</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_CAR_RENTAL_SCREENSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_CAR_RENTAL_SCREENS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_INPUT_CUSTOMER</FUNCNAME>
+     <SHORT_TEXT>Frage Kundendaten ab</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>CUSTOMER_ID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZCUSTOMER_ID</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CUSTOMER_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kundenerkennung</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_INPUT_RESERVATION</FUNCNAME>
+     <SHORT_TEXT>Frage Reservierungen ab</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>CAR_CATEGORY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZCARS-CATEGORY</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>DATE_FROM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZRESERVATIONS-DATE_FROM</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>DATE_TO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZRESERVATIONS-DATE_TO</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CAR_CATEGORY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kategorie</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATE_FROM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anfangsdatum</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATE_TO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Endedatum</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

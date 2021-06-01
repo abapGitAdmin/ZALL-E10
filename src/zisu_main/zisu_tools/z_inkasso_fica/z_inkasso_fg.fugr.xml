@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG Inkasso adesso</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_INKASSO_FGF01</SOBJ_NAME>
+    <SOBJ_NAME>LZ_INKASSO_FGF02</SOBJ_NAME>
+    <SOBJ_NAME>LZ_INKASSO_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_INKASSO_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_FKK_SAMPLE_1205</FUNCNAME>
+     <SHORT_TEXT>Muster: Kontenstand - Daten ergänzen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_POSTAB</PARAMETER>
+       <DBFIELD>FKKEPOS</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FKKL1</PARAMETER>
+       <DBFIELD>FKKL1</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FKKEPOSC</PARAMETER>
+       <DBFIELD>FKKEPOSC</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_HEADER_ARC</PARAMETER>
+       <DBFIELD>FKKKO</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FIRST_CALL</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_POSTAB</PARAMETER>
+       <DBFIELD>FKKEPOS</DBFIELD>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_DO_NOT_DISPLAY_LINE</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_ONLY_SHOW_IN_PAYMENT_LIST</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_POSTAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Importierte Position</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FKKL1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Steuerungsdaten (Auswahl der Posten)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FKKEPOSC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Steuerungsdaten (interner Aufruf)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_HEADER_ARC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kopfdaten des archivierten Belegs</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FIRST_CALL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Erster Aufruf des Bausteins (für Initialisierungen)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_POSTAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ergänzte Position</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_DO_NOT_DISPLAY_LINE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Position nicht anzeigen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_ONLY_SHOW_IN_PAYMENT_LIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Position nur in Zahlungsliste anzeigen           )</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_FKK_SAMPLE_5056</FUNCNAME>
+     <SHORT_TEXT>FI-CA Inkassobüro: Daten für die Ausbuchung ändern</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_FKKCOLLP</PARAMETER>
+       <TYP>FKKCOLLP</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>C_RFKA1</PARAMETER>
+       <TYP>RFKA1</TYP>
+      </RSCHA>
+     </CHANGING>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_FKKCOLLP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Inkassobürodatei (Position)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>C_RFKA1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dialogfelder für SAPLFKA1 und SAPLFKA8</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_FKK_SAMPLE_5057</FUNCNAME>
+     <SHORT_TEXT>FI-CA Inkassobüro: Folgeaktivitäten</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_DFKKCOL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <DBSTRUCT>FKKOP</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_DFKKCOL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>FI-CA: Verwaltungsdaten zur Forderungsabgabe an Inkassobür</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Geschäftspartnerpositionen zum Kontokorrentbeleg</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_FKK_SAMPLE_5062</FUNCNAME>
+     <SHORT_TEXT>Inkassobüro: Abgabefile ergänzen - Kopf</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>C_FKKCOLFILE_HEADER</PARAMETER>
+       <DBFIELD>FKKCOLFILE_HEADER</DBFIELD>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FKKCOLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <DBSTRUCT>FKKOP</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FKKMAZE</PARAMETER>
+       <DBSTRUCT>FKKMAZE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_FKKCOLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Verwaltungsdaten zur abzugebenden Forderungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>alle abzugebenden Forderungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKMAZE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>alle betroffenen Mahnzeilen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>C_FKKCOLFILE_HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Zeile des Abgabefile</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_FKK_SAMPLE_5063</FUNCNAME>
+     <SHORT_TEXT>Inkassobüro: Abgabefile ergänzen - Rumpf</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_FKKCOLL</PARAMETER>
+       <DBFIELD>DFKKCOLL</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>C_FKKCOLFILE</PARAMETER>
+       <DBFIELD>FKKCOLFILE</DBFIELD>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <DBSTRUCT>FKKOP</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FKKMAZE</PARAMETER>
+       <DBSTRUCT>FKKMAZE</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_FKKCOLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Verwaltungsdaten zur abzugebenden Forderung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>alle abzugebenden Forderungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKMAZE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>alle betroffenen Mahnzeilen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>C_FKKCOLFILE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Zeile des Abgabefiles für Position</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_FKK_SAMPLE_5064</FUNCNAME>
+     <SHORT_TEXT>Inkassobüro: Abgabefile ergänzen - Fuß</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>C_FKKCOLFILE_TRAILER</PARAMETER>
+       <DBFIELD>FKKCOLFILE_TRAILER</DBFIELD>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FKKCOLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <DBSTRUCT>FKKOP</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FKKMAZE</PARAMETER>
+       <DBSTRUCT>FKKMAZE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_FKKCOLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Verwaltungsdaten der abzugebenden Forderungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>alle abzugebende Forderungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKMAZE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>alle betroffenen Mahnzeilen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>C_FKKCOLFILE_TRAILER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Zeile des Abgabefile</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_FKK_SAMPLE_5067</FUNCNAME>
+     <SHORT_TEXT>Inkassobürodatei lesen:  Zahlungsstapelposition ergänzen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_BFKKZK</PARAMETER>
+       <DBFIELD>BFKKZK</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FKKCOLLP</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FKKCOLLP</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>C_BFKKZP</PARAMETER>
+       <DBFIELD>BFKKZP</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>CT_BFKKZS</PARAMETER>
+       <DBSTRUCT>BFKKZS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>CT_BFKKZV</PARAMETER>
+       <DBSTRUCT>BFKKZV</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_BFKKZK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Zahlungsstapelkopfdaten (ext. Format)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FKKCOLLP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Inkassobürodatei (Position)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CT_BFKKZS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Zusatzselektionen Zahlungsstapelpos. (ext. Forma</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CT_BFKKZV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>VerwZwecke zur Zahlunsstapelpos. (ext. Format)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>C_BFKKZP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Position (Zahlungsstapelübernahme)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_INKASSO_SELECT</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Inkasso Monitor: Selektion</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>X_OPT</PARAMETER>
+       <TYP>ZINKASSO_OPT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_SELECT</PARAMETER>
+       <DBSTRUCT>ZINKASSO_SELECT</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_OUT</PARAMETER>
+       <DBSTRUCT>ZINKASSO_OUT</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>X_OPT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Inkasso Monitor: Steuerungsoptionen für Ausgabe</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_SELECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Inkasso Monitor: Selektion</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_OUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Inkasso Monitor: Ausgabe Tabelle</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_INKASSO_SELECT_LS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Inkasso Monitor: Selektion</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>X_OPT</PARAMETER>
+       <TYP>ZINKASSO_OPT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_SELECT</PARAMETER>
+       <DBSTRUCT>ZINKASSO_SELECT</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_OUT</PARAMETER>
+       <DBSTRUCT>ZINKASSO_OUT</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>X_OPT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Inkasso Monitor: Steuerungsoptionen für Ausgabe</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_SELECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Inkasso Monitor: Selektion</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_OUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Inkasso Monitor: Ausgabe Tabelle</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_ISU_EVENT_5065</FUNCNAME>
+     <SHORT_TEXT>Musterfunktionsbaustein: Belegposition von Inkassobüro zurückrufen</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>DO_RECALL</PARAMETER>
+       <DBFIELD>BOOLE-BOOLE</DBFIELD>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_DFKKCOLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_ALL_COLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_RECALL_COLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_REASSIGN_COLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_DFKKCOLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Abgegebenden Forderungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_ALL_COLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Forderungen die an das Inkassobüros abgegeben wurden</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_RECALL_COLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Zurückzurufenden Forderungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_REASSIGN_COLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Forderungen die abzugeben sind</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DO_RECALL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Posten werden zurückgerufen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler gefunden</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_ISU_SAMPLE_R470</FUNCNAME>
+     <SHORT_TEXT>Prüfen, ob Storno erlaubt ist anhand Belegkopf und Aufrufer des Stornos</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_ERDK</PARAMETER>
+       <DBFIELD>ERDK</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_CANC_PARAM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ISU21_CANC_PARAM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_CANC_DOC_ACC</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ISU21_ACC</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>GENERAL_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_ERDK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Belegkopf des zu stornierenden Beleges</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_CANC_PARAM</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_CANC_DOC_ACC</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GENERAL_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>neuer Wert</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_K_COLL_AG_SAMPLE_5060</FUNCNAME>
+     <SHORT_TEXT>EXTERN: Ermittlung des Inkassobüros</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_FKKOP</PARAMETER>
+       <DBFIELD>FKKOP</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_INKGP</PARAMETER>
+       <DBFIELD>DFKKCOLL-INKGP</DBFIELD>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_MAN_SEL</PARAMETER>
+       <DBFIELD>BOOLE-BOOLE</DBFIELD>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <DBSTRUCT>FKKOP</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_INKGP_FOUND</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>OTHER_PROBLEM</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_FKKOP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Geschäftspartnerpositionen zum Kontokorrentbeleg</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_INKGP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Geschäftspartner Inkassobüro</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_MAN_SEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Manuelle Inkassobüro Selektion</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle der abzugebenden Forderungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_INKGP_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Kein Geschäftspartner Inkassobüro gefunden</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OTHER_PROBLEM</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Anderes Poblem aufgetreten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

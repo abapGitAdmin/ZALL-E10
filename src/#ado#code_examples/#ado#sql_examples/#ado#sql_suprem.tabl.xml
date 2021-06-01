@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADO/SQL_SUPREM</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Tabelle für Performancetests</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/ADO/SQL_SUPREM</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>8</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>ID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>CHAR20</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/ADO/SQL_SUPREMSTRUCV1</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Include-Struktur Performancetests</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/ADO/SQL_SUPREMSTRUCV2</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Include-Struktur Performancetests</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/ADO/SQL_SUPREMSTRUCV3</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Include-Struktur Performancetests</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/ADO/SQL_SUPREMSTRUCV4</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Include-Struktur Performancetests</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/ADO/SQL_SUPREMSTRUCV5</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Include-Struktur Performancetests</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/ADO/SQL_SUPREMSTRUCV6</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Include-Struktur Performancetests</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SRFC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SRFC>
+    <HEADER>
+     <ID>/ADESSO/MDC_CHANGE_COADDR</ID>
+     <VERSION>A</VERSION>
+     <SCOPE>S</SCOPE>
+     <FUNCNAME>/ADESSO/MDC_CHANGE_COADDR</FUNCNAME>
+     <CHANGEDBY>THIMEL-R</CHANGEDBY>
+     <CHANGEDON>2017-06-08</CHANGEDON>
+     <CHANGEDAT>10:46:02</CHANGEDAT>
+    </HEADER>
+    <TEXT>
+     <ID>/ADESSO/MDC_CHANGE_COADDR</ID>
+     <VERSION>A</VERSION>
+     <LANG>D</LANG>
+     <SHORTTEXT>SDÄ: Standard-RFC-Service für Funktionsbaustein: /ADESSO/MDC_CHANGE_COADDR</SHORTTEXT>
+    </TEXT>
+   </SRFC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

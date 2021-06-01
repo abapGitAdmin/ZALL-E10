@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grundkurs Taschenrechner</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZLS_FG_ABAP_GRUNDKURSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZLS_FG_ABAP_GRUNDKURS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_LS_FB_KALKULATION</FUNCNAME>
+     <SHORT_TEXT>Kalkulation</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_OPERAND1</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_OPERAND2</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_OPERATOR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>C</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_ERGEBNIS</PARAMETER>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NULLDIVISION</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>OPERATOR_UNGUELTIG</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_OPERAND1</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_OPERAND2</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_OPERATOR</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_ERGEBNIS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NULLDIVISION</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Division durch Null</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OPERATOR_UNGUELTIG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Ungültiger Operator</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

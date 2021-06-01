@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Code Inspector: Vorlageklasse für SCAN_TESTS</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>P</RSTAT>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>000</KEY>
+     <ENTRY>Source Scan</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Suchstring &amp;1 gefunden in &amp;2</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>gefunden in Anderes</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>&lt;message text 1&gt;</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>&lt;message text 2&gt;</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>COMMENT_MODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kommentare ?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>C_MY_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekttypname</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>GET_DDIC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Testgrundlage bestimmen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>INFORM_DDIC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abgleich mit Ausnahmen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>INFORM_ENHO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abgleich mit Ausnahmen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>LAST_OBJECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objektname im Objektkatalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>LAST_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekttyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>LITERAL_MODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Literale</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>MSGKIND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CHAR01-Datenelement fuer SYST</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>SCAN_DDIC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Durchsucht ein DDIC-Objekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>SCAN_PROGRAM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Durchsucht ein Programm</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_CI_TEST_SCAN</CLSNAME>
+     <CMPNAME>SEARCH_STRINGS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Code Inspector: Suchstrings</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

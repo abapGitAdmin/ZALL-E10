@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMOSB_DE_PRICE_KEY_ROOT</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>Preisschlüsselstamm</DDTEXT>
+    <REPTEXT>Preisschlüsselstamm</REPTEXT>
+    <SCRTEXT_S>Preisschl.</SCRTEXT_S>
+    <SCRTEXT_M>Preisschlüsselstamm</SCRTEXT_M>
+    <SCRTEXT_L>Preisschlüsselstamm</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000035</LENG>
+    <OUTPUTLEN>000035</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

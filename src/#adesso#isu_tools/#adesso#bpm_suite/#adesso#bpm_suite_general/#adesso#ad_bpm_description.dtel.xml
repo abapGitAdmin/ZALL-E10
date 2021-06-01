@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADESSO/AD_BPM_DESCRIPTION</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/ADESSO/AD_BPM_DESCRIPTION</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>BPM Fallbeschreibung</DDTEXT>
+    <REPTEXT>BPM Fallbeschreibung</REPTEXT>
+    <SCRTEXT_S>Beschreib.</SCRTEXT_S>
+    <SCRTEXT_M>BPM Fallbeschreibung</SCRTEXT_M>
+    <SCRTEXT_L>BPM Fallbeschreibung</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

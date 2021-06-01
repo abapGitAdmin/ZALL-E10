@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZHACO2ZHA_S_COMPLEX1_TAB</OBJ_NAME>
+     <OBJECT_M>TTYP</OBJECT_M>
+     <OBJ_NAME_M>ZHACO2ZHA_S_COMPLEX1_TAB</OBJ_NAME_M>
+     <HASH_ID>79C766288907F5303044F7BDE4A970D192EBE0DD</HASH_ID>
+     <ID>TableOf&lt;type&gt; ZHA_S_COMPLEX1 urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>ZHA_S_COMPLEX1</IFR_NAME>
+     <IFR_NSPCE>urn:sap-com:document:sap:rfc:functions</IFR_NSPCE>
+     <IFR_GNSPCE>urn:sap-com:document:sap:rfc:functions</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZHACO2</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZHACO2ZHA_S_COMPLEX1_TAB</OBJ_NAME>
+     <OBJECT1>TTYP</OBJECT1>
+     <OBJ_NAME1>ZHACO2ZHA_S_COMPLEX1_TAB</OBJ_NAME1>
+     <OBJECT2>TTYP</OBJECT2>
+     <OBJ_NAME2>ZHACO2ZHA_S_COMPLEX1_TAB</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZHACO2ZHA_S_COMPLEX1</OBJ_NAME_R>
+     <ID>TableOf&lt;type&gt; ZHA_S_COMPLEX1 urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>ZHA_S_COMPLEX1</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TTYP</R3_TYPE>
+     <R3_NAME>ZHACO2ZHA_S_COMPLEX1_TAB</R3_NAME>
+     <R3_TEXT>Proxy Table Type (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

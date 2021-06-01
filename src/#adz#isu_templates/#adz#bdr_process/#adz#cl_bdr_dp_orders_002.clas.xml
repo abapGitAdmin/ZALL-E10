@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_BDR_DP_ORDERS_002</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BDR: Datenbereitstellungsklasse ORDERS</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>OBIS Daten für Marktrolle relevant und Verwendungszweck</ENTRY>
+     <LENGTH>110</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Unterbrechbarkeit der Verbrauchseinrichtung</ENTRY>
+     <LENGTH>86</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Verbrauchsart</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Wärmenutzung</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Schwachlastfähigkeit</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Referenz auf vorherige Nachricht</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>OBIS-Kennziffer</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_DP_ORDERS_002</CLSNAME>
+     <CMPNAME>APPLICATION_INTERRUPTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Unterbrechbarkeit der Verbrauchseinrichtung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_DP_ORDERS_002</CLSNAME>
+     <CMPNAME>CONSUMPTION_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verbrauchsart</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_DP_ORDERS_002</CLSNAME>
+     <CMPNAME>GX_PREVIOUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_DP_ORDERS_002</CLSNAME>
+     <CMPNAME>HEAT_USE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Wärmenutzung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_DP_ORDERS_002</CLSNAME>
+     <CMPNAME>MEASURED_VALUE_TYPE_OBIS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>OBIS-Kennzahl</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_DP_ORDERS_002</CLSNAME>
+     <CMPNAME>OFF_PEAK_ENABLED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schwachlastfähigkeit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_DP_ORDERS_002</CLSNAME>
+     <CMPNAME>REFERENCE_TO_PREVIOUS_MESSAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Referenz auf vorherige Nachricht</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_DP_ORDERS_002</CLSNAME>
+     <CMPNAME>REG_CODE_MR_RELEVANCE_AND_USE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>OBIS Daten für Marktrolle relevant und Verwendungszweck</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

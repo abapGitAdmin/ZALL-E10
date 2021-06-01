@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Test für Funktionsgruppen</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDR_ABAPDEMOTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDR_ABAPDEMO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_DR_FB_KALKULATION</FUNCNAME>
+     <SHORT_TEXT>Einfacher Taschenrechner</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_OP1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_OP2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_OP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>C</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_ERG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NULLDIVISION</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>OPERATOR_UNGUELTIG</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_OP1</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_OP2</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_OP</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_ERG</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NULLDIVISION</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Durch 0 teilen is nicht!</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OPERATOR_UNGUELTIG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Den Operator gibt es hier nicht</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_DR_GET_FLUEGE</FUNCNAME>
+     <SHORT_TEXT>Flüge anzeigen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>S_CARR_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_FLUEGE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZDR_T_FLUEGE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_AUTH</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kurzbezeichnung der Fluggesellschaft</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_FLUEGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle für Flüge</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_AUTH</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_DR_TESTFUBA</FUNCNAME>
+     <SHORT_TEXT>Test für Funktionsbausteine</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_TEST</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_TEST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Testbeschreibung</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

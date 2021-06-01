@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Sachbearbeiterfindung im Common-Layer</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>AT_ACTORS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabelle mit OrgObjekten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>AT_CONT_ELEMENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Interne Repräsentation einer Container-Element-Definition</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>AT_CONT_ELEMENTS_DP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp für /ADESSO/BPM_RDP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>AT_RULE_CONT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Container-Tabelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>AV_RULE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekt-Id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>BUILD_RULE_CONTAINER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt den Container für Sachbearbeiterfindung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_ACTORS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Sachbearbeiter anhand der Regel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_CONT_ELEMENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Containerelemente der Regel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_CONT_ELEMENTS_DP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Datenbeschaffung der Containerelemente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_RULE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Regel zur Sachbearbeiterfindung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_SB_FIND_EIDE</CLSNAME>
+     <CMPNAME>GET_ACTORS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Benutzer zurück</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

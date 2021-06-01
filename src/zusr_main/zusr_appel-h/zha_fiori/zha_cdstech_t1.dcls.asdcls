@@ -1,0 +1,12 @@
+@EndUserText.label: 'Access Control'
+@MappingRole: true
+define role ZHA_CDSTECH_T1 {
+    grant
+        select
+            on
+                ZHA_CDS_TEST1
+                    where
+                        order_id like '%5%2%'
+          ;
+                        
+}

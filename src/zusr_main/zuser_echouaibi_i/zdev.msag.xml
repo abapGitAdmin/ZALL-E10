@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZDEV</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZDEV</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Achtung: erfasste Barbetrag ist nicht ausreichend!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZDEV</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Ungültige MWST-Klasse (Nicht in Tabelle ZDEV_MWST enthalten)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZDEV</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Artikelnummer &amp; bereits vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZDEV</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Kein Datensatz mit der Artikelnummer &amp; gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZDEV</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Die eingegebene Kartennummer &amp; ist nicht bekannt!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZDEV</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Ungültige Geheimnummer!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZDEV</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Achtung: Karte gesperrt! Nur Barzahlung möglich!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZDEV</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Kundenkarte o.k der Betrag von &amp; Euro wird vom Konto abgebucht</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

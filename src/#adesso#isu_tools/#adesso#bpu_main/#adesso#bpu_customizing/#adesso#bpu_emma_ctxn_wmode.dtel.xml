@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADESSO/BPU_EMMA_CTXN_WMODE</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/ADESSO/BPU_EMMA_CTXN_WMODE</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>12</SCRLEN3>
+    <DDTEXT>BPEM-UT: Arbeitsmodus Falltransaktion</DDTEXT>
+    <REPTEXT>Arbeitsmodus</REPTEXT>
+    <SCRTEXT_S>Modus</SCRTEXT_S>
+    <SCRTEXT_M>Arbeitsmodus</SCRTEXT_M>
+    <SCRTEXT_L>Arbeitsmodus</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>/ADESSO/MDC_MSGOUT</ACTIVITY>
+     <DOCU_ID>SIMG/ADESSO/MDC_MSGOUT</DOCU_ID>
+     <C_ACTIVITY>/ADESSO/MDC_MSGOUT</C_ACTIVITY>
+     <TCODE>/ADESSO/09000007</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>D</SPRAS>
+      <ACTIVITY>/ADESSO/MDC_MSGOUT</ACTIVITY>
+      <TEXT>Nachrichtenaufbau im Ausgang definieren</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

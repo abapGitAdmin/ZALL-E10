@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZHACO2DECIMAL15_2</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZHACO2DECIMAL15_2</OBJ_NAME_M>
+     <HASH_ID>E88889F94B80CD1830119E2071AA23542F24D60F</HASH_ID>
+     <ID>&lt;type&gt; decimal15.2 urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>decimal15.2</IFR_NAME>
+     <IFR_NSPCE>urn:sap-com:document:sap:rfc:functions</IFR_NSPCE>
+     <IFR_GNSPCE>urn:sap-com:document:sap:rfc:functions</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZHACO2</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:sap-com:document:sap:rfc:functions</X-ML_NSPCE>
+     <X-ML_NAME>decimal15.2</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZHACO2DECIMAL15_2</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZHACO2DECIMAL15_2</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZHACO2DECIMAL15_2</OBJ_NAME2>
+     <ID>&lt;type&gt; decimal15.2 urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>decimal15.2</IFR_NAME>
+     <IFR_XSDTYP>decimal</IFR_XSDTYP>
+     <IFR_PREC>15</IFR_PREC>
+     <IFR_SCALE>2</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZHACO2DECIMAL15_2</R3_NAME>
+     <R3_TEXT>Proxy Data Element (generated)</R3_TEXT>
+     <R3_DATATYP>DEC</R3_DATATYP>
+     <R3_LENGTH>000017</R3_LENGTH>
+     <R3_DECIMAL>000002</R3_DECIMAL>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

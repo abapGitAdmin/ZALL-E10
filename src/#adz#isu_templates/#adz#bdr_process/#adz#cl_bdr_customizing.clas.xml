@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_BDR_CUSTOMIZING</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BDR: Zugriff auf Customizing</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_CUST_MAIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hauptcustomizing lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_DEVCONF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Customizing zur Änderung der Gerätekonfiguration lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_FORMAT_SETTING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Formateinstellung lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_OWN_INTCODE_1</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Servicetyp 1 lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_OWN_INTCODE_2</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Servicetyp 2 lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GS_CUST_MAIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Customizing Allgemeine Einstellungen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GT_DEVCONF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BDR: Customizing zu Z31: Änderung der Gerätekonfiguration</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZADM_TADIR_COMPONENT_CHECK</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Component Consistency Check</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CHECK</KEY>
+     <ENTRY>Check component consistency</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CHKTA</KEY>
+     <ENTRY>Check delivery transports</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CMPTA</KEY>
+     <ENTRY>Check delivery for components</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CMPCHK</KEY>
+     <ENTRY>Component to check</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FIXLOC</KEY>
+     <ENTRY>Correct local and home objects</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FIXCMP</KEY>
+     <ENTRY>Correct registered components</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FIXNOC</KEY>
+     <ENTRY>Correct not registered comps</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_COMPS</KEY>
+     <ENTRY>Components to correct:</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TRKORR</KEY>
+     <ENTRY>Transport for recording:</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Component Consistency Check</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CHECK</KEY>
+       <ENTRY>Check component consistency</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CHKTA</KEY>
+       <ENTRY>Check delivery transports</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CMPTA</KEY>
+       <ENTRY>Check delivery for components</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CMPCHK</KEY>
+       <ENTRY>Component to check</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FIXLOC</KEY>
+       <ENTRY>Correct local and home objects</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FIXCMP</KEY>
+       <ENTRY>Correct registered components</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FIXNOC</KEY>
+       <ENTRY>Correct not registered comps</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_COMPS</KEY>
+       <ENTRY>Components to correct:</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRKORR</KEY>
+       <ENTRY>Transport for recording:</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

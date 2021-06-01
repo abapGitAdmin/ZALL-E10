@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADZ/HMV_X_FLAG</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/ADZ/HMV_X_FLAG</DOMNAME>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>07</SCRLEN2>
+    <SCRLEN3>10</SCRLEN3>
+    <DDTEXT>Auswahl für Invoic Status</DDTEXT>
+    <SCRTEXT_S>Ausw.</SCRTEXT_S>
+    <SCRTEXT_M>Auswahl</SCRTEXT_M>
+    <SCRTEXT_L>Auswahl</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

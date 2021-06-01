@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADESSO/G_WETTER</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>Wetterstationen (Gas)</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/ADESSO/G_WETTER</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>0</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STATIONSNUMMER</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>ID der Wetterstation</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STATIONSNAME</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000200</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000100</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Name der Wetterstation</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ANBIETERCODE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000010</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000005</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Anbietercode entspr. BDEW-Liste, für UTILMD SG5-LOC</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

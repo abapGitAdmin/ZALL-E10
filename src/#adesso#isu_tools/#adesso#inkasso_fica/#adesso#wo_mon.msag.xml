@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADESSO/WO_MON</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fehler beim Einfügen in die Datenbanktabelle &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Fehler beim Löschen der Datenbanktabelle &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Fehler beim Aktualisieren der Datenbanktabelle &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler beim Ändern der Datenbanktabelle &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>CIC-Profil konnte nicht gelesen werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Zum Vertragskonto wurden keine Posten zur Ausbuchung gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Vertragskonto &amp;1 in Inkassoabgabe. Keine Ausbuchung erlaubt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Vertragskonto &amp;1 schon zur Ausbuchung vorgemerkt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Bitte Vermerk Langtext pflegen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Ausbuchung von &amp;1 Posten zum Vertragskonto &amp;2 angefordert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>FEHLER!Keine Posten zum Vertragskonto &amp;1 zur Ausbuchung angefordert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Interner Ausbuchungsgrund &amp;1 ist nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/WO_MON</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Verkaufsquote &amp;1 ist nicht vorhanden</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

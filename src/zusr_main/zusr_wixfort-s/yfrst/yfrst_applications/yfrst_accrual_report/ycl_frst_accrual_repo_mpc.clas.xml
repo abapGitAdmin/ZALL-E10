@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YCL_FRST_ACCRUAL_REPO_MPC</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>YCL_FRST_ACCRUAL_REPO_MPC</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_FRST_ACCRUAL_REPO_MPC</CLSNAME>
+     <CMPNAME>DEFINE_ACCRUALREPORT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DEFINE_ACCRUALREPORT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_FRST_ACCRUAL_REPO_MPC</CLSNAME>
+     <CMPNAME>DEFINE_COMPANY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DEFINE_COMPANY</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_FRST_ACCRUAL_REPO_MPC</CLSNAME>
+     <CMPNAME>LOAD_TEXT_ELEMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>LOAD_TEXT_ELEMENTS</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

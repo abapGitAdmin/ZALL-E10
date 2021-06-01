@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGC_BADI_PROC_ADDDATA</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BAdI-Impl. zu ISU_IDE_SWTDOC_ADDDATA</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_BADI_PROC_ADDDATA</CLSNAME>
+     <CMPNAME>UPDATE_MSGDATA_FROM_PRSTP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mapping der Schrittdaten auf die MSGDATA inkl. EXTMSGDATA</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_BADI_PROC_ADDDATA</CLSNAME>
+     <CMPNAME>UPDATE_SWTDOC_FROM_PDOC_HDR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mapping der PDoc Kopfdaten auf die EIDESWTDOC</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

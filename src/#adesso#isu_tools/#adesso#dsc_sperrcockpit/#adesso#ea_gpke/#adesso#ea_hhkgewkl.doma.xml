@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/ADESSO/EA_HHKGEWKL</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Haushaltskunden / Gewerbekunden &lt; 10.000 kWh</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>/ADESSO/EA_HHKGEWKL</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>H</DOMVALUE_L>
+     <DDTEXT>Haushaltskunde</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/EA_HHKGEWKL</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>K</DOMVALUE_L>
+     <DDTEXT>Gewerbekunden &lt;= 10.000 kWh</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/EA_HHKGEWKL</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>G</DOMVALUE_L>
+     <DDTEXT>Gewerbekunden &gt; 10.000 kWh</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

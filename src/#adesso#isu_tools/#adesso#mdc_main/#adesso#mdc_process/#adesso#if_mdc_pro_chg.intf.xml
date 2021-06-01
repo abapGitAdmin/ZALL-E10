@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/ADESSO/IF_MDC_PRO_CHG</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Interface zum BAdI /ADESSO/BADI_MDC_PRO_COADDR</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_MDC_PRO_CHG</CLSNAME>
+     <CMPNAME>CHANGE_AUTO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>automatisch aktualisieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_MDC_PRO_CHG</CLSNAME>
+     <CMPNAME>CHANGE_MANUAL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>manuell aktualisieren</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

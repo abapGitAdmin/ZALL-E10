@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>/ADESSO/BPU_PROCESS</ACTIVITY>
+     <DOCU_ID>SIMG/ADESSO/BPU_PROCESS</DOCU_ID>
+     <C_ACTIVITY>/ADESSO/BPU_PROCESS</C_ACTIVITY>
+     <TCODE>/ADESSO/61000002</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>D</SPRAS>
+      <ACTIVITY>/ADESSO/BPU_PROCESS</ACTIVITY>
+      <TEXT>Prozesskonfiguration definieren</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

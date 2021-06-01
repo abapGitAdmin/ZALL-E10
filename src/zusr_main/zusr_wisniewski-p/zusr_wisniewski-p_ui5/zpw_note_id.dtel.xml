@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZPW_NOTE_ID</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>08</SCRLEN2>
+    <SCRLEN3>15</SCRLEN3>
+    <DDTEXT>Schlüssel Notiz</DDTEXT>
+    <SCRTEXT_S>N ID</SCRTEXT_S>
+    <SCRTEXT_M>Notiz ID</SCRTEXT_M>
+    <SCRTEXT_L>Schlüssel Notiz</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

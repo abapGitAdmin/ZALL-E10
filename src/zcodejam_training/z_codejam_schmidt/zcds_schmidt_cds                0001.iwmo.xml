@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_IWMO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <_-IWBEP_-I_MGW_OHD>
+    <_-IWBEP_-I_MGW_OHD>
+     <TECHNICAL_NAME>ZCDS_SCHMIDT_CDS</TECHNICAL_NAME>
+     <VERSION>0001</VERSION>
+     <CLASS_NAME>ZCL_ZCDS_SCHMIDT</CLASS_NAME>
+     <CREATED_BY>SCHMIDT-C</CREATED_BY>
+     <CREATED_TIMESTMP>20180525134002</CREATED_TIMESTMP>
+    </_-IWBEP_-I_MGW_OHD>
+   </_-IWBEP_-I_MGW_OHD>
+  </asx:values>
+ </asx:abap>
+</abapGit>

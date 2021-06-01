@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_MDC_DP_OUT_002</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Datenbereitstellungsklasse</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_DP_OUT_002</CLSNAME>
+     <CMPNAME>DET_AMID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt und setzt die AMID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_DP_OUT_002</CLSNAME>
+     <CMPNAME>GV_AMID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anwendungsnachrichtenschlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_DP_OUT_002</CLSNAME>
+     <CMPNAME>LR_DP_OUT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bereitstellungsklasse aus dem Standard-Customizing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_DP_OUT_002</CLSNAME>
+     <CMPNAME>LR_DP_OUT_COND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Prüfung der Bedingungen für UTILMD-Nachrichten</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

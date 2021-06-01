@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMESS</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Z Error Inkasso</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMESS</ARBGB>
+     <MSGNR>000</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMESS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Stornierung nicht möglich (Inkasso)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMESS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Posten wurde an Inkasso abgegeben: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMESS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>ACHTUNG! Faktura enthält Inkassofälle (Belege: &amp;1). Bitte prüfen!</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

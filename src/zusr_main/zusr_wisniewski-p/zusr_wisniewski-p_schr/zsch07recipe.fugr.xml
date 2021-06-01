@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Rezepte</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZSCH07RECIPETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSCH07RECIPE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_SCHO7RECIPE_GET_DETAIL</FUNCNAME>
+     <SHORT_TEXT>Rezeptleser</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ID_RID</PARAMETER>
+       <DEFAULT>&apos;002&apos;</DEFAULT>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSCH06RECIPE-RID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_RECIPE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSCH06RECIPE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ID_RID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Rezept-ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_RECIPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Rezepte</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

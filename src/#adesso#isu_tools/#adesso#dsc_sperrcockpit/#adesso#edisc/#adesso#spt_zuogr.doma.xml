@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/ADESSO/SPT_ZUOGR</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Zuordnungsgruppe</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>/ADESSO/SPT_ZUOGR</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>RLM MT</DOMVALUE_L>
+     <DDTEXT>registrierende Leistungsmessung mit Tagesband</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/SPT_ZUOGR</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>RLM OT</DOMVALUE_L>
+     <DDTEXT>registrierende Leistungsmessung ohne Tagesband</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/SPT_ZUOGR</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>SLP</DOMVALUE_L>
+     <DDTEXT>nicht registrierende Leistungsmessung</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/SPT_ZUOGR</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

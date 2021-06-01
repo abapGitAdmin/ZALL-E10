@@ -1,0 +1,3 @@
+FUNCTION-POOL /ADESSO/MTE_FILL_HT_GER.      "MESSAGE-ID ..
+
+TABLES: /adesso/mte_dtab.

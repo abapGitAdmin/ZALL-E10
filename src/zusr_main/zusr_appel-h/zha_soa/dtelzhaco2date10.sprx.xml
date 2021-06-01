@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZHACO2DATE10</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZHACO2DATE10</OBJ_NAME_M>
+     <HASH_ID>5E76F6C49303425365ED80C374D142EF5CCB30D4</HASH_ID>
+     <ID>&lt;type&gt; date10 urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>date10</IFR_NAME>
+     <IFR_NSPCE>urn:sap-com:document:sap:rfc:functions</IFR_NSPCE>
+     <IFR_GNSPCE>urn:sap-com:document:sap:rfc:functions</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZHACO2</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:sap-com:document:sap:rfc:functions</X-ML_NSPCE>
+     <X-ML_NAME>date10</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZHACO2DATE10</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZHACO2DATE10</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZHACO2DATE10</OBJ_NAME2>
+     <ID>&lt;type&gt; date10 urn:sap-com:document:sap:rfc:functions urn:sap-com:document:sap:rfc:functions</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>date10</IFR_NAME>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_MAXLEN>10</IFR_MAXLEN>
+     <IFR_PATTRN>\d\d\d\d-\d\d-\d\d</IFR_PATTRN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZHACO2DATE10</R3_NAME>
+     <R3_TEXT>Proxy Data Element (generated)</R3_TEXT>
+     <R3_DATATYP>CHAR</R3_DATATYP>
+     <R3_LENGTH>000010</R3_LENGTH>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

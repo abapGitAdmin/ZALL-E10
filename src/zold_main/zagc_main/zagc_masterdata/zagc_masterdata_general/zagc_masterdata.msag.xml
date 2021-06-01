@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAGC_MASTERDATA</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Sammlung von Nachrichten für die Datenbeschaffung CL</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Kein Eintrag in Tabelle &amp;1 mit Schlüssel &amp;2 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Kein Eintrag in Tabelle &amp;1 mit Schlüssel &amp;2 und &amp;3 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Zum Serviceprovider &amp;1 konnte keine Sparte ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Zur Anlage zum ZP &amp;1 konnte keine Sparte ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Zur Anlage &amp;1 konnte keine Sparte ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Kein GP am &amp;2 zu ZP &amp;1 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>GP am &amp;2 zu ZP &amp;1 nicht eindeutig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Es konnte kein Bilanzierungsbeginndatum ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_MASTERDATA</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Fehler bei der Ermittlung der Spannungsebene.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BDR: Check-Methoden für Common Layer</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_CHG_DEV_CONF_REJECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfung Änderung Ablehung Gerätekonfiguration</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_CHG_SETTL_DEADLINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fristenprüfung Änderung Bilanzierungsverfahren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_CHG_SETTL_REJECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfung Ablehnung Änderung Bilanzierungsverfahren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_RECL_VALUE_REJECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfung Ablehnung Reklamation von Lastgängen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_RESP_MSG_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Antwort prüfen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_START_DATA_VALID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfung ob intiale Prozessdaten gültig sind</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_START_DEV_CONF_PROC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen Prozess Änd. der Gerätekonfiguration starten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>GX_PREVIOUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>LINK_IFTSTA_WITH_ORDRSP_PDOC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Determine BMID confirmation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPD_FOREIGN_MOS_LIST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fremde MSBs suchen und in Liste schreiben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPD_RECEIVER_FOR_IFTSTA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Empfänger für IFTSTA ermittlen und in Schritt schreiben</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

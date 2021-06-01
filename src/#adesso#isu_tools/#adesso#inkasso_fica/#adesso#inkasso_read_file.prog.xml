@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>/ADESSO/INKASSO_READ_FILE</NAME>
+    <SUBC>1</SUBC>
+    <APPL>E</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>COL</KEY>
+     <ENTRY>Auswahl: Abgabe-Datei (Export)</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>FPC</KEY>
+     <ENTRY>Auswahl:  Info-Datei an INKGP (Export)</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>INF</KEY>
+     <ENTRY>Auswahl : Info-Datei vom INKGP (Import)</ENTRY>
+     <LENGTH>78</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Selektion Inkasso Büro</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T02</KEY>
+     <ENTRY>Datei-Auswahl</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Anzeige Inkasso Abgabe- oder Infodatei</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PH_NAME</KEY>
+     <ENTRY>Dateiname</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_COLL</KEY>
+     <ENTRY>Inkasso Abgabe-Datei (Export)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FPCI</KEY>
+     <ENTRY>Info-Datei an INKGP  (Export)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_INFI</KEY>
+     <ENTRY>Info-Datei vom INKGP (Import)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RB1</KEY>
+     <ENTRY>Abgabedatei</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RB2</KEY>
+     <ENTRY>Infodatei</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_CLDAT</KEY>
+     <ENTRY>     Abgabe-Datum</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_FLDAT</KEY>
+     <ENTRY>     Info-Datum</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_ILDAT</KEY>
+     <ENTRY>     Info-Datum</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_INKGP</KEY>
+     <ENTRY>InkassobüroGPartner</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_LAUFD</KEY>
+     <ENTRY>Datumskennung</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

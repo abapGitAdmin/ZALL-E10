@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>SDÄ: Servicetyp (Interner Festwert für Serviceart)</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Verteilung</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Lieferung</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Clearing House</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Bilanzkoordination</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Technischer Serviceanbieter</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Nicht spezifiziert</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>10</DOMVALUE_L>
+     <DDTEXT>Person Responsible for Settlement Area</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>EA</DOMVALUE_L>
+     <DDTEXT>Umweltbundesamt</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>M1</DOMVALUE_L>
+     <DDTEXT>Zählerbetrieb</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/MDC_SERVCD</DOMNAME>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>M2</DOMVALUE_L>
+     <DDTEXT>Zählerablesung</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

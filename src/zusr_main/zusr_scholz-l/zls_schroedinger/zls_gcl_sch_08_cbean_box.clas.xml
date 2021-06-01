@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZLS_GCL_SCH_08_CBEAN_BOX</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Kaffeedose</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZLS_GCL_SCH_08_CBEAN_BOX</CLSNAME>
+     <CMPNAME>ADD_BEAN_TO_BOX</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Legt eine Bohne in die Dose</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZLS_GCL_SCH_08_CBEAN_BOX</CLSNAME>
+     <CMPNAME>GC_MAX_VOLUME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Maximales Dosenvolumen in mm^3</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZLS_GCL_SCH_08_CBEAN_BOX</CLSNAME>
+     <CMPNAME>GD_VOLUME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktuelles Füllvolumen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZLS_GCL_SCH_08_CBEAN_BOX</CLSNAME>
+     <CMPNAME>LOADED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Behälter geladen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

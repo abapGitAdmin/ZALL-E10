@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Mahnsperren für Memi-Belege</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/ADZ/LMEMI_MAHNSPERRETOP</SOBJ_NAME>
+    <SOBJ_NAME>/ADZ/SAPLMEMI_MAHNSPERRE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/ADZ/MEMI_LOCKHIST</FUNCNAME>
+     <SHORT_TEXT>Sperrhistorie für MEMI Belege</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>DOC_ID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/IDXMM/DE_DOC_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>CX_SALV_MSG</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>DOC_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Beleg-ID für die Mehr- und Mindermengenabrechnung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CX_SALV_MSG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>1</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+     <EXCEPTION_CLASSES>X</EXCEPTION_CLASSES>
+    </item>
+    <item>
+     <FUNCNAME>/ADZ/MEMI_MAHNSPERRE</FUNCNAME>
+     <SHORT_TEXT>Mahnsperren für Memi-Belege</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BELNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/IDXMM/DE_DOC_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IX_GET_LOCKHIST</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IX_SET_LOCK</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IX_DEL_LOCK</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_NO_POPUP</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>IV_DATE_FROM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DATS</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>IV_DATE_TO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DATS</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>IV_LOCKR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>LOCKR_KK</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_DONE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLEAN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BELNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Beleg-ID für die Mehr- und Mindermengenabrechnung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IX_GET_LOCKHIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mahnhistorie anzeigen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IX_SET_LOCK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mahnsperre setzen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IX_DEL_LOCK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mahnsperre löschen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_NO_POPUP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>boolsche Variable (X=true, -=false, space=unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_DONE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>boolsche Variable (X=true, -=false, space=unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DATE_FROM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feld vom Typ DATS</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DATE_TO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feld vom Typ DATS</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LOCKR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sperrgrund</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

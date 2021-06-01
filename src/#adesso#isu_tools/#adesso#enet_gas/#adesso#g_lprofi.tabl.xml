@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADESSO/G_LPROFI</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>Lastprofile (Gas)</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/ADESSO/G_LPROFI</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>0</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>VNBG_NR</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>ID des Verteilnetzbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PROFILBEZEICHNUNG</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Bezeichnung des Lastprofils</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>KUNDENGRUPPE_NR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>ID der Kundengruppe, für die das Lastprofil anzuwenden ist</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PROFILDATEI</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Link zur Lastprofildatei</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BEMERKUNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000500</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000250</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Bemerkung zum Datensatz</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

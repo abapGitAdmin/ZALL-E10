@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/ADZ/IF_MDC_PRO_SHOW_DISP</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Interface zum BAdI /adz/BADI_MDC_PRO_SHOW_DISP</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/IF_MDC_PRO_SHOW_DISP</CLSNAME>
+     <CMPNAME>BTN5_ACTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktionen für Ablehnungsgrund1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/IF_MDC_PRO_SHOW_DISP</CLSNAME>
+     <CMPNAME>BTN6_ACTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktionen für Ablehnungsgrund2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/IF_MDC_PRO_SHOW_DISP</CLSNAME>
+     <CMPNAME>BTN7_ACTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktionen für Zustimmen bzw. Daten senden</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

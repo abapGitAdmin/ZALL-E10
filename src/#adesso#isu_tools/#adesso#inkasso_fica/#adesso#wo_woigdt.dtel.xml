@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADESSO/WO_WOIGDT</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/ADESSO/WO_WOIGDT</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Ausbuchung:  interner Ausbuchungsgrund Text</DDTEXT>
+    <REPTEXT>IntGrd Text</REPTEXT>
+    <SCRTEXT_S>IGD Text</SCRTEXT_S>
+    <SCRTEXT_M>IntGrd Text</SCRTEXT_M>
+    <SCRTEXT_L>IntGrd Text</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

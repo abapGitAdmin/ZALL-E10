@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADESSO/EDIEA16</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>KENNZX</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Flag EDI Rechnungsversand bei manueller Abrechnung</DDTEXT>
+    <REPTEXT>EDI Rechnungsversand manuelle Abrechnung</REPTEXT>
+    <SCRTEXT_S>EDI Rechn</SCRTEXT_S>
+    <SCRTEXT_M>EDI Rechnungsver</SCRTEXT_M>
+    <SCRTEXT_L>EDI Rechnungsversand manuelle Abrechnung</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

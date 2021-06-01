@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_BPU_IM_BADI_EC</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BPEM-UT: Implementierung für BAdI BADI_EMMA_CASE</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_IM_BADI_EC</CLSNAME>
+     <CMPNAME>GR_BPU_EMMA_CASE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klärungsfall</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

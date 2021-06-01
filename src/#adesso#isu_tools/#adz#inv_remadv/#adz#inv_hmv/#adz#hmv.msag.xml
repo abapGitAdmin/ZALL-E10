@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADZ/HMV</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>HMV Fehlernachrichten</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/HMV</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fehler setzen Zins-KZ in Beleg &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/HMV</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Fehler Zins-KZ zurücksetzen in Beleg &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/HMV</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Keine Mahnhistorie vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/HMV</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Wert &amp;1 ist nicht in Customizing Tabelle enthalten.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/HMV</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Parameter &amp; ist nicht in Tabelle /adesso/hmv_sree vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/HMV</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Konstante &amp;1 ist im Customizing nicht enthalten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/HMV</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Keine Historie zu Mahnsperren vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/HMV</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Bitte genau einen Eintrag markieren.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

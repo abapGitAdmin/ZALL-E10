@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZTC_MSG_CLASS</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTC_MSG_CLASS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Um fortzufahren Z30 bearbeiten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTC_MSG_CLASS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Um fortzufahren Z34 bearbeiten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTC_MSG_CLASS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Senden nicht möglich. Programm noch nicht fertig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTC_MSG_CLASS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Bitte erst Angaben vornehmen</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

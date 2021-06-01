@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TOBJ" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <OBJH>
+    <OBJECTNAME>ZAGC_MRCONTACT</OBJECTNAME>
+    <OBJECTTYPE>V</OBJECTTYPE>
+    <CLIDEP>X</CLIDEP>
+    <OBJCATEG>APPL</OBJCATEG>
+    <IMPORTABLE>3</IMPORTABLE>
+   </OBJH>
+   <OBJT>
+    <LANGUAGE>D</LANGUAGE>
+    <OBJECTNAME>ZAGC_MRCONTACT</OBJECTNAME>
+    <OBJECTTYPE>V</OBJECTTYPE>
+    <DDTEXT>Geschäftspartner für Ablesekarte</DDTEXT>
+   </OBJT>
+   <OBJS>
+    <OBJS>
+     <OBJECTNAME>ZAGC_MRCONTACT</OBJECTNAME>
+     <OBJECTTYPE>V</OBJECTTYPE>
+     <TABNAME>/IDXGC/MRCONTACT</TABNAME>
+     <DDIC>X</DDIC>
+     <PRIM_TABLE>X</PRIM_TABLE>
+    </OBJS>
+   </OBJS>
+   <TOBJ>
+    <TDDAT>
+     <TABNAME>ZAGC_MRCONTACT</TABNAME>
+     <CCLASS>&amp;NC&amp;</CCLASS>
+    </TDDAT>
+    <TVDIR>
+     <TABNAME>ZAGC_MRCONTACT</TABNAME>
+     <AREA>ZAGC_MASTERDATA</AREA>
+     <TYPE>2</TYPE>
+     <LISTE>0001</LISTE>
+     <DETAIL>0002</DETAIL>
+     <FLAG>X</FLAG>
+    </TVDIR>
+    <TVIMF>
+     <TVIMF>
+      <TABNAME>ZAGC_MRCONTACT</TABNAME>
+      <EVENT>05</EVENT>
+      <FORMNAME>ZZ_UPDATE_CREATE_INFO</FORMNAME>
+     </TVIMF>
+     <TVIMF>
+      <TABNAME>ZAGC_MRCONTACT</TABNAME>
+      <EVENT>21</EVENT>
+      <FORMNAME>ZZ_UPDATE_CHANGE_INFO</FORMNAME>
+     </TVIMF>
+    </TVIMF>
+   </TOBJ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

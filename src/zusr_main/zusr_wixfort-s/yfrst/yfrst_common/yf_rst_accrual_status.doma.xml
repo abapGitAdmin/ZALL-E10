@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>FRST - Accrual Report Statzus</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0001</DOMVALUE_L>
+     <DDTEXT>Approval cost center responsible</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0002</DOMVALUE_L>
+     <DDTEXT>Approval finance I</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0003</DOMVALUE_L>
+     <DDTEXT>Approval finance II</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0004</DOMVALUE_L>
+     <DDTEXT>Completed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0005</DOMVALUE_L>
+     <DDTEXT>Question</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0006</DOMVALUE_L>
+     <DDTEXT>Rejected</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0007</DOMVALUE_L>
+     <DDTEXT>Change approval cost center responsible</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0008</DOMVALUE_L>
+     <DDTEXT>Change approval finance I</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0009</DOMVALUE_L>
+     <DDTEXT>Change approval finance II</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>YF_RST_ACCRUAL_STATUS</DOMNAME>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>0010</DOMVALUE_L>
+     <DDTEXT>Change rejected</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

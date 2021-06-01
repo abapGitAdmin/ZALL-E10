@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>ZHACO2ZHA_S_COMPLEX1_TAB</TYPENAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <ROWTYPE>ZHACO2ZHA_S_COMPLEX1</ROWTYPE>
+    <ROWKIND>S</ROWKIND>
+    <DATATYPE>STRU</DATATYPE>
+    <ACCESSMODE>T</ACCESSMODE>
+    <KEYDEF>D</KEYDEF>
+    <KEYKIND>N</KEYKIND>
+    <DDTEXT>Proxy Table Type (generated)</DDTEXT>
+    <PROXYTYPE>X</PROXYTYPE>
+   </DD40V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

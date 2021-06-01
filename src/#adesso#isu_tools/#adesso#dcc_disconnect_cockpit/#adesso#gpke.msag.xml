@@ -1,0 +1,1296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADESSO/GPKE</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Meldungen zu den GPKE-Prozessen</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Abbruch beim Lesen der Kundendaten (Upload)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Input-Daten sind nicht von Bremerhaven - bitte Dateinamen prüfen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Input-Daten sind nicht von Bremen - bitte Dateinamen prüfen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Bitte einen Geschäftspartner auswählen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Bitte ein Vertragskonto auswählen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Geschäftspartner wurde nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Geschäftspartner konnte nicht angelegt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Geschäftspartner konnte nicht bearbeitet werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Es konnte keine Geschäftspartner-Gruppierung ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Zählpunkt nicht gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Keine Anlagen zum Zählpunkt gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Nachricht mit ID &amp;1 an WB &amp;2 übergeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>013</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Bitte überprüfen Sie die Einträge Netz u. Liefertarif!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Der Eingangszahlweg benötigt eine Bankverbindung!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Der Ausgangszahlweg benötigt eine Bankverbindung!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Netzanlage konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Keine Berechtigung zum Ändern der Anlage.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Anlage &amp;1 gesperrt durch User &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Versorgungsgebiet konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Auszugsdatum ungültig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Ident. des ISU-Zählwertes nicht möglich! Keine Vergleichsdaten vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Bitte nur zustimmende oder nur ablehnende Antworten auswählen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Anwortstatus &amp;1 (&amp;2) darf nicht in Kombination mit anderen vorkommen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Es sind maximal &amp;1 Einträge erlaubt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Antwortkategorie &amp;1 ist nicht definiert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Zählverfahren zum Zählpunkt nicht ermittelbar.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Der Periodenverbrauch &amp;1 &amp;2 der Anlage &amp;3 konnte nicht verbucht werden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Partnerdatum zum GP &amp;1 konnten nicht übernommen werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Bitte prüfen Sie die Zeitvorgaben! Biszeitpunkt ist kleiner Abzeitpunkt!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Geschäftspartner &amp;1 ist nicht für die Vollversorgung geeignet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Fehler bei Generierung Versorgungsscenario. Bitte prüfen! Einzugsbeleg: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Fehler beim Ermitteln der Einzugsbelege zum Vertrag.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Vertrag &amp;1 zum Einzugsbeleg &amp;2 konnte nicht gelesen werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Fehler beim Ermitteln der Zählpunkte zur Anlage &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Kein Versorgungsszenario im Vertrag &amp;1 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>VersSzenario &amp;1 zum Einzugsdatum nicht gefunden oder nicht aktiv</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Unbekannte Findungsmethode für Serviceanbieter im Szenario &amp;1 Service &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Fehler beim Ermitteln des Serviceanbieters zur Anlage &amp;2 Service &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Keine Services am Zählpunkt gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Fehler beim Ermitteln der Services am Zählpunkt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Kann Zählpunktservice nicht zur Bearbeitung bereitstellen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Kann Zählpunktservice nicht ändern.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Versorgungsszenario im Vertrag &amp;1 ungültig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Bitte geben Sie für den Vertrag &amp;1 ein Versorgungsszenario ein</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Keine Einzugsbelege zum Vertrag gefunden im Einzugsbeleg &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Einzugsbeleg &amp;1 nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Zählpunkt zum Einzugsbeleg &amp;1 Vertrag &amp;2 nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Fehler beim Ermitteln der Nachrichtendaten zum Einzugsbel. &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Fehler beim Anlegen des Wechselbelegs zum Einzugsbeleg &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Fehler: Wechselbeleg gesperrt: Einzugsbeleg &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Fehler: Kein Zählpunkt zum Wechselbeleg. Einzugsbeleg &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Berechtigung zum Anlegen des Wechselbelegs fehlt Einzug &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Auszugsbeleg &amp;1 nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Keine Auszugsbelege zum Vertrag gefunden im Auszugsbeleg &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Zählpunkt zum Auszugsbeleg &amp;1 Vertrag &amp;2 nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Fehler beim Ermitteln der Nachrichtendaten zum Auszugsbel. &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Fehler beim Anlegen des Wechselbelegs zum Auszugsbeleg &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Fehler: Wechselbeleg gesperrt: Auszugsbeleg &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Fehler: Kein Zählpunkt zum Wechselbeleg. Auszugsbeleg &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Berechtigung zum Anlegen des Wechselbelegs fehlt Auszug &amp;1 Vertrag &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Feld &amp;1 im Vertrag &amp;2 nicht gefüllt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Geschäftspartner konnte nicht angelegt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Objekt &amp;1 mit Schlüssel &amp;2 konnte nicht initialisiert werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Die Anrede des Geschäftspartners &amp;1 muss im Dialog bestätigt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Fehler beim Update der Zählpunktbezeichnung.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Änderung des Wertes in Feld &amp;1 von &amp;2 nach &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Wechselbeleg &amp;1 zu Anlage &amp;2 (ZP &amp;3) mit Einzugsdatum &amp;4 angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Fehler beim Anlegen des Wechselbelegs zur Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Fehler: Wechselbeleg gesperrt:  Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Fehler: Kein Zählpunkt zum Wechselbeleg.  Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Berechtigung zum Anlegen des Wechselbelegs fehlt. Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Fehler: Kein Grundversorger ermittelt: Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Fehler: Kein GPartner für Eigentümereinzug ermittelt: Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Fehler: Kein Netzbetreiber ermittelt: Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Fehler: Kein Zielversorgungsszenario ermittelt: Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Fehler: Kein Spartentyp ermittelt: Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Keine Leerstände zum &amp;1 gefunden &amp;2 &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>Fehler beim Update des Periodenverbrauchs.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Wechselbeleg &amp;1: Sperrung der Anlage &amp;2(&amp;3) mit Sperrdatum &amp;4 angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>Fehler: Kein Lieferant ermittelt: Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>Fehler: Kein GPartner für Sperrung ermittelt: Anlage &amp;1 (ZP &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Es konnte kein Geschäftspartner ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Fehler beim Beenden des Zählpunktservice.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Tariftyp &amp;1 der Anlage &amp;2 verhindert das Anlegen eines Wechselbelegs.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>Bilanzierungseinheit &amp;1 passt nicht zu Lieferant &amp;2 und Bilanzkreis &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Gleiche Nachricht bereits vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Vertrag &amp;1 nicht angepasst.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>Vertragskonto &amp;1 hat keine Verträge.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Keine Bezeichnung für &amp;1 &amp;2 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Vertragskonto &amp;2 nicht angepasst.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>Keine Nachricht &amp;1 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Keine Aktion (Storno oder Neu Versenden) angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>Versorgungsszenario &amp;1 zu Sparte &amp;2 nicht zulässig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>Einzug &amp;1 konnte nicht storniert werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>Kein Stammdatenaufbau für  Sparte &amp;1 und Abrechnungsklasse &amp;2 vorgesehen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>Kein Stammdatenaufbau für  Sparte &amp;1 und Versorgung &amp;2 vorgesehen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Stammdatenänderung nicht erfolgreich.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Offener Wechselbeleg &amp;1 zur Grund- und Ersatzversorgung vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>&amp;1 nicht gefüllt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Ungültiges Wechseldatum oder Datum außerhalb der Wechselfrist.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Lieferbeginn /-ende darf nur 6 Wochen rückwirkend erfolgen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Lieferbeginn /-ende darf nur 4 Wochen in die Zukunft erfolgen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Kein Stornierbarer Einzugsbeleg gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>übergebenes Gerät ist letztes zählende Gerät</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>weitere zählende Geräte gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>keine zählende Geräte gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Gerät, bzw. Zählpunkt ist in Pauschalanlage eingebaut</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>Mussfeld nicht gefüllt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Fehler bei der Ermittlung interner Zählpunkt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Fehler bei der Ermittlung externer Zählpunkt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Fehler bei der Ermittlung Geräte zum Zählpunkt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Fehler beim  Lesen Gerät</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>Fehler bei der Ermittlung Anlage zu Gerät</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>Für Sparte (&amp;1),HH-Kunde (&amp;2) und Vers-Art (&amp;3) gibt es kein Costumizing.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Feldname &amp;1 ist unbekannt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Weiterer Wechselbeleg &amp;1 &amp;2 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Bilanzierungseinheit &amp;1 passt nicht zu Serviceanbieter &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Feld HHK wurde auf &amp;1 angepasst.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>Feld HHK wurde nicht geändert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>Zählpunkt &amp;1 existiert schon im System.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>Nachrichtendaten zum Wechselbeleg &amp;1 gehörend nicht zur GuEV.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>Anschlussobjekt wird neu angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Anschlussobjekt &amp; wird verwendet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>Verbrauchstelle wird neu angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>Verbrauchstelle &amp;1 wird verwendet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>Bedarfsart &amp;1 erfordert Benutzerentscheidung zur Tarifpflege.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>Kein Vorvertrag gefunden. Manuelle Bearbeitung des Einzugs ist notwendig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>Manuelle Bearbeitung des Einzugs ist erforderlich.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Anmeldung durch Fremdlieferanten ist für Sparte &amp;1 nicht möglich.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>Bitte pflegen Sie das Datum, bis zu dem die Anmeldung erwartet wird.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>Erzeugen der Stammdatenänderung zum Geschäftspartner &amp;1 fehlerhaft.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>Zählpunkt &amp;1 hat kein Versorgungszenario.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>Auskösen der Stammdatenänderung gescheitert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>Fortschreiben des Periondenverbrauchs an Anlage &amp;1 gescheitert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>GIS &amp;1 konnte nicht in Anlage &amp;2 eingebaut werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>Keine ausschließliche Änderung der Prognose.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>GIS &amp;1 konnte nicht aus Anlage &amp;2 ausgebaut werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>Anlegen eines Geräteinfosatz: Serialnummer &amp;1 und Gerätetyp &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>Es wurde eine Fehlermappe &amp;1 erzeugt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>GIS &amp;1 erfolgreich in Anlage &amp;2 eingebaut.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>GIS &amp;1 erfolgreich angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>Keine Ablesebelege mit Ableseergebnis zum &amp;1 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>144</MSGNR>
+     <TEXT>Hintergrundausführung ohne Kategorie</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT> ***  F E H L E R zu WF&apos;s Sperren/Entsperren  ***</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>Fehler bei Ermittlung der Anlage zum Zählpunkt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>Fehler bei Erstellung des Sperrbeleges zur Anlage</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>Fehler bei Änderung Sperrbeleg</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>Keine Wechselbelegnummer angegeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Fehler bei Lesen von Sperrbeleg</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Fehler beim Schreiben der Tabelle /ADESSO/SPT_WBSB</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Sperrbeleg durch anderen Benutzer gesperrt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>Aktion erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>Referenzobjektyp für Sperrbeleg nicht zulässig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>es existiert schon ein Sperr- bzw. WIB-Auftrag</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>Gebühr konnte nicht gebucht werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>Fehler beim Start eines Workflows</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>158</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>159</MSGNR>
+     <TEXT> ***  F E H L E R zu WF&apos;s /ADESSO/SPT_WBSB  ***</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>160</MSGNR>
+     <TEXT>Sperrbeleg nicht gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>161</MSGNR>
+     <TEXT>Zu Sperrbeleg ist kein Sperrauftrag vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>162</MSGNR>
+     <TEXT>Keine Sperrpostionen zu Sperrbeleg gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>Kein Sperrobjekt zu Sperrbeleg gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT>Kein Zählpunkt zu Anlage vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>165</MSGNR>
+     <TEXT>Fehler beim Schreiben der Tabelle /ADESSO/SPT_WBSB</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>166</MSGNR>
+     <TEXT>Fehler bei der Ermittlung Anlage zum Sperrobjekt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>167</MSGNR>
+     <TEXT>Sperrbeleg in Tabelle ZLWEDISCDOC_WB nicht gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>168</MSGNR>
+     <TEXT>Fehler bei Schreiben Wechselbeleg in FuBa /ADESSO/CRSWT_FOR_DISCON</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>169</MSGNR>
+     <TEXT>Aktion erfrolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>170</MSGNR>
+     <TEXT>nur eine Anlage pro Sperrauftrag zulässig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>171</MSGNR>
+     <TEXT>Abbruch durch Benutzer!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>172</MSGNR>
+     <TEXT>Die Selektion ergab keine Nachricht &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>173</MSGNR>
+     <TEXT>Nachricht &amp;1 zum WB &amp;2 wurde &amp;3 &amp;4!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>174</MSGNR>
+     <TEXT>Der Status der Nachricht &amp;1 wurde &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>175</MSGNR>
+     <TEXT>Wechselbelegnummer nicht angegeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>176</MSGNR>
+     <TEXT>Abarbeitungsfehler Auswahlfenster!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>177</MSGNR>
+     <TEXT>Die Wechselbelegsnummer &amp;1 ist ungültig bzw. nicht existent!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>178</MSGNR>
+     <TEXT>unbekannter Fehler aufgetreten!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>179</MSGNR>
+     <TEXT>genereller fehler aufgeteten!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>180</MSGNR>
+     <TEXT>Fehler: Es fehlt die Anschrift oder Postfach für den Geschäftspartner</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>181</MSGNR>
+     <TEXT>ASSIGN-Error: Feld &amp; nicht in IO-Struktur vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>182</MSGNR>
+     <TEXT>EXEC-Error: FuBa &amp; kann nicht ausgeführt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>183</MSGNR>
+     <TEXT>Auszugsbeleg &amp;1 nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>184</MSGNR>
+     <TEXT>Verbrauchstelle kann nicht bestimmt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>185</MSGNR>
+     <TEXT>Bitte pflegen Sie das Datum, bis zu dem die Anmeldung erwartet wird.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>186</MSGNR>
+     <TEXT>Anmeldung durch Fremdlieferanten ist für Sparte &amp;1 nicht möglich.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>187</MSGNR>
+     <TEXT>Bitte pflegen Sie das Feld Fremd/GRV.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>188</MSGNR>
+     <TEXT>Zählpunkt &amp;1 wird bereits durch WB &amp;2 zur Grundversorgung</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>189</MSGNR>
+     <TEXT>Wechselbeleg &amp; 1 zum Leerstand angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>190</MSGNR>
+     <TEXT>Keine Daten zum Anschlussobjekt &amp;1 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>191</MSGNR>
+     <TEXT>Keine Ableseeinheit zum Anschlussobjekt &amp;1 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Kein Eigentümer ermittelt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>501</MSGNR>
+     <TEXT>Fehler bei Ermittlung der Anlage zum Zählpunkt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>502</MSGNR>
+     <TEXT>Fehler bei Erstellung des Sperrbeleges zur Anlage</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>503</MSGNR>
+     <TEXT>Fehler bei Änderung Sperrbeleg</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>504</MSGNR>
+     <TEXT>Keine Wechselbelegnummer angegeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>505</MSGNR>
+     <TEXT>Fehler bei Lesen von Sperrbeleg</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>506</MSGNR>
+     <TEXT>Fehler beim Schreiben der Tabelle /ADESSO/SPT_WBSB</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>507</MSGNR>
+     <TEXT>Sperrbeleg durch anderen Benutzer gesperrt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>508</MSGNR>
+     <TEXT>Aktion erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>509</MSGNR>
+     <TEXT>Referenzobjektyp für Sperrbeleg nicht zulässig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>510</MSGNR>
+     <TEXT>es existiert schon ein Sperr- bzw. WIB-Auftrag</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>511</MSGNR>
+     <TEXT>Gebühr konnte nicht gebucht werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>551</MSGNR>
+     <TEXT>Sperrbeleg nicht gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>552</MSGNR>
+     <TEXT>Zu Sperrbeleg ist kein Sperrauftrag vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>553</MSGNR>
+     <TEXT>Keine Sperrpostionen zu Sperrbeleg gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>554</MSGNR>
+     <TEXT>Kein Sperrobjekt zu Sperrbeleg gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>555</MSGNR>
+     <TEXT>Kein Zählpunkt zu Anlage vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>556</MSGNR>
+     <TEXT>Fehler beim Schreiben der Tabelle /ADESSO/SPT_WBSB</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>557</MSGNR>
+     <TEXT>Fehler bei der Ermittlung Anlage zum Sperrobjekt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>558</MSGNR>
+     <TEXT>Sperrbeleg in Tabelle ZLWEDISCDOC_WB nicht gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>559</MSGNR>
+     <TEXT>Fehler bei Schreiben Wechselbeleg in FuBa /ADESSO/CRSWT_FOR_DISCON</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/GPKE</ARBGB>
+     <MSGNR>560</MSGNR>
+     <TEXT>Aktion erfolgreich</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,3 @@
+FUNCTION-POOL /ADESSO/BPU_DISPLAY_OBJECT.          "MESSAGE-ID ..
+
+* INCLUDE /ADESSO/LBPU_OBJECTSD...           " Local class definition

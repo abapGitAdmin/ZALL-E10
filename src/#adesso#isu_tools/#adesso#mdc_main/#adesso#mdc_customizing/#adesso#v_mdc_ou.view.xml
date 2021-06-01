@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/ADESSO/V_MDC_OU</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>/ADESSO/MDC_OUT</ROOTTAB>
+    <DDTEXT>SDÄ: Customizing Ausgang</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/ADESSO/V_MDC_OU</VIEWNAME>
+     <TABNAME>/ADESSO/MDC_OUT</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/ADESSO/MDC_OUT</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>AMID</VIEWFIELD>
+     <TABNAME>/ADESSO/MDC_OUT</TABNAME>
+     <FIELDNAME>AMID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>VALID_FROM</VIEWFIELD>
+     <TABNAME>/ADESSO/MDC_OUT</TABNAME>
+     <FIELDNAME>VALID_FROM</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

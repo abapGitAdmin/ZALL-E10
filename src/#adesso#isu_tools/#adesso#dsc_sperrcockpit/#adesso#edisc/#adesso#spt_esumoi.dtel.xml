@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADESSO/SPT_ESUMOI</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>WRTV7</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Summe der offenen Posten in Hauswährung</DDTEXT>
+    <REPTEXT>OffenePos</REPTEXT>
+    <SCRTEXT_S>OffenePos</SCRTEXT_S>
+    <SCRTEXT_M>Offene Posten</SCRTEXT_M>
+    <SCRTEXT_L>Offene Posten</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

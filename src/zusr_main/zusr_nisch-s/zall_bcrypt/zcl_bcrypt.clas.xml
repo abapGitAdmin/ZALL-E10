@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BCRYPT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BCrypt for ABAP</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>CHAR_64</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Look up the 3 bits base64-encoded by the specified character</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>CHECKPW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Check that a plaintext pw matches a previously hashed one</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>CRYPT_RAW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Perform the central password hashing step</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>DECODE_BASE64</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Decode a string encoded using bcrypt&apos;s base64 scheme</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>EKSKEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Perform the &quot;enhanced key schedule&quot; step</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>ENCIPHER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Blowfish encipher a single 64-bit block</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>ENCODE_BASE64</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Encode a byte array using bcrypt&apos;s slightly-modified base64</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>GENSALT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Generate a salt for use with the BCrypt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>HASHPW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hash a password using the OpenBSD bcrypt scheme</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>INIT_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Initialise the Blowfish key schedule</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Key the Blowfish cipher</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BCRYPT</CLSNAME>
+     <CMPNAME>STREAMTOWORD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Cycically extract a word of key material</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

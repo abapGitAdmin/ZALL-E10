@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Klasse für allgemeine Methoden</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>COMPARE_DATA_SET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hilfsmethode für COMPARE_PROC_STEP_DATA: Datensatz vergl.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>COMPARE_PROC_STEP_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prozessschritte anhand von Customizingvorgaben vergleichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>CREATE_PARTNER_FROM_PDOC_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Geschäftspartner aus Prozessdaten anlegen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>GET_CHANGES_AS_EDIFACT_STR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Änderungen aus den Schrittdaten auslesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>GET_INTCODE_SERVPROV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>INTCODE für Serviceprovider ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>GET_SERVPROVS_FOR_POD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Empfänger ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>GET_START_AMID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfidentifikator zur EDIFACT Struktur ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>GV_MTEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fehlertext</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>IS_FIELD_SET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Wert zu einem Feld aus übergebener EDIFACT-Struktur erm.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_UTILITY</CLSNAME>
+     <CMPNAME>SPLIT_HOUSEID_COMPL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Trennt die Hausnummer nach dem ersten nicht num. Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

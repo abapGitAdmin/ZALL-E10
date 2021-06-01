@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_BPU_DISPLAY_OBJECT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BPEM-UT: Anzeigemethoden für Klärfallmonitor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DISPLAY_OBJECT</CLSNAME>
+     <CMPNAME>DISPLAY_ACCOUNT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeigt das Vertragskonto in einem Modus an</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DISPLAY_OBJECT</CLSNAME>
+     <CMPNAME>DISPLAY_CONNOBJ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeigt das Anschlussobjekt in einem neuen Modus an</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DISPLAY_OBJECT</CLSNAME>
+     <CMPNAME>DISPLAY_CONTRACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeigt den Vertrag in einem neuen Modus an</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DISPLAY_OBJECT</CLSNAME>
+     <CMPNAME>DISPLAY_INSTLN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeigt die Anlage in einem neuen Modus an</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DISPLAY_OBJECT</CLSNAME>
+     <CMPNAME>DISPLAY_PARTNER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeigt den Geschäftspartner an</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

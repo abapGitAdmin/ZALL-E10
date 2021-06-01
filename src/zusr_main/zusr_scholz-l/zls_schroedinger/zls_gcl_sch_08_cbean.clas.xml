@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZLS_GCL_SCH_08_CBEAN</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Kaffee Böhnchen</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZLS_GCL_SCH_08_CBEAN</CLSNAME>
+     <CMPNAME>GD_VOLUME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Volumen des Bohnen-umgebenden-Quarders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZLS_GCL_SCH_08_CBEAN</CLSNAME>
+     <CMPNAME>GET_VOLUME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt das Volumen des Böhnchens zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZLS_GCL_SCH_08_CBEAN</CLSNAME>
+     <CMPNAME>SET_VOLUME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setze das Volumen des Böhnchens</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

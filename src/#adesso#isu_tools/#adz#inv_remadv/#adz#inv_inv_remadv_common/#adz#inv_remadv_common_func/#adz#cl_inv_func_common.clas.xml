@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Gemeinsame Userkommandobehandlung</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Selektionskriterien Rechnungsbelegdaten</ENTRY>
+     <LENGTH>78</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Ausgabe der Fehlertexte (Fehlerhafte Belege werden angezeigt)</ENTRY>
+     <LENGTH>122</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Layoutvariante auswählen</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>100</KEY>
+     <ENTRY>Wollen Sie den Belegstatus auf &apos;Beendet&apos; setzen?</ENTRY>
+     <LENGTH>96</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>101</KEY>
+     <ENTRY>Diese Aktion kann nicht mehr rückgängig gemacht werden!</ENTRY>
+     <LENGTH>110</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>104</KEY>
+     <ENTRY>Sollen die Markierungen für weitere Funkionen</ENTRY>
+     <LENGTH>90</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>105</KEY>
+     <ENTRY>beibehalten werden?</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>110</KEY>
+     <ENTRY>Achtung !!!</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>111</KEY>
+     <ENTRY>Wollen Sie die Mahnsperren setzen ?</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>124</KEY>
+     <ENTRY>Achtung! Für die markierten Einträge wird</ENTRY>
+     <LENGTH>82</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>125</KEY>
+     <ENTRY>die aktuelle Mahnsperre gelöscht!</ENTRY>
+     <LENGTH>66</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>B01</KEY>
+     <ENTRY>Mark.beibehalten</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>B02</KEY>
+     <ENTRY>Mark.löschen</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E01</KEY>
+     <ENTRY>Mahnsperre von Datum muss größer oder gleich Tagesdatum sein</ENTRY>
+     <LENGTH>120</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E02</KEY>
+     <ENTRY>Mahnsperre bis Datum muss größer oder gleich Mahnsperre von Datum sein</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E03</KEY>
+     <ENTRY>Bitte eine maximale Zeitspanne von 14 Tagen eingeben</ENTRY>
+     <LENGTH>104</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E04</KEY>
+     <ENTRY>In diesem Zeitraum liegt bereits eine Mahnsperre vor</ENTRY>
+     <LENGTH>104</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Belegstatus auf &apos;Beendet&apos; setzen</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T02</KEY>
+     <ENTRY>Belegstatus auf &apos;manuell geändert&apos; setzen</ENTRY>
+     <LENGTH>82</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T03</KEY>
+     <ENTRY>Mahnsperren setzen</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T04</KEY>
+     <ENTRY>Markierungen</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>ABL_PER_COMDIS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reklamation per COMDIS ablehnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>ADD_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Text hinzufügen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CALL_CIC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CIC aufrufen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CANCEL_ABR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abrechnungsbeleg stornieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CANCEL_AP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abschlagplan stornieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CANCEL_MEMI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>memi stornieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CANCEL_MGV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>mgv stornieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CANCEL_NNE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>NNR stornieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CHANGE_ANL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anlage ändern</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CHECK_SELECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Selektion prüfen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CHECK_SINGLE_SELECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelne Selektion prüfen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>CHECK_SPERRE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Sperren prüfen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>DUN_LOCK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mahnsperre setzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>DUN_UNLOCK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mahnsperre entfernen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>EXECUTE_PROCESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prozessieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>GET_CIC_FRAME_4_USER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CIC-Profil auslesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>GET_ENET_PRICE_ANL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Preise zur Anlage über Enet ermiiteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>GET_ERRORMESSAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fehlermeldung auslesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>GET_POPUP_CANC_REASON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stornogrund auf Popup auslesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>GET_POPUP_COMP_REASON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reklamationsgrund auslesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>IN_MEMORY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>In Memory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>MARK_ALL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Alle Zeilen selektieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>MRS_NOTI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Langtext</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>MRT_OUT_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabelle für Basisdatenausgaben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>PROCESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prozess durchführen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>RESET_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status modifizieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SEND_MAIL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mail senden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SET_STATUS_ERL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status Erledigt setzten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SHOW_CIC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CIC anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SHOW_ERROR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fehler anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SHOW_EXT_INVOICE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ext-Invoice anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SHOW_PDOC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Pdoc anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SHOW_REFERENCES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Referenz anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SHOW_SWT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Wechselbeleg anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SHOW_TASKS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Austausch-Aufgaben anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SHOW_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Text anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SIMULATE_VP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>VP? simulieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>SPERREN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beleg sperren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>UCOM_BEENDEN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beenden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>UCOM_CANC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stornieren setzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>UCOM_COMPL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reklamation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>UCOM_LOG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Protokoll anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>UCOM_PROC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>prozessieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>UNMARK_ALL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeilenselektionen löschen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_INV_FUNC_COMMON</CLSNAME>
+     <CMPNAME>WRITE_NOTE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bemerkung erfassen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

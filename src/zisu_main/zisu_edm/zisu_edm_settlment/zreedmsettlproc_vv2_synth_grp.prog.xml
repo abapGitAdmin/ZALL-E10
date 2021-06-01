@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZREEDMSETTLPROC_VV2_SYNTH_GRP</NAME>
+    <SUBC>1</SUBC>
+    <APPL>E</APPL>
+    <RSTAT>P</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Programm: Kundengruppenspez. Synthetisches Bilanzierungsverfahren</ENTRY>
+     <LENGTH>65</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SETTLDOC</KEY>
+     <ENTRY>Bilanzierungsbeleg</ENTRY>
+     <LENGTH>26</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SETTLRUN</KEY>
+     <ENTRY>BilanzLaufnummer</ENTRY>
+     <LENGTH>24</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Program: Customer Group-Specific Synthetic Settlement Procedure</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SETTLDOC</KEY>
+       <ENTRY>Settlement Document</ENTRY>
+       <LENGTH>27</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SETTLRUN</KEY>
+       <ENTRY>Settlement Run Number</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZREEDMSETTLPROC_VV2_SYNTH_GRP</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00014</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZREEDMSETTLPROC_VV2_SYNTH_GRP</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report REEDMSETTLPROC_VV2_SYNTH_GRP implementiert das synthetische</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bilanzierungsverfahren. Er entspricht  weitgehend dem Report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>REEDMSETTLPROC_VV2_SYNTH. Es wird lediglich der Aufruf des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bilanzierungsschrittes SUMRES01SU durch SUMRES08SU ersetzt. Als</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ergebnisparameter des Bilanzierungslaufs seht zusätzlich für jede</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bilanzierungseinheit und nichtlastganggemessene Kundengruppe ein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Lastprofil (Bilanzierungsparameter PrLoadSupGrp01) zur Verfügung. Im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Unterschied zum REEDMSETTLPROC_VV2_SYNTH (hier ist</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bilanzierungsparameter PrLoadSupGrp01 nur ein Zwischenergebnis) wird für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kundengruppen, die keine bilanzierungsrelevanten Zählpunkte haben, das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ergebnisprofil mit Initialwerten gefüllt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZREEDMSETTLPROC_VV2_SYNTH_GRP</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00010</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZREEDMSETTLPROC_VV2_SYNTH_GRP</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Report REEDMSETTLPROC_VV2_SYNTH_GRP implements the synthetic settlement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>procedure. It is mainly the same as report REEDMSETTLPROC_VV2_SYNTH,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>except that settlement step SUMRES01SU is replaced by SUMRES08SU. In</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>addition, a load profile (settlement parameter PrLoadSupGrp01) is made</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>available as a result parameter of the settlement run for each</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>settlement unit and non-interval customer group. In contrast to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>REEDMSETTLPROC_VV2_SYNTH (where settlement parameter PrLoadSupGrp01 is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>only an interim result), the result profile is filled with initial</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>values for customers who have points of delivery that are not relevant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for settlement.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

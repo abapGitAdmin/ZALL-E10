@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_BPM_FIND_OBJ_EIDE</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Objektfindung für Klärungsfalle im Umfeld Datenaustausch</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FIND_OBJ_EIDE</CLSNAME>
+     <CMPNAME>AT_BPM_CONT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabelle Fallobjekte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FIND_OBJ_EIDE</CLSNAME>
+     <CMPNAME>AT_CONT_ELEMENTS_DP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabbellentyp für Struktur /ADESSO/BPM_OBJ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FIND_OBJ_EIDE</CLSNAME>
+     <CMPNAME>AV_AD_BPM_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BPM ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FIND_OBJ_EIDE</CLSNAME>
+     <CMPNAME>BUILD_BPM_CONTAINER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt die Objekte eines Klärungsfalls</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FIND_OBJ_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_AD_BPM_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die AD_BPM_ID zur Objektfindung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FIND_OBJ_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_CONT_ELEMENTS_DP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Datenbeschaffung der Containerelemente</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

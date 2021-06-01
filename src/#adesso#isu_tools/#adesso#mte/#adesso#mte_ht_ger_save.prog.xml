@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>/ADESSO/MTE_HT_GER_SAVE</NAME>
+    <SUBC>1</SUBC>
+    <APPL>E</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Richtung der Sicherung</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Migrationstool: Sichern  und Erneuern der Hilfstabelle (HT_GER)</ENTRY>
+     <LENGTH>63</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PECHT</KEY>
+     <ENTRY>Echtlauf</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>REST</KEY>
+     <ENTRY>Restoren HT_GER &lt;-- HT_GER_S</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SAVE</KEY>
+     <ENTRY>Sichern    HT_GER --&gt;HT_GER_S</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

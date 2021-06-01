@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_BPM_CUST_SPEC_EIDE</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Klasse für Customizing der BPM-Suite EIDE</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_CUST_SPEC_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_BPM_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die kundeneigene BPM-ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_CUST_SPEC_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_ESM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt ob eine Lösungsmeth. automatisiert ausgeführt wird</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_CUST_SPEC_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_RULE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Regel zur Sachbearbeiterfindung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_CUST_SPEC_EIDE</CLSNAME>
+     <CMPNAME>DETERMINE_TXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den eindeutigen Klärungsfalltext</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

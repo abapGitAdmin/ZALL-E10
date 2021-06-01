@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/ADESSO/BPU_D_RET_VAL</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>001300</LENG>
+    <OUTPUTLEN>001300</OUTPUTLEN>
+    <LOWERCASE>X</LOWERCASE>
+    <DDTEXT>Rückgabewert</DDTEXT>
+   </DD01V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SHLP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD30V>
+    <SHLPNAME>ZFK_H_STUDIGANG</SHLPNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DDTEXT>Suchhilfe für Studiengang</DDTEXT>
+    <ISSIMPLE>X</ISSIMPLE>
+    <SELMETHOD>ZFK_STUDIENGANG</SELMETHOD>
+    <SELMTYPE>T</SELMTYPE>
+    <DIALOGTYPE>D</DIALOGTYPE>
+    <FUZZY_SIMILARITY>0.8</FUZZY_SIMILARITY>
+   </DD30V>
+   <DD32P_TABLE>
+    <DD32P>
+     <SHLPNAME>ZFK_H_STUDIGANG</SHLPNAME>
+     <FIELDNAME>CLASSID</FIELDNAME>
+     <FLPOSITION>0001</FLPOSITION>
+     <ROLLNAME>ZFK_U4_CID</ROLLNAME>
+     <SHLPINPUT>X</SHLPINPUT>
+     <SHLPLISPOS>01</SHLPLISPOS>
+    </DD32P>
+    <DD32P>
+     <SHLPNAME>ZFK_H_STUDIGANG</SHLPNAME>
+     <FIELDNAME>CLASSNAME</FIELDNAME>
+     <FLPOSITION>0002</FLPOSITION>
+     <ROLLNAME>ZFK_U4_CLASS</ROLLNAME>
+     <SHLPOUTPUT>X</SHLPOUTPUT>
+     <SHLPLISPOS>02</SHLPLISPOS>
+     <SCRLEN3>09</SCRLEN3>
+    </DD32P>
+   </DD32P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

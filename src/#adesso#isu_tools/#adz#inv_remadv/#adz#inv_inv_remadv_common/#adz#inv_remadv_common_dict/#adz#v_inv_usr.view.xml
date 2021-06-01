@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/ADZ/V_INV_USR</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>/ADZ/INV_USR</ROOTTAB>
+    <DDTEXT>Pflege Usergruppen für INVOIC-Manager</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/ADZ/V_INV_USR</VIEWNAME>
+     <TABNAME>/ADZ/INV_USR</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/ADZ/INV_USR</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>/ADZ/INV_USR</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>GRUPPE</VIEWFIELD>
+     <TABNAME>/ADZ/INV_USR</TABNAME>
+     <FIELDNAME>GRUPPE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <CHECKTABLE>USGRP</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>FUNCTIONS</VIEWFIELD>
+     <TABNAME>/ADZ/INV_USR</TABNAME>
+     <FIELDNAME>FUNCTIONS</FIELDNAME>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <VALEXI>X</VALEXI>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

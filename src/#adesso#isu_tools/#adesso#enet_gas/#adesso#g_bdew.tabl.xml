@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADESSO/G_BDEW</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>BDEW Artikelnummern (Gas)</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/ADESSO/G_BDEW</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>2</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>TABELLE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Tabelle, zu der die Artikelnummer gehört</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>FELD_BEZEICHNUNG</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Feld, zu dem die Artikelnummer gehört</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ARTIKEL</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Artikelbezeichnung</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BDEW_ARTIKELNUMMER</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000030</LENG>
+     <DECIMALS>000008</DECIMALS>
+     <MASK>  DEC</MASK>
+     <DDTEXT>13-stellige Artikelnummer des BDEW</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BEMERKUNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000400</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000200</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Bemerkung zur BDEW Artikelnummer</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BDEW_ARTIKELNR_ALTERNATIV</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000030</LENG>
+     <DECIMALS>000008</DECIMALS>
+     <MASK>  DEC</MASK>
+     <DDTEXT>Alternative zur Artikelnummer (in best. Konstellationen)</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

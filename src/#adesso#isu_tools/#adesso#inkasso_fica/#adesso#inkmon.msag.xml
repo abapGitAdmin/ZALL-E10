@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADESSO/INKMON</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichtenklasse Inkasso-Monitor</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Vertragskonto &amp;1 Kunde &amp;2 kann nicht freigegeben werden - ist gesperrt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Markieren Sie bitte einen Datensatz</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>CIC-Profil konnte nicht gelesen werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Es sind keine zur Abgabe freigegebenen Posten markiert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Bitte geben Sie nur ein einzelnes Inkassobüro an</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Keine erlaubten Belege zum Stornieren ausgewählt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Keine Belegart für Storno gecustomized</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Infosätze zur Satzart &amp; Datum &amp; schon vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Fehler beim Update Tabelle /ADESSO/INK_IDAT Info-Dateien vom InkassoGP</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Abbruch Datei &amp;1: Sätze sind in der DB schon vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Verkaufssatz &amp;1 ist nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Interner Ausbuchungsgrund &amp;1 ist nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INKMON</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Bitte geben sie einen Text ein</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

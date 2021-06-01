@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZHACO1ZHA_LOG_INFO</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZHACO1ZHA_LOG_INFO</OBJ_NAME_M>
+     <HASH_ID>C836B0277918B0F47E0CB097AE966D5F1B20AE8A</HASH_ID>
+     <ID>&lt;type&gt; ZhaLogInfo urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>ZhaLogInfo</IFR_NAME>
+     <IFR_NSPCE>urn:sap-com:document:sap:soap:functions:mc-style</IFR_NSPCE>
+     <IFR_GNSPCE>urn:sap-com:document:sap:soap:functions:mc-style</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZHACO1</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:sap-com:document:sap:soap:functions:mc-style</X-ML_NSPCE>
+     <X-ML_NAME>ZhaLogInfo</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZHACO1ZHA_LOG_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ID</OBJ_NAME2>
+     <ID>&lt;element&gt; Id &lt;type&gt; ZhaLogInfo urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Id</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>int</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ID</R3_NAME>
+     <R3_DATATYP>INT4</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZHACO1ZHA_LOG_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>MANDT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>MANDT</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZHACO1CLNT3</OBJ_NAME_R>
+     <ID>&lt;element&gt; Mandt &lt;type&gt; ZhaLogInfo urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Mandt</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>MANDT</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZHACO1ZHA_LOG_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>MSG</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>MSG</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZHACO1CHAR255</OBJ_NAME_R>
+     <ID>&lt;element&gt; Msg &lt;type&gt; ZhaLogInfo urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Msg</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>MSG</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZHACO1ZHA_LOG_INFO</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZHACO1ZHA_LOG_INFO</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZHACO1ZHA_LOG_INFO</OBJ_NAME2>
+     <ID>&lt;type&gt; ZhaLogInfo urn:sap-com:document:sap:soap:functions:mc-style urn:sap-com:document:sap:soap:functions:mc-style</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>ZhaLogInfo</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZHACO1ZHA_LOG_INFO</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

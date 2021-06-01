@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Prüfmethoden</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_ALREADY_EXCH_METER_PROC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft das bereits ausgetauschte Zählverfahren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_ALREADY_EXCH_POD_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft den bereits ausgetauschten Zählpunkttyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_COMPARE_RESULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen der Vergleichsergebnisse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_DISTRIBUTOR_ASSIGNMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Check if the Pod is still assigned to the grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_NOTIFICATION_PERIOD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fristenprüfung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_POD_MALO_EXIST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob MaLo im System existiert</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_PROCESSING_TYPE_AUTH</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verarbeitungsart bestimmen für Berechtigte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_RESP_MSG_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Antwort prüfen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_SYNC_NECESSARY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen, ob Daten geändert wurden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_WAIT_TIME_FOR_UPDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob vor dem Verbuchen gewartet werden muss</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>GX_PREVIOUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>SSV_MSGTXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Error message text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_COMPARE_RESULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vergleichserg. aus Schrittdaten und Quellschrittdaten erm.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_COMPARE_RESULT_SELECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vergleichserg. für ausgewählte Daten aus Schrittdaten erm.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_RECEIVER_SYNC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Empfänger der Nachricht bei Weiterleitung ändern (NB / ÜNB)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_STEP_DATA_FROM_SYSTEM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Eigene System Daten lesen und in Prozessschritt schreiben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_STEP_DATA_START_SYNC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schrittdaten für neuen Prozess erstellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_SYSTEM_FROM_MESSAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Daten aus Nachricht ins System übernehmen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

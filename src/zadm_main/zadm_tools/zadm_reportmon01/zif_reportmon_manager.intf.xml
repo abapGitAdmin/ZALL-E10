@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_REPORTMON_MANAGER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_REPORTMON_MANAGER</CLSNAME>
+     <CMPNAME>GET_ACTIVITIES_FOR_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt alle Aktivitäten für ein bestimmtes Datum aus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_REPORTMON_MANAGER</CLSNAME>
+     <CMPNAME>GET_ACTIVITIES_FOR_INTERVAL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt alle Aktivitäten für ein bestimmtes Zeitinterval aus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_REPORTMON_MANAGER</CLSNAME>
+     <CMPNAME>GET_ACTIVITIES_FOR_REPORTNAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt alle Aktivitäten für einen bestimmten Report aus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_REPORTMON_MANAGER</CLSNAME>
+     <CMPNAME>GET_ACTIVITIES_FOR_USER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt alle Aktivitäten für einen bestimmten Benutzer aus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_REPORTMON_MANAGER</CLSNAME>
+     <CMPNAME>GET_ALL_ACTIVITIES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt alle Aktivitäten aus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_REPORTMON_MANAGER</CLSNAME>
+     <CMPNAME>LOG_ACTIVITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Speichert eine Aktivität auf der Datenbank</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

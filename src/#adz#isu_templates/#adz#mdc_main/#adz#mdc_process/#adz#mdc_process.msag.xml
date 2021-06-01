@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>SDÄ: Nachrichtenklasse für Prozess</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Fehler bei manueller Änderung vom Geschäftspartner.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Fehler beim Lesen vom Geschäftspartner.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Fehler bei automatischer Aktualisierung vom Geschäftspartner.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Fehler beim Lesen vom Anschlussobjekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Fehler bei autom. Änderung vom Anschlussobjekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Fehler in Bedingung: Cust. Tabelle /ADESSO/MDC_ODP zu EDIFACT-Str. &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Fehler bei manueller Änderung vom Anschlussobjekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Fehler beim Lesen vom Vertrag.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Fehler bei automatischer Aktualisierung vom Vertrag.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Fehler bei manueller Änderung vom Zählpunkt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Methode konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Zählverfahren konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Lieferrichtung konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Geplante Turnusablesung konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Konzessionsabgabe konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Zähleinrichtungsdaten konnten nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Steuerinformationen konnten nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Antwortstatus konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Kundenwert konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Verbrauchsaufteilung konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Wert konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Zählpunkttyp konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Eine abweichende Lieferadresse konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Segmentgruppe ist genau einmal je SG4 IDE anzugeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>EDIFACT Struktur nicht vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Fehler bei manueller Änderung von Anlage.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Fehler beim Lesen von Anlage.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Fehler bei autom. Änderung von Anlage.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Fehler bei manueller Änderung von Bilanzierungseinheit.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Fehler bei manueller Änderung von Zählpunktgruppe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Fehler beim Lesen vom Lastprofildaten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Fehler bei automatischer Aktualisierung von Lastprofildaten.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Fehler bei manueller Änderung von Lastprofildaten.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Bedingung für EDIFACT-Struktur &amp;1 nicht erfüllt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Fortsetzung mit Einstellung &quot;Manuelle Änderung&quot;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Anschlussobjekt &amp;1 gesperrt &quot;Verbuchung nicht möglich&quot;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Methode für manuelle Änderung nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Methode für automatische Änderung nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Marktpartner konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_PROCESS</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Sparte konnte nicht ermittelt werden.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

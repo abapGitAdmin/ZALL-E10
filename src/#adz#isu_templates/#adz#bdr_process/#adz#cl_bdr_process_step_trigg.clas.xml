@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_BDR_PROCESS_STEP_TRIGG</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BDR: Trigger process step class for German Solutions</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_PROCESS_STEP_TRIGG</CLSNAME>
+     <CMPNAME>GC_BDR_SETTL_REC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Alternative Prozess-ID</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

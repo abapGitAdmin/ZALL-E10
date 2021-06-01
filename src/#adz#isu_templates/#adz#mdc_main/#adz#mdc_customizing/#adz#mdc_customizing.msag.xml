@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADZ/MDC_CUSTOMIZING</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>SDÄ: Nachrichtenklasse für Customizing</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_CUSTOMIZING</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Kein Eintrag in Customizing Tabelle &amp;1 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_CUSTOMIZING</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Zur EDIFACT-Struktur &amp;1 kein Eintrag in Customizing Tabelle &amp;2 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_CUSTOMIZING</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Verantwortlicher zur EDIFACT-Struktur &amp;1 konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_CUSTOMIZING</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Verantwortlicher nicht eindeutig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_CUSTOMIZING</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Start-AMID konnte nicht ermittelt werden mit &amp;1, &amp;2 (Sender), &amp;3 (Empf.).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_CUSTOMIZING</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Fehlerhafte Importparameter bei Zugriff auf Customizing Tabelle &amp;1.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

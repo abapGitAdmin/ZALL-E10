@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Controller</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>BUILD_ALV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einstellungen für ALV Grid, GUI Symbole und Variante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>BUILD_DISPLAY_OPTIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einstellungen für Layout und Feldkatalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>BUILD_REQUESTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anfragedaten mittels Selektionsdaten ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Singleton Controller</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GR_ALV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV List Viewer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GR_CONT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Container fuer Custom Controls in der Dynpro Area</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GR_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Controller</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GS_LAYOUT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV-Control: Layoutstruktur</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GS_SELECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Selektionsauswahl</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GS_VARIANT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anzeigevariante (externe Verwendung)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GT_EXCL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Funktionscodestabelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GT_FCAT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Feldkatalog für ListViewerControl</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>GT_REQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Anfragedaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>HANDLE_DOUBLE_CLICK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Handle double click</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CNTR</CLSNAME>
+     <CMPNAME>START_PROCESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Startet mittels der Anfragendaten Prozesse</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>Erweiterung der Klassenmethode CREATE_FROM_MSG zum anlegen eines PDoc&apos;s</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>CLAS</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>CL_ISU_SWITCHDOC</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>CLAS</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>CL_ISU_SWITCHDOC</ORG_MAIN_NAME>
+    <PROGRAMNAME>CL_ISU_SWITCHDOC==============CP</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <PROGRAMNAME>CL_ISU_SWITCHDOC==============CP</PROGRAMNAME>
+     <ENHMODE>D</ENHMODE>
+     <FULL_NAME>\TY:CL_ISU_SWITCHDOC\ME:CREATE_FROM_MSG\SE:BEGIN\EI</FULL_NAME>
+     <SOURCE>
+      <item/>
+      <item>*IF ( x_switchdocdata-switchtype = if_isu_ide_switch_constants=&gt;co_swttype_drop OR          &quot;02</item>
+      <item>*     x_switchdocdata-switchtype = if_isu_ide_switch_constants=&gt;co_swttype_enroll OR        &quot;03</item>
+      <item>*     x_switchdocdata-switchtype = if_isu_ide_switch_constants=&gt;co_swttype_backupspl OR     &quot;04</item>
+      <item>*     x_switchdocdata-switchtype = zif_agc_datex_co=&gt;gc_proc_type_22 OR                     &quot;22 im Netz</item>
+      <item>*     x_switchdocdata-switchtype &gt;= 80 ).</item>
+      <item>*     zcl_de_tools=&gt;GET_KZ_ZLW_ERWEITERUNG( I_LV_ERWEITERUNG = &apos;IDXGC&apos; ) = abap_true.</item>
+      <item>*</item>
+      <item>*  if y_switchdoc is REQUESTED.</item>
+      <item>*  CALL METHOD zcl_agc_datex_utility=&gt;create_pdoc_from_msg</item>
+      <item>*    EXPORTING</item>
+      <item>*      is_switchdocdata        = x_switchdocdata</item>
+      <item>*      is_swtdoc_adddata       = x_swtdoc_adddata</item>
+      <item>*      is_msgdata              = x_msgdata</item>
+      <item>*      is_swtmsg_adddata       = x_swtmsg_adddata</item>
+      <item>*      it_tmsgdatacomment      = x_tmsgdatacomment</item>
+      <item>*      iv_no_event             = x_no_event</item>
+      <item>*      iv_no_commit            = x_no_commit</item>
+      <item>*      iv_data_incomplete      = x_data_incomplete</item>
+      <item>*      iv_create_new           = x_create_new</item>
+      <item>*      iv_response             = x_response</item>
+      <item>*      iv_find_create_status   = x_find_create_status</item>
+      <item>*      iv_activity_status      = x_activity_status</item>
+      <item>*      iv_fill_partner_address = x_fill_partner_address</item>
+      <item>*      iv_delay_event          = x_delay_event</item>
+      <item>*      iv_receiver             = x_receiver</item>
+      <item>*    IMPORTING</item>
+      <item>*      er_switchdoc            = y_switchdoc</item>
+      <item>*      ev_switchnum            = y_switchnum</item>
+      <item>*      ev_new_document         = y_new_document</item>
+      <item>*      ev_msgdatanum           = y_msgdatanum</item>
+      <item>*      ev_createtype           = y_createtype</item>
+      <item>*    EXCEPTIONS</item>
+      <item>*      general_fault           = 1</item>
+      <item>*      foreign_lock            = 2</item>
+      <item>*      pod_missing             = 3</item>
+      <item>*      not_authorized          = 4</item>
+      <item>*      others                  = 5</item>
+      <item>*          .</item>
+      <item>*  CASE sy-subrc.</item>
+      <item>*    WHEN 0.</item>
+      <item>*      RETURN. &quot;zurück: der Pdoc + sein WB wurde erstellt bzw. gefunden</item>
+      <item>*    WHEN 1.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING general_fault.</item>
+      <item>*    WHEN 3.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING foreign_lock.</item>
+      <item>*    WHEN 4.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING pod_missing.</item>
+      <item>*    WHEN 5.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING not_authorized.</item>
+      <item>*    WHEN OTHERS.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING general_fault.</item>
+      <item>*  ENDCASE.</item>
+      <item>*  else.</item>
+      <item>*      CALL METHOD zcl_agc_datex_utility=&gt;create_pdoc_from_msg</item>
+      <item>*    EXPORTING</item>
+      <item>*      is_switchdocdata        = x_switchdocdata</item>
+      <item>*      is_swtdoc_adddata       = x_swtdoc_adddata</item>
+      <item>*      is_msgdata              = x_msgdata</item>
+      <item>*      is_swtmsg_adddata       = x_swtmsg_adddata</item>
+      <item>*      it_tmsgdatacomment      = x_tmsgdatacomment</item>
+      <item>*      iv_no_event             = x_no_event</item>
+      <item>*      iv_no_commit            = x_no_commit</item>
+      <item>*      iv_data_incomplete      = x_data_incomplete</item>
+      <item>*      iv_create_new           = x_create_new</item>
+      <item>*      iv_response             = x_response</item>
+      <item>*      iv_find_create_status   = x_find_create_status</item>
+      <item>*      iv_activity_status      = x_activity_status</item>
+      <item>*      iv_fill_partner_address = x_fill_partner_address</item>
+      <item>*      iv_delay_event          = x_delay_event</item>
+      <item>*      iv_receiver             = x_receiver</item>
+      <item>*    IMPORTING</item>
+      <item>*      &quot;er_switchdoc            = y_switchdoc</item>
+      <item>*      ev_switchnum            = y_switchnum</item>
+      <item>*      ev_new_document         = y_new_document</item>
+      <item>*      ev_msgdatanum           = y_msgdatanum</item>
+      <item>*      ev_createtype           = y_createtype</item>
+      <item>*    EXCEPTIONS</item>
+      <item>*      general_fault           = 1</item>
+      <item>*      foreign_lock            = 2</item>
+      <item>*      pod_missing             = 3</item>
+      <item>*      not_authorized          = 4</item>
+      <item>*      others                  = 5</item>
+      <item>*          .</item>
+      <item>*  CASE sy-subrc.</item>
+      <item>*    WHEN 0.</item>
+      <item>*      RETURN. &quot;zurück: der Pdoc + sein WB wurde erstellt bzw. gefunden</item>
+      <item>*    WHEN 1.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING general_fault.</item>
+      <item>*    WHEN 3.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING foreign_lock.</item>
+      <item>*    WHEN 4.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING pod_missing.</item>
+      <item>*    WHEN 5.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING not_authorized.</item>
+      <item>*    WHEN OTHERS.</item>
+      <item>*      MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno</item>
+      <item>*              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 RAISING general_fault.</item>
+      <item>*  ENDCASE.</item>
+      <item>*  endif.</item>
+      <item>*</item>
+      <item>*</item>
+      <item>*</item>
+      <item>*ENDIF.</item>
+      <item/>
+     </SOURCE>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>0050569C7FE41ED4A6E72AD1F5FE0481</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>0050569C7FE41ED4A6E72AD1F5FE0481</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>107</LENGTH>
+       <TEXT>Erweiterung der Klassenmethode CREATE_FROM_MSG zum anlegen eines PDoc&apos;s</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZEI_AGC_CREATE_SWT_FROM_MSG</OBJ_NAME>
+     <CONCEPT>0050569C7FE41ED4A6E72AD1F5FE0481</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

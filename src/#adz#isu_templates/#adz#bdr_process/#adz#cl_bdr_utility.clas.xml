@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BDR: Allgemeine Methoden</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>CHECK_IF_BPEM_TO_BE_CLOSED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob BPEM Fall geschlossen werden soll</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>CHECK_ORDERS_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob ORDERS Daten vollständig</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>GET_DIVISION_CAT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Spartentyp zu einer Sparte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>GET_EANL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabelle EANL auslesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>GET_INSTALLATION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Anlage zu einem Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>GET_INT_UI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Internen Zählpunkt ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>GET_SERVPROV_FROM_POD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Serviceanbieter aus VSZ holen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>GET_TIMEZONE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeitzone ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>GT_TECDE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Servicearten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>GT_TESPT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zuordnung Sparte zu Spartentyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_BDR_UTILITY</CLSNAME>
+     <CMPNAME>IS_OWN_INTCODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Eigenen INTCODE abgleichen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

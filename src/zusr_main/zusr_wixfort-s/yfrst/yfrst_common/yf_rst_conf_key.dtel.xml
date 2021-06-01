@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>YF_RST_CONF_KEY</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>YF_RST_CONF_KEY</DOMNAME>
+    <HEADLEN>02</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>FRST - Confidential Key</DDTEXT>
+    <REPTEXT>CK</REPTEXT>
+    <SCRTEXT_S>ConfKey</SCRTEXT_S>
+    <SCRTEXT_M>ConfidentialKey</SCRTEXT_M>
+    <SCRTEXT_L>Confidential Key</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

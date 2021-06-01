@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Message Processing Class for UTILMD 5.1d</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+     <CMPNAME>FILL_SG12_NAD_CS_VY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ENWG II Mehrfachkündigung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+     <CMPNAME>GET_LASTPROFIL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lastprofil ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+     <CMPNAME>GET_VIEW_SEND_RECIEVER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermitteln Sicht des Senders und des Emppfängers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+     <CMPNAME>GR_UTILITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konstanten in der UTILMD-Implementierung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+     <CMPNAME>GS_EIDESWTDOC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Wechselbeleg Kopf</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+     <CMPNAME>GS_SWTMSGPOD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachrichtendaten zum Wechsel je Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+     <CMPNAME>GS_S_R_VIEW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Struktur für UTILMD ob Feld gesendet werden muss oder nicht</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+     <CMPNAME>GV_RECIEVER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Serviceanbieter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_UTILMD_V51D</CLSNAME>
+     <CMPNAME>KORREKTUR_OUTBOUND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>dynamische Änderungen an Nachrichtend</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

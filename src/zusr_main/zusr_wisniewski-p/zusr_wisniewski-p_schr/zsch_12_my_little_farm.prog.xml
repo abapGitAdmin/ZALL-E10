@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSCH_12_MY_LITTLE_FARM</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <CUA>
+    <TIT>
+     <RSMPE_TITT>
+      <CODE>PROJEKT BALKONIEN</CODE>
+      <TEXT>Meine kleine Farm</TEXT>
+     </RSMPE_TITT>
+    </TIT>
+   </CUA>
+   <TPOOL>
+    <item>
+     <ID>H</ID>
+     <KEY>001</KEY>
+     <ENTRY>Hier kannst du Spaltenüberschriften einstellen</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>002</KEY>
+     <ENTRY>  Sogar über mehrere Zeilen</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F10</KEY>
+     <ENTRY>Gartenfreude</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F20</KEY>
+     <ENTRY>Pflanzen</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F21</KEY>
+     <ENTRY>Obst</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>F22</KEY>
+     <ENTRY>Gemüse</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Report ZSCH_12_MY_LITTLE_FARM</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_BANA</KEY>
+     <ENTRY>Winterharte Bananen</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CARO</KEY>
+     <ENTRY>Berkarotten</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CUCU</KEY>
+     <ENTRY>Feldgurken</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_FRUTI</KEY>
+     <ENTRY>Früchte</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_GDAT</KEY>
+     <ENTRY>Gartendatum</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_JELLY</KEY>
+     <ENTRY>Jelly Beans</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_SALA</KEY>
+     <ENTRY>Vogerlsalat</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_STRA</KEY>
+     <ENTRY>Klettererdbeeren</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_VEGI</KEY>
+     <ENTRY>Grünzeug</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_BEET</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>12</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>T</ID>
+     <ENTRY>Meine kleine farm</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,3 @@
+FUNCTION-POOL ZADM_DYNAMIC_PATTERN.         "MESSAGE-ID ..
+
+* INCLUDE LZADM_DYNAMIC_PATTERND...          " Local class definition

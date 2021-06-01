@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Implementierung der Formeln</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZEEDM_FORMULA_CODETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZEEDM_FORMULA_CODE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZISU_EDM_FORMULA_0001</FUNCNAME>
+     <SHORT_TEXT>Formel zur Ermittlung von Werten ober und unterhalb einer Leistungsgrenze</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>XY_CNTR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EEDMFORMULACTR</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>XY_INP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEEDMFORMPARLIST_I</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>XY_OUT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEEDMFORMPARLIST_O</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>GENERAL_FAULT</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>XY_CNTR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kontrollfelder für die Formelausführung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XY_INP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabellentyp für Eingabeparameterliste (EDM Formeln)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XY_OUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabellentyp für Ausgabeparameterliste (EDM Formeln)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GENERAL_FAULT</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZISU_EDM_FORMULA_0002</FUNCNAME>
+     <SHORT_TEXT>Thermische Gasumwertung</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>XY_CNTR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EEDMFORMULACTR</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>XY_INP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEEDMFORMPARLIST_I</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>XY_OUT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEEDMFORMPARLIST_O</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>GENERAL_FAULT</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>XY_CNTR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kontrollfelder für die Formelausführung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XY_INP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabellentyp für Eingabeparameterliste (EDM Formeln)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XY_OUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabellentyp für Ausgabeparameterliste (EDM Formeln)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GENERAL_FAULT</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

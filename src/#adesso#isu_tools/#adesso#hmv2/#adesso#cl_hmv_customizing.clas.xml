@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_HMV_CUSTOMIZING</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Cust HMV: Hauptklasse für Zugriffe auf das Customizing</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_HMV_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_CONSTANTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert Konstanten aus Tabelle /adesso/hmv_cons</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_HMV_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_DEXPROC_INVOUT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die aktuell gültigen DA-Prozesse a. /adesso/hmv_xpro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_HMV_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_EDI_SEGMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die aktuell gültigen IDoc-S. Namen /adesso/hmv_segn</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_HMV_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_IDOC_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert den aktuellen IDoc-Status zur Versandart</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_HMV_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_MESSAGE_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die aktuelle DA-Aufgabe aus /adesso/hmv_msgt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_HMV_CUSTOMIZING</CLSNAME>
+     <CMPNAME>TY_AB_BIS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ Datum ab - bis</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

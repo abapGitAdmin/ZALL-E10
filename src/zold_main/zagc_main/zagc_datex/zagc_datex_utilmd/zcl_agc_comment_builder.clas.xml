@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Klasse zur vorgangsbezogenen Generierung von Bemerkungen</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>K01</KEY>
+     <ENTRY>Kündigung ist  mit</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>K02</KEY>
+     <ENTRY>Frist zum</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>K03</KEY>
+     <ENTRY>möglich.</ENTRY>
+     <LENGTH>8</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>K04</KEY>
+     <ENTRY>Eine Kündigung ist möglich zum</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>K05</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>K06</KEY>
+     <ENTRY>Eine Kündigung ist möglich bis</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>K07</KEY>
+     <ENTRY>zum</ENTRY>
+     <LENGTH>3</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>K08</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>1</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_CM025</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur neg. Antw. a. SDÄ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_EB101</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur Anmeldung NN EoG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_EB102</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur neg. Antw. a. Anmeldung NN EoG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_EB103</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur pos. Antw. a. Anmeldung NN EoG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_EC102</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur neg. Antw. a. Kündigung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_EE101</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur Abmeldung NN</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_ES101</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur Anmeldung NN (auch WIB)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_ES102</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur neg. Antw. a. Anm. NN (auch WIB)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_ES103</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur pos. Antw. a. Anm. NN (auch WIB)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_ES301</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur Abmeldeanfrage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>GET_COMMENT_SONDERKUENDIGUNG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar &quot;Sonderkündigung&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>_GET_COMMENT_ANSWER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zu neg. Antworten (allgemein)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>_GET_COMMENT_EDD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar EDD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>_GET_COMMENT_FROM_TEMPLATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar aus Vorlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>_GET_COMMENT_GENERAL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar (allgemein)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>_GET_COMMENT_GRV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar GRV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>_GET_COMMENT_IHB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar IHB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>_GET_COMMENT_KUENDFRIST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zur Kündigungsfrist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>_GET_COMMENT_LGZUSATZ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar zum Lagezusatz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_COMMENT_BUILDER</CLSNAME>
+     <CMPNAME>_GET_COMMENT_STORNO_EDD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Kommentar EDD bei Abmeldeanfrage</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

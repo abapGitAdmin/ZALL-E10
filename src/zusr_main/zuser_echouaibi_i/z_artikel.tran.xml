@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>Z_ARTIKEL</TCODE>
+    <PGMNA>Z_ARTIKELANLEGEN</PGMNA>
+    <DYPNO>0100</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>Z_ARTIKEL</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>Z_ARTIKEL</TCODE>
+    <TTEXT>test</TTEXT>
+   </TSTCT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZALO_NC_GWASSER</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichtenklasse vom Gelsenwasser Projekt</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZALO_NC_GWASSER</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Fehler bei der Insert Methode.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZALO_NC_GWASSER</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fehler bei der Delete Methode.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZALO_NC_GWASSER</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Fehler! Den Datensatz gibt es überhaupt nicht!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZALO_NC_GWASSER</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Fehler bei der Update Methode.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZALO_NC_GWASSER</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler bei der SQL Anweisung.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZALO_NC_GWASSER</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fehler! Ungültiger Datensatz übergeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZALO_NC_GWASSER</ARBGB>
+     <MSGNR>031</MSGNR>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

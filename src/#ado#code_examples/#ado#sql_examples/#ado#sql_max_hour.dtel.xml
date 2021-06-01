@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADO/SQL_MAX_HOUR</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>INT3</DOMNAME>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>26</SCRLEN3>
+    <DDTEXT>Maximaler Stündlicher Wert</DDTEXT>
+    <SCRTEXT_S>Mx.Std. Wt</SCRTEXT_S>
+    <SCRTEXT_M>Max. Stündl. Wert</SCRTEXT_M>
+    <SCRTEXT_L>Maximaler Stündlicher Wert</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

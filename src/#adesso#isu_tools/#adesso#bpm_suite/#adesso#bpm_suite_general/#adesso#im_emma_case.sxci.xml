@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>/ADESSO/IM_EMMA_CASE</IMP_NAME>
+     <TEXT>Implementierung von BADI EMMA_CASE</TEXT>
+     <IMP_CLASS>/ADESSO/CL_IM_BPM_EMMA_CASE</IMP_CLASS>
+     <EXIT_NAME>EMMA_CASE</EXIT_NAME>
+     <INTER_NAME>IF_EX_EMMA_CASE</INTER_NAME>
+    </IMPLEMENTATION_DATA>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

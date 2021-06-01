@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Datenbeschaffungsklasse CL</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>DELETE_TEMP_EXTUI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löscht tempotäte Zählpunkte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>GET_METERING_PROCEDURE_DETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get metering procedure details information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>GET_POD_REF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt und sucht POD-Referenz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>GET_SETTLUNIT_VIA_EEDMSETTLUN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Bilanzierungseinheit anhand der EDM-Stammdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>LR_ISU_POD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stammdatenklasse für einen ZP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>LT_POD_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp für Struktur ZAGC_S_POD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>SIS_OS_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Loggingtabelle für Bestellungen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>SIT_METER_PROC_DETAILS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>List for profile details</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_DP_OUT_UTILMD_005</CLSNAME>
+     <CMPNAME>SIV_TRANSREASON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Transaktionsgrund</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktionsgruppe</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZLS_ABAP_DEMOTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZLS_ABAP_DEMO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_LS_GET_FLUEGE</FUNCNAME>
+     <SHORT_TEXT>Laden von Flugdaten</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CARRID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>S_CARR_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>LISTE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZLS_FLISTE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CARRID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kurzbezeichnung der Fluggesellschaft</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LISTE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Taelle von Flugverbindungen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_LS_TEST_FUBA</FUNCNAME>
+     <SHORT_TEXT>Test FuBa</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_TEST</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_TEST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Testbeschreibung</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

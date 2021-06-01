@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSCH_06_TD_REGION</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>06</SCRLEN2>
+    <SCRLEN3>06</SCRLEN3>
+    <DDTEXT>Region</DDTEXT>
+    <SCRTEXT_S>Rgon</SCRTEXT_S>
+    <SCRTEXT_M>Region</SCRTEXT_M>
+    <SCRTEXT_L>Region</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000050</LENG>
+    <OUTPUTLEN>000050</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

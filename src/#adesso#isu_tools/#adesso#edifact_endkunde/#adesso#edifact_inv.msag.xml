@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichtenklasse zum Thema Edifact an Endkunde</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Ein Modus (Beginn/Ende) muss ausgewählt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Der Modus Begin und Ende darf nicht zusammen ausgewählt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Versorgungsbeginn aber kein Beginndatum</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Versorgungsende aber kein Endedatum</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Keine Veträge gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Keine Zählpunkte gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Insert Serviceart &amp;1 zum VKonto &amp;2 und POD &amp;3 ist erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Insert Serviceart &amp;1 zum VKonto &amp;2 und POD &amp;3 ist nicht erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Update INVOIC Serviceart zum VKonto &amp;1 und POD &amp;2 ist nicht erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Keine gültige Services gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Keine INVOIC Services zum POD &amp;1. Services zum POD werden nicht beendet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Service &amp;1 zum Zählpunkt &amp;2 ist beendet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Bitte Aufgabe eingeben. INVOIC Versand oder/und Papierdruck</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Zu Belegdatum oder Druckbelegnr. wurden keine Druckbelege gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Zu VKonto, VKTyp, Buchungskreis oder GP wurden keine Druckbelege gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>In den  Vkonten, stimmt die EDI Variante mit der Sparteangabe nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Aufgrund der Eingabeparameter wurden keine Druckbelege gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Freigabe Beleg &amp;1 n. erfolgreich. Fehler b. Stornoflag in EDI Variante</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Druckbeleg &amp;1 wurde erfolgreich freigegeben (INVOIC)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Druckbeleg &amp;1 hat keine gültige Drucksperre oder permanent gesperrt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Log kann nicht geöffnet werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Serviceanbieter ist nicht vorhanden im System. Bitte Angabe prüfen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Angabe Sparte passt nicht zur Serviceart des Serviceanbieters.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Report ist nur für Sparte Gas oder Strom gedacht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Fehler beim Versenden des EDI zum Druckbeleg &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>EDI für Druckbeleg &amp;1 erfolgreich gesendet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Freigabe Beleg &amp;1 n. erfolgreich. Fehler b. EA16-Flag in der EDI Variante</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Keine EDI Variante gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Fehler beim Sperren Tabelle ESERVICE zum ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Keine freizugebenden Belege zu dieser Selektion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Bitte Rechnungsart eingeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Die Selektion beinhaltet keine Belege zum Versenden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Keine Druckbelege zum Papierversand</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Sparte ist nicht Strom oder Gas. Keine Druckbelege freizugeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Druckbeleg &amp;1 wurde erfolgreich freigegeben (PAPIER)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>EDI Variante am Vertragskonto &amp;1 ist nicht in der ZEIDET_EDIVAR vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Ref.nummer im Vkonto &amp;1 ist leer, Flag in EDI Variante ist aber aktiv</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Drucksperre ist nicht erwünscht zum Vkonto &amp;1 mit EDI Variante</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>Insert in der Tabelle ECROSSREFNO hat nicht funktioniert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Keine Daten in ERDZ Tabelle zum Druckbeleg &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Keine Daten in ERDR Tabelle zum Druckbeleg &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Keine Daten in ERDO Tabelle zum Druckbeleg &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>Keine Daten in ERDB Tabelle zum Druckbeleg &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Keine Daten in ERDU Tabelle zum Druckbeleg &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Keine Daten in ERDTS Tabelle zum Druckbeleg &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Eingegebenen Vertragskonto(en) haben keine EDI Variante</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Keinen Vertrag in EVER gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>keine freigegebenen Druckbelege gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>keine Abrechnungsbelege gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/EDIFACT_INV</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>Fehler b. Verarbeitung der Tabelle /ADESSO/EDI_VAR zum Abschlagsbeleg &amp;1</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

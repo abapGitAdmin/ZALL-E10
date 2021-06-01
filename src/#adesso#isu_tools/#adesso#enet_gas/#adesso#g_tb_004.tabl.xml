@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADESSO/G_TB_004</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>tb_Marktteilnehmer Stamm (Gas)</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/ADESSO/G_TB_004</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>4</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ENET_NR</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>ID des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>GUELTIG_SEIT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>Gültig seit</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>GUELTIG_BIS</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>Gültig bis</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STATUS_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000003</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000005</LENG>
+     <MASK>  DEC</MASK>
+     <DDTEXT>Status des Marktteilnehmers (Tabelle g_tb_010)</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>LAENDERCODE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000010</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000005</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Ländercode nach ISO-Norm A3</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MT_NAME</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000300</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000150</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Name des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>KUERZEL</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Kürzel des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>NAME_ZUSATZ</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Namenszusatz des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PLZ</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Postleitzahl des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ORT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000300</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000150</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Ort der Firmenadresse des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STRASSE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000300</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000150</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Straße der Firmenadresse des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>HAUSNR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Hausnummer der Firmenadresse des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>TEL</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Telefonnummer des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>FAX</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Faxnummer des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>POSTFACH</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Postfach des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PLZ_POSTFACH</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Postleitzahl des Postfachs des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ORT_POSTFACH</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000300</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000150</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Ort des Postfachs des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PLZ_GROSSKUNDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Großkundenpostleitzahl des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>AMTSGERICHT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Amtsgericht, bei dem der  Marktteilnehmer eingetragen ist</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>HANDELSREGISTER_NR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Handeslregisternummer des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>UST_ID_NR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000040</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000020</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Umsatzsteuernummer des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BEMERKUNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Bemerkung zum Marktteilnehmer</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>INTERNET</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Internetadresse des Marktteilnehmers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>REGBEH_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000002</LENG>
+     <MASK>  DEC</MASK>
+     <DDTEXT>ID der Regulierungsbehörde, die den Marktteilnehmer betreut</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BANKINSTITUT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Name der Hausbank des Unternehmens</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BLZ</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000040</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000020</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Bankleitzahl der Hausbank des Unternehmens</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MTKTO_NR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000040</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000020</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Kontonummer der Bankverbindung des Unternehmens</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>IBAN</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>IBAN-Code der Hausbank des Unternehmens</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BIC</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>BIC-Code der Hausbank des Unternehmens</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>LOESCHEN</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000001</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>&quot;0&quot; bei aktivem Datensatz, &quot;1&quot; Satz soll gelöscht werden</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DATUM_ERFASSUNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>Datum der Erfassung</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DATUM_AENDERUNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>Datum der letzten Änderung</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG adesso Ausbuchungsmonitor</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/ADESSO/LWO_MON_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>/ADESSO/SAPLWO_MON_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/ADESSO/WO_MON_DB_MODE</FUNCNAME>
+     <SHORT_TEXT>Ausbuchung: DB-Änderung der Tabelle /ADESSO/WO_MON mit Modus</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_MODE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_WO_MON</PARAMETER>
+       <DBSTRUCT>/ADESSO/WO_MON</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_MODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_WO_MON</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ausbuchung: Verwaltungsdaten Ausbuchungsmonitor</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

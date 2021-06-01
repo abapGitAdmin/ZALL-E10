@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/ADESSO/IF_MDC_DP_OUT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Interface zur Erweiterung Datenbereitstellungsklasse</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_MDC_DP_OUT</CLSNAME>
+     <CMPNAME>CALL_METHOD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Methode aufrufen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_MDC_DP_OUT</CLSNAME>
+     <CMPNAME>SET_PROCESS_STEP_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Die Schrittdaten schreiben</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

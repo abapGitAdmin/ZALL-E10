@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Prüfmethoden für Common Layer</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_ALREADY_EXCH_METER_PROC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft das bereits ausgetauschte Zählverfahren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_ALREADY_EXCH_POD_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft den bereits ausgetauschten Zählpunkttyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_COMPARE_RESULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen der Vergleichsergebnisse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_DISTRIBUTION_NECESSARY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob Verteilung notwendig ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_FORWARD_NECESSARY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob Weiterleitung nötig</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_NOTIFICATION_PERIOD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fristenprüfung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_PROCESSING_TYPE_AUTH</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verarbeitungsart bestimmen für Berechtigte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_PROCESSING_TYPE_RESP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verarbeitungsart bestimmen für Verantwortliche</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_RECEIVE_ANSWER_AUTH</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachricht prüfen auf Antwortcode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_RESPONSE_CODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob Antwortcode gesetzt ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_TRANSACTION_ALLOWED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfung ob der Geschäftsvorfall erlaubt ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_WAIT_TIME_BEFORE_SEND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob vor dem Versand gewartet werdeb muss</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>CHECK_WAIT_TIME_FOR_UPDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob vor dem Verbuchen gewartet werden muss</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>GR_PREVIOUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_COMPARE_RESULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vergleichserg. aus Schrittdaten und Quellschrittdaten erm.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_COMPARE_RESULT_SELECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vergleichserg. für ausgewählte Daten aus Schrittdaten erm.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_STEP_DATA_FOR_NEW_PDOC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prozessschrittdaten ändern für PDoc Versand</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_STEP_DATA_FROM_SRC_ADD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zus. Quellschritt lesen und in Prozessschritt schreiben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_STEP_DATA_FROM_SYSTEM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Eigene System Daten lesen und in Prozessschritt schreiben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_CHECK_METHOD</CLSNAME>
+     <CMPNAME>UPDATE_SYSTEM_FROM_MESSAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Daten aus Nachricht ins System übernehmen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

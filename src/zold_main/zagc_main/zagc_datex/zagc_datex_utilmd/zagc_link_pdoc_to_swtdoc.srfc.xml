@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SRFC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SRFC>
+    <HEADER>
+     <ID>ZAGC_LINK_PDOC_TO_SWTDOC</ID>
+     <VERSION>A</VERSION>
+     <FUNCNAME>ZAGC_LINK_PDOC_TO_SWTDOC</FUNCNAME>
+    </HEADER>
+    <TEXT>
+     <ID>ZAGC_LINK_PDOC_TO_SWTDOC</ID>
+     <VERSION>A</VERSION>
+     <LANG>D</LANG>
+     <SHORTTEXT>Standard-RFC-Service für Funktionsbaustein: ZAGC_LINK_PDOC_TO_SWTDOC</SHORTTEXT>
+    </TEXT>
+   </SRFC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

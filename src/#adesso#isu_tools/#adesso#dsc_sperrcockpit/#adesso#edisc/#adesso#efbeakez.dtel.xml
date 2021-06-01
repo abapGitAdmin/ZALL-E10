@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADESSO/EFBEAKEZ</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/ADESSO/_BEAKEZ</DOMNAME>
+    <MEMORYID>/ADESSO/BSFORD</MEMORYID>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>15</SCRLEN3>
+    <DDTEXT> Bearbeitungskennzeichen</DDTEXT>
+    <REPTEXT> Bearbeitungsmerkmal</REPTEXT>
+    <SCRTEXT_S> AMM</SCRTEXT_S>
+    <SCRTEXT_M> BeaMM</SCRTEXT_M>
+    <SCRTEXT_L> BearbeitungsMM</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADESSO/G_TB_012</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>tb_Wiederkaeuferbescheinigung (Gas)</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/ADESSO/G_TB_012</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>2</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>ID des Datensatzes</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ENET_NR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>ID des Marktteilnehmers, zu dem das Gebiet gehört</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>GUELTIG_SEIT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>Seit wann ist die Bescheinigung gültig</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>GUELTIG_BIS</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>Bis wann ist die Bescheinigung gültig</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>LOESCHEN</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000001</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>&quot;0&quot; bei aktivem Datensatz, &quot;1&quot; Satz soll gelöscht werden</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>WVB</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Link zur Wiederverkäuferbescheinigung</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DATUM_ERFASSUNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>Datum der Erfassung</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DATUM_AENDERUNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>Datum der letzten Änderung</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktionsbausteine Zahlstapelsplit</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/ADESSO/LSPLIT_ZAHLSTAPELTOP</SOBJ_NAME>
+    <SOBJ_NAME>/ADESSO/SAPLSPLIT_ZAHLSTAPEL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/ADESSO/READ_ZS_SPLIT</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Lesen der Tabelle /ADESSO/ZS_SPLIT</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>E_ZS_SPLIT</PARAMETER>
+       <DBSTRUCT>/ADESSO/ZS_SPLIT</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_ZS_SPLIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Customizing Zahlstapel splitten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

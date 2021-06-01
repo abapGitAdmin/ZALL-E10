@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Prozessdaten wurden nicht gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Prozessschrittklasse kann nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Ausnahmebehandlung Util konnte nicht aufgerufen werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Fehler: Sparte des Zählpunktes nicht vom Typ Strom</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Kein Lieferant im Versorgungsszenario gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Kein MSB im Versorgungsszenario gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Der empfangende Serviceanbieter kann nicht gefunden werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Kein MSB im Versorgungsszenario.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Mehr als zwei MSB im Versorgungsszenario.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Tranche: Versand von zug. Partnern an den Lieferant nicht möglich.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Bilanzkoordinator kann nicht zum Zählpunkt ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Übertragungsnetzbetreiber kann nicht zum Zählpunkt ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>&quot;Datenverwendung endet am&quot; muss gefüllt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>&quot;Datenverwendung beginnt am&quot; muss gefüllt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>&quot;Datum Vertragsbeginn&quot; UND &quot;Gültig-ab-Datum&quot; angeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/MDC_MESSAGES</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>&quot;Transaktionsgrund&quot; muss gefüllt sein</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

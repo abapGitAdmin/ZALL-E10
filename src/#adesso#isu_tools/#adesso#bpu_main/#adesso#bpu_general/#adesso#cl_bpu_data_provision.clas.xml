@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_BPU_DATA_PROVISION</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BPEM-UT: Datenermittlung zur Klärungsfällen</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DATA_PROVISION</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DATA_PROVISION</CLSNAME>
+     <CMPNAME>GET_ACTORS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beschaffung der Objekte für die Regelermittlung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DATA_PROVISION</CLSNAME>
+     <CMPNAME>GET_CASE_OBJECTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beschaffung der Objekte für den Klärungsfall</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DATA_PROVISION</CLSNAME>
+     <CMPNAME>GR_PREVIOUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DATA_PROVISION</CLSNAME>
+     <CMPNAME>GS_CASE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klärungsfall</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DATA_PROVISION</CLSNAME>
+     <CMPNAME>GT_SEOSUBCODF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BPEM-UT: Tabellentyp zu Tabelle SEOSUBCODF</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_DATA_PROVISION</CLSNAME>
+     <CMPNAME>GV_EXCEPTION_CODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausnahmecode</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

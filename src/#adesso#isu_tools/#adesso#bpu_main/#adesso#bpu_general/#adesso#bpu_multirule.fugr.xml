@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>BPEM-UT: Multiregel</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/ADESSO/LBPU_MULTIRULETOP</SOBJ_NAME>
+    <SOBJ_NAME>/ADESSO/SAPLBPU_MULTIRULE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/ADESSO/BPU_SOLVE_MULTIRULE</FUNCNAME>
+     <SHORT_TEXT>Auflösung der Multiregel</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>AC_CONTAINER</PARAMETER>
+       <DBSTRUCT>SWCONT</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ACTOR_TAB</PARAMETER>
+       <DBSTRUCT>SWHACTOR</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>AC_CONTAINER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Instanz-Struktur</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ACTOR_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ergebnis der Regelauflösung</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

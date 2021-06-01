@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>/ADESSO/ISU_FORMAT_TIME_SLICE</NAME>
+    <SUBC>1</SUBC>
+    <APPL>*</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Zeitscheiben anpassen</ENTRY>
+     <LENGTH>42</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Tabellen auswählen</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>ADD</KEY>
+     <ENTRY>Einträge hinzufügen / auf neues Datum stellen</ENTRY>
+     <LENGTH>90</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>DEL</KEY>
+     <ENTRY>Einträge entfernen / auf aktuelles Datum zurückstellen</ENTRY>
+     <LENGTH>99</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Report /ADESSO/ISU_FORMAT_TIME_SLICE</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_AMIDCO</KEY>
+     <ENTRY>/IDXGC/AMID_CONF</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_BMIDVA</KEY>
+     <ENTRY>/IDXGC/BMID_VAR</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CDLSTC</KEY>
+     <ENTRY>/IDXGL/CDLST_CON</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CENTRL</KEY>
+     <ENTRY>/IDEXGE/T_CENTRL</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DATE</KEY>
+     <ENTRY>Aktuelles Datum</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DATE_N</KEY>
+     <ENTRY>Neues Datum</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MESCOD</KEY>
+     <ENTRY>/IDXGC/T_MESCOD</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MSGCLI</KEY>
+     <ENTRY>/IDXGC/MSGCL_IN</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MSGOUT</KEY>
+     <ENTRY>/IDXGC/MSG_OUT</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_OU_VCG</KEY>
+     <ENTRY>/IDEXGE/T_OU_VCG</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PARCLO</KEY>
+     <ENTRY>/IDXGC/PARCL_OUT</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PRVERS</KEY>
+     <ENTRY>/IDXGC/PROCVERS</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>R_ADD_C</KEY>
+     <ENTRY>Einträge hinzufügen</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>R_DEL_C</KEY>
+     <ENTRY>Einträge entfernen</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Hauptklasse zum Reklamationsmonitor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Selektionskriterien Rechnungskopf</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Selektionskriterien Rechnungsbelegdaten</ENTRY>
+     <LENGTH>39</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Ausgabe der Fehlertexte (Fehlerhafte Belege werden angezeigt)</ENTRY>
+     <LENGTH>61</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Layoutvariante auswählen</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>100</KEY>
+     <ENTRY>Wollen Sie den Belegstatus auf &apos;Beendet&apos; setzen?</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>101</KEY>
+     <ENTRY>Diese Aktion kann nicht mehr rückgängig gemacht werden!</ENTRY>
+     <LENGTH>55</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>104</KEY>
+     <ENTRY>Sollen die Markierungen für weitere Funkionen</ENTRY>
+     <LENGTH>90</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>105</KEY>
+     <ENTRY>beibehalten werden?</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>110</KEY>
+     <ENTRY>Achtung !!!</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>111</KEY>
+     <ENTRY>Wollen Sie die Mahnsperren setzen ?</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>124</KEY>
+     <ENTRY>Achtung! Für die markierten Einträge wird</ENTRY>
+     <LENGTH>82</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>125</KEY>
+     <ENTRY>die aktuelle Mahnsperre gelöscht!</ENTRY>
+     <LENGTH>66</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>B01</KEY>
+     <ENTRY>Mark.beibehalten</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>B02</KEY>
+     <ENTRY>Mark.löschen</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Belegstatus auf &apos;Beendet&apos; setzen</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T02</KEY>
+     <ENTRY>Belegstatus auf &apos;manuell geändert&apos; setzen</ENTRY>
+     <LENGTH>82</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T03</KEY>
+     <ENTRY>Mahnsperren setzen</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T04</KEY>
+     <ENTRY>Markierungen</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>LV_INVTYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Art der Rechnung / Art des Avises</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>PA_FDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>PA_LOCKR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>PA_TDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>P_INVTP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>P_STORNO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>P_VARI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>SELECT_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Daten selektieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>SELECT_DATA_2</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Daten selektieren ( andere tabellenindizees )</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>SET_REMADV_FINISHED_MASS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Remadv in Masse beenden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>SET_REMADV_FINISHED_SINGLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Remadv beenden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_AGGR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_DOCTYP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_DTPAYM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_DTREC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_EXTIDO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_EXTUI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_IDOSTA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_INSTA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_INTIDO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_INVODA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_OWNINV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_RECE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_RSTGR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_REKLMON_MAIN</CLSNAME>
+     <CMPNAME>S_SEND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnes, beliebiges Zeichen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADESSO/G_MPMESS</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>Marktpartner Messung (Gas)</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/ADESSO/G_MPMESS</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>0</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MPM_NR</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>ID des Marktpartners &quot;Messung&quot; (von ene&apos;t vergeben)</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MARKTPARTNERMESS_NAME</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Name des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STRASSE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Straße des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PLZST</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>Postleitzahl (straßenbezogen) des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ORT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Ort des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>TEL</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Telefonnummer des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>FAX</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Faxnummer des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>POSTFACH</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000100</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000050</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Postfach des Marktpartners &quot;Messung&quot; (falls vorhanden)</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PLZ_GROSSKUNDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>Großkundenpostleitzahl des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MESSSTELLEN_CODENR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000030</LENG>
+     <DECIMALS>000008</DECIMALS>
+     <MASK>  DEC</MASK>
+     <DDTEXT>Codenummer des Messstellenbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MESSSTELLEN_ILNNR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000030</LENG>
+     <DECIMALS>000008</DECIMALS>
+     <MASK>  DEC</MASK>
+     <DDTEXT>ILN-Code des Messstellenbetreibers</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MESSDIENSTLEISTER_CODENR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000030</LENG>
+     <DECIMALS>000008</DECIMALS>
+     <MASK>  DEC</MASK>
+     <DDTEXT>Codenummer des Messdienstleisters</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MESSDIENSTLEISTER_ILNNR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000030</LENG>
+     <DECIMALS>000008</DECIMALS>
+     <MASK>  DEC</MASK>
+     <DDTEXT>ILN-Code des Messdienstleiters</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STATUS_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000003</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000005</LENG>
+     <MASK>  DEC</MASK>
+     <DDTEXT>Status des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BEMERKUNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Bemerkung zum Marktpartner &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>INTERNET</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000510</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000255</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Internetadresse des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PLZPF</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>Postleitzahl des Postfachs des Marktpartners &quot;Messung&quot;</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

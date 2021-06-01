@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/ADESSO/EA_VERSART</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000003</LENG>
+    <OUTPUTLEN>000003</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Grund- oder Ersatzversorgung</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>/ADESSO/EA_VERSART</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ERS</DOMVALUE_L>
+     <DDTEXT>Ersatzversorgung</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/EA_VERSART</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>GRV</DOMVALUE_L>
+     <DDTEXT>Grundversorgung</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/EA_VERSART</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>EDD</DOMVALUE_L>
+     <DDTEXT>Einzug gemeldet durch Dritte</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

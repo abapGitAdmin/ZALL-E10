@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Migrationstoolbox: Entladekeyverwaltung</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/ADESSO/LMTE_OBJKEYSTOP</SOBJ_NAME>
+    <SOBJ_NAME>/ADESSO/SAPLMTE_OBJKEYS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/ADESSO/MTE_OBJKEY_INSERT_ONE</FUNCNAME>
+     <SHORT_TEXT>Hinzufügen eines Objektschlüssels</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_FIRMA</PARAMETER>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_OBJECT</PARAMETER>
+       <TYP>EMG_OBJECT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_OLDKEY</PARAMETER>
+       <TYP>EMG_OLDKEY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Migrationsobjekt</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_OLDKEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Objektschlüssel im Altsystem</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Insert</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTE_OBJKEY_MAIN</FUNCNAME>
+     <SHORT_TEXT>Hauptbaustein zum Migrationsobjekt</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_FIRMA</PARAMETER>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_OBJECT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>EMG_OBJECT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_OLDKEY</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>EMG_OLDKEY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_PARAMETERS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Migrationsobjekt</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_OLDKEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Objektschlüssel im Altsystem</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Allgemeiner Fehler</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_PARAMETERS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>falsche Parameterübergabe</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

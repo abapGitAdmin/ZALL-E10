@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADESSO/BPU_TITLE_SOURCE</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/ADESSO/BPU_TITLE_SOURCE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>BPEM-UT: Quelle für den Titel des BPEM-Falls</DDTEXT>
+    <REPTEXT>Quelle für den Titel des BPEM-Falls</REPTEXT>
+    <SCRTEXT_S>Quelle</SCRTEXT_S>
+    <SCRTEXT_M>Quelle Titel BPEM</SCRTEXT_M>
+    <SCRTEXT_L>Quelle Titel BPEM-Fall</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

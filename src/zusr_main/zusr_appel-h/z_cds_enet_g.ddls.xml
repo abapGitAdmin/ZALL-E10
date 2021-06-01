@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DDLS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DDLS>
+    <DDLNAME>Z_CDS_ENET_G</DDLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DDTEXT>CDS Zugriff auf /adesso/c_enet_g</DDTEXT>
+   </DDLS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

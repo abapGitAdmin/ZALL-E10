@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ES_WF_CONTR</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Klasse für den Workflow</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ES_WF_CONTR</CLSNAME>
+     <CMPNAME>AC_TYPEID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ von Objekten in Persistenten Objektreferenzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ES_WF_CONTR</CLSNAME>
+     <CMPNAME>AS_POR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lokale Persistente Objektreferenz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ES_WF_CONTR</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ES_WF_CONTR</CLSNAME>
+     <CMPNAME>NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name Übergabe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ES_WF_CONTR</CLSNAME>
+     <CMPNAME>START_WORKFLOW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Startmethode für den Workflow</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ES_WF_CONTR</CLSNAME>
+     <CMPNAME>START_WORKFLOW_EVENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ereigniss zum Starten des Workflow</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADESSO/BPU_CUST</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>BPEM-UT: Nachrichtenklasse für Customizing</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_CUST</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Kein Eintrag in Customizing Tabelle &amp;1 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_CUST</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Kein Typ für Ausführung der Lösungsmethode definiert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_CUST</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Zu viele Einträge in Prozesscustomizing gefunden.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

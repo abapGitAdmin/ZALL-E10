@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Datenbereitstellungsklasse</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>ASSIGNED_DSO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Assigned Distributor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>GV_OWN_INTCODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Servicetyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>GX_PREVIOUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>MARKET_LOCATION_INVOLVED_SEQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Data of Market Location involved</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>OBIS_DATA_MALO_INVOLVED_SEQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>OBIS-Daten MaLo der beteiligten Marktrolle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>OBIS_DATA_TRANCHE_INVOLVED_SEQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>OBIS-Daten Tranche der beteiligten Marktrolle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>PROC_SEQUENCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get processing sequence for MDC snychronisation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>PROFILE_DATA_ELEC_INVOLVED_SEQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Profildaten der beteiligten Marktrolle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>PROFILE_SET_DATA_INVOLVED__SEQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Profilschardaten der beteiligten Marktrolle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>TRANCHE_DATA_INVOLVED_SEQ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tranchen-Daten der beteiligten Marktrolle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>USE_FROM_DATE_TIME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get usage from date and time</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_DP_UTILMD_011</CLSNAME>
+     <CMPNAME>USE_TO_DATE_TIME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get usage to date and time</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,3 @@
+FUNCTION-POOL /ADZ/MEMI_MAHNSPERRE.      "MESSAGE-ID ..
+
+* INCLUDE /ADZ/LMEMI_MAHNSPERRED...       " Local class definition

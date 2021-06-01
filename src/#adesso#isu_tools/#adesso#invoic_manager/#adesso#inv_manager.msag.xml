@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichten für INVOIC Manager</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Kein Prüfwerte für Prüfart &amp;1 in SAV &amp;2. KEINE Prüfung Ableseergebnisse.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Invoice: Kennung &amp;1:    Menge      &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Folgende Zeilen werden zur Mengenprüfung herangezogen:</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Invoice Gesamtmenge                        &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Keine Anlage zum Zählpunkt &amp;1 gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Keine Anlage zur Serviceart &amp;1 gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Prüfart &amp;1 in SAV &amp;2 ok. Prüfung Ableseergebnisse.wird durchgeführt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Keine Produkt ID für Mengenprüfung in SAV. Prüfung nicht durchführbar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Verbrauch Anlage ZW &amp;1:   Menge    &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Verbrauch Gesamtmenge:    Menge    &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Menge:  Invoice &amp;1 &lt;&gt; Verbrauch &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Menge:  Invoice &amp;1 = Verbrauch &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Ext. Belegnummer: &amp;1 Prüfung Mengen erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Ext.Rchn/AvisNr konnte nicht ermittelt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>RG mit int. BelNr ReNr &amp;1 und ident. GrpRefNr &amp;2 im Status &amp;3 vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>RG mit int. BelNr ReNr &amp;1 und abw. GrpRefNr &amp;2 im Status &amp;3 vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Prüfung auf doppelte Rechnungseingänge erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Prüfung auf doppelte Rechnungseingänge nicht erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Prüfung auf doppelte Rechnungseingänge mit Warnung abgeschlossen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Ext. Belegnummer: &amp;1 Prüfung Preise erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Artikel: &amp;1 Einzelpreis:  Invoice &amp;2 &lt;&gt; Simulation &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Artikel: &amp;1 nicht gepflegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Preis für Artikel &amp;1 Ok INV: &amp;2 SIM: &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Bitte nur Rechnungen vom gleichen Typ auswählen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Bitte mindestens eine Rechnung auswählen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Preis für Artikel &amp;1 Ok INV: &amp;2 ENET: &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Kein Passender Preis für Artikel &amp;1 Preis &amp;2 gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Preis für Artikel &amp;1 Ok Preis ist 0</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Simulation lieferte keine Ergebnisse für Invoic: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Preis für Artikelnummer : &amp;1 ist Null</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Beleg &amp;1 ist durch &amp;2 gesperrt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Beleg &amp;1 ist nicht gesperrt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Blindmehrarbeit:  Invoice &amp;1 &lt;&gt; Verbrauch &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Blindmehrarbeit:  Invoice &amp;1 = Verbrauch &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Rechnung &amp;1 enthällt Memi</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Rechnung &amp;1 keine enthällt Memi</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Zähler = SFREMD/GFREMD Preise beziehen sich auf Standart Zähler</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/INV_MANAGER</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Preis Prüfung für Gas vereinfacht.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

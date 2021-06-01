@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktionsgruppe</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZABETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZABE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_BONUS_TEST_EX</FUNCNAME>
+     <SHORT_TEXT>Template: Übertragung von Bewegungsdaten</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_REQUNR</PARAMETER>
+       <TYP>SRSC_S_IF_SIMPLE-REQUNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_DSOURCE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SRSC_S_IF_SIMPLE-DSOURCE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MAXSIZE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SRSC_S_IF_SIMPLE-MAXSIZE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_INITFLAG</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SRSC_S_IF_SIMPLE-INITFLAG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_READ_ONLY</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SRSC_S_IF_SIMPLE-READONLY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_REMOTE_CALL</PARAMETER>
+       <DEFAULT>SBIWA_C_FLAG_OFF</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SBIWA_FLAG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_T_SELECT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SRSC_S_IF_SIMPLE-T_SELECT</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>I_T_FIELDS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SRSC_S_IF_SIMPLE-T_FIELDS</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>E_T_DATA</PARAMETER>
+       <DBSTRUCT>ZABE_TEST_BONUS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_MORE_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_PASSED_TO_MESS_HANDLER</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_REQUNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Request Number: identif. eine Datenanforderung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_DSOURCE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name der InfoSource</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MAXSIZE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>maximale Anzahl Zeilen der Ausgabetabelle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_INITFLAG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Initialisierung &apos;X&apos; bzw. Datenübertragung &apos; &apos;</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_READ_ONLY</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_REMOTE_CALL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kennzeichen: Remote-Aufruf durch BW</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_T_SELECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Selektionskriterien</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_T_FIELDS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feldliste für SELECT</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_T_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ausgabetabelle für fixe InfoSources</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_MORE_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Die Daten wurden vollständig übertragen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_PASSED_TO_MESS_HANDLER</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Exit wegen Fehler; Nachricht im Message Handler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_FTUFT</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>drdrd</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

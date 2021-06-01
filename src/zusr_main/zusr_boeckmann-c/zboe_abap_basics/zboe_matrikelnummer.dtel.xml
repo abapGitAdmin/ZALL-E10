@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZBOE_MATRIKELNUMMER</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>14</SCRLEN3>
+    <DDTEXT>Matrikelnummer</DDTEXT>
+    <REPTEXT>Matrikelnummer</REPTEXT>
+    <SCRTEXT_S>MNr.</SCRTEXT_S>
+    <SCRTEXT_M>Matrikelnummer</SCRTEXT_M>
+    <SCRTEXT_L>Matrikelnummer</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Hauptklasse für Zugriff auf das Customizing</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_INBOUND_CONFIG_FOR_EDIFACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert das SDÄ Customizing zur EDIFACT-Struktur (Eingang)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_OWN_INTCODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert den eigenen INTCODE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_PDOC_EDIFACT_MAPPING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert das Customizing zur EDIFACT-Struktur</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_PDOC_EDIFACT_MAP_SINGLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert das Customizing zur EDIFACT-Struktur</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GET_PDOC_QUALIFIERS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert das Customizing zum Qualifier</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GS_MAIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Customizing Allgemeine Einstellungen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GT_IN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Customizing Eingang - Einstellungen Verarbeitung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GT_IN_MPG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Customizing Eingang - Einstellungen Verarbeitung (MPG)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GT_MPG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Customizing Marktpartnergruppen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GT_MPG_SP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Customizing Marktpartnergruppen - Zuordnung Serviceanb.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GT_PD_QUAL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Customizing PDoc Aufbau Felder Qualifier in Tabellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>GT_PD_STRC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SDÄ: Customizing PDoc Aufbau &lt;&gt; EDIFACT Struktur</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_CUSTOMIZING</CLSNAME>
+     <CMPNAME>IS_SERVPROV_IN_MPG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überprüft, ob der Serviceanbieter in MP-Gruppe ist</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_BPM_FILL_CONT_EIDE</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Generelle Klasse zur Ermittlung von Containerelementen</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FILL_CONT_EIDE</CLSNAME>
+     <CMPNAME>AV_CCAT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klärungsfallkategorie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FILL_CONT_EIDE</CLSNAME>
+     <CMPNAME>AV_EXCEPTIONCODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausnahmecode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FILL_CONT_EIDE</CLSNAME>
+     <CMPNAME>AV_PROC_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Statische Prozess-ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FILL_CONT_EIDE</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FILL_CONT_EIDE</CLSNAME>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beschaffung der Containerelemente ausführen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FILL_CONT_EIDE</CLSNAME>
+     <CMPNAME>FILL_CONT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Füllt den Container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FILL_CONT_EIDE</CLSNAME>
+     <CMPNAME>GET_CLASS_ATTRIBUTE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert ein Klassenattribut zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPM_FILL_CONT_EIDE</CLSNAME>
+     <CMPNAME>GET_MESSAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt die Nachrichtenstruktur für Protokolleintrag</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

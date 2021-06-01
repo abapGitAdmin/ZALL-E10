@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAGC_DATEX_GENERAL</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Allgemeine Nachrichtenklasse zum Datenaustausch</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_DATEX_GENERAL</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_DATEX_GENERAL</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Kein Prozess zur Nachricht gefunden. Verarbeitung abgebrochen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_DATEX_GENERAL</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>APERAK Prüfung: Sender oder Empfänger nicht gefunden. Keine Verarbeitung.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_DATEX_GENERAL</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>APERAK Prüfung: Versand fehlgeschlagen. Teilweise / Keine Verarbeitung.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_DATEX_GENERAL</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>APERAK Prüfung: Objekt-Initialisierung fehlgeschlagen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZAGC_DATEX_GENERAL</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>APERAK verschickt! Code: &amp;1, Vorgang: &amp;2, Zählpunkt: &amp;3</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

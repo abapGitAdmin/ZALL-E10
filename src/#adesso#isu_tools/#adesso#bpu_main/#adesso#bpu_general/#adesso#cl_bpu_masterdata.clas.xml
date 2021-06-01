@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_BPU_MASTERDATA</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BPEM-UT: Allg. Klasse für Methoden zum Stammdatenzugriff</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_EVER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Eintrag aus Tabelle EVER holen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_INSTLN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anlage holen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_INT_UI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Interne Zählpunktbezeichnung holen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

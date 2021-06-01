@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADESSO/BKA_NUTZEIHDAT</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>BKA Nutzeinheit Zeitscheiben: Datenfelder</DDTEXT>
+    <EXCLASS>2</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>AB</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>BKA Datum, ab dem eine Zeitscheibe gültig ist</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>VERTRAG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>BKA IS-U-Vertrag</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MIETER</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>BKA Mieter</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MWSTOPTION</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000001</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>BKA Kennzeichen für Mehrwertsteueroption</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>EINZ_EIGEN</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000001</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>BKA Kennzeichen Einzug Eigentümer</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

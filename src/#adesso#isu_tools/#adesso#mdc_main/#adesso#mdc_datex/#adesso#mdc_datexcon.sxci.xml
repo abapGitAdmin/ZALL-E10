@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>/ADESSO/MDC_DATEXCON</IMP_NAME>
+     <TEXT>Connector für (Outbound) Datenaustauschprozesse</TEXT>
+     <IMP_CLASS>/ADESSO/CL_MDC_IM_DATEXCONNECT</IMP_CLASS>
+     <EXIT_NAME>ISU_IDE_DATEXCONNECT</EXIT_NAME>
+     <INTER_NAME>IF_EX_ISU_IDE_DATEXCONNECT</INTER_NAME>
+    </IMPLEMENTATION_DATA>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

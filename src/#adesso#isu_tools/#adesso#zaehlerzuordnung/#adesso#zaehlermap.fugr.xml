@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>RFC-Fuba zur Zählerbestimmung</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/ADESSO/LZAEHLERMAPTOP</SOBJ_NAME>
+    <SOBJ_NAME>/ADESSO/SAPLZAEHLERMAP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/ADESSO/ZAEHLERZUORDUNG</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Zählerzuordnung RFC</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ZPKT</PARAMETER>
+       <TYP>EXT_UI</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>SPARTE</PARAMETER>
+       <TYP>INT2</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FROM</PARAMETER>
+       <TYP>DATE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TO</PARAMETER>
+       <TYP>DATE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>T_ETYP</PARAMETER>
+       <TYP>ISUWA_ETYP</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ZPKT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Zählpunktbezeichnung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SPARTE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>2 Byte Integer (Signed)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FROM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datum im CHAR-Format</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datum im CHAR-Format</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_ETYP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabellentyp der Behältertypdaten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

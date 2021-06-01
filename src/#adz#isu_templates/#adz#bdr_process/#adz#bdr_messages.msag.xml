@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>BDR: Nachrichten</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>In Tabelle &amp;1 keinen Eintrag zu Schlüssel &amp;2 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Referenz auf vorangegangene Nachricht nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Negative ORDRSP erhalten, IFTSTA an Lieferant schicken.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Fehler bei MeLo / MaLo Prüfung.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Für MeLo &amp;1 konnte keine MaLo ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>MeLo &amp;1 gehört zu einer komplexen Struktur und wird ignoriert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Generelles Customizing für Geschäftsdatenanfrage nicht gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Klärfall: Eingabe abgebrochen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Klärfall: Fehler bei der Ausführung von Lösungsprozess.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>&amp;1Keinen Zählpunkt angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>&amp;1Kein eigener Serviceanbieter angeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>&amp;1Kein fremder Serviceanbieter angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>&amp;1Kein Ausführungsdatum angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>&amp;1Kein Bilanzierungsverfahren angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>&amp;1Keine Lieferrichtung angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>&amp;1Keinen Kommentar-Qualifier angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>&amp;1Keine Zählwerks-Kennziffer angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>&amp;1Ungültiges Bilanzierungsverfahren angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>&amp;1Ungültiger Kommentar-Qualifier angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>&amp;1Eigener Serviceanbieter ist nicht im System hinterlegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>&amp;1Keine Nummer der referenzierten Nachricht angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>&amp;1Kein Datum der referenzierten Nachricht angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>&amp;1Keine Zeit der referenzierten Nachricht angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1Keine Beginnzeit für angefragte Messwerte angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1Kein Beginndatum für angefragte Messwerte angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>&amp;1Keine Abweichung der Beginnzeit angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>&amp;1Keine Endzeit für angefragten Messwerte angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>&amp;1Kein Enddatum für angefragten Messwerte angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>&amp;1Keine Abweichung der Endzeit angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>&amp;1Serviceanbieter kommen aus verschiedenen Branchen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>&amp;1Eigener Serviceanbieter ist kein Lieferant.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>&amp;1Fremder Serviceanbieter ist kein Netzbetreiber.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>&amp;1Eigener Serviceanbieter ist kein LF, NB, ÜNB oder MSB.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>&amp;1Fremder Serviceanbieter ist kein Messstellenbetreiber.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>&amp;1Fremder Serviceanbieter ist nicht im System hinterlegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>&amp;1Fehler bei der Verarbeitung des Serviceanbieters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>&amp;1Eigener Serviceanbieter ist nicht in der Sparte Strom.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>&amp;1Keine Gerätekonfiguration angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>&amp;1Ungültige Gerätekonfiguration angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>&amp;1Keine Zählwerks-Kennziffer angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>&amp;1Keine Schwachlastfähigkeit angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>&amp;1Ungültige Schwachlastfähigkeit angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>&amp;1Keine Verbrauchsart angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>&amp;1Ungültige Verbrauchsart angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>&amp;1Keine Unterbrechbarkeit angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>&amp;1Ungültige Unterbrechbarkeit angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>&amp;1Keine Wärmenutzung angegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADZ/BDR_MESSAGES</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>&amp;1Ungültige Wärmenutzung angegeben.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

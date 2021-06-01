@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS1" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS1>
+    <ACTIVITY_HEADER>
+     <ACT_ID>/ADESSO/SDA_002</ACT_ID>
+     <ACT_TYPE>C</ACT_TYPE>
+    </ACTIVITY_HEADER>
+    <ACTIVITY_TITLE>
+     <CUS_ACTT>
+      <SPRAS>D</SPRAS>
+      <ACT_ID>/ADESSO/SDA_002</ACT_ID>
+      <TEXT>Mandantenabhängige Einstellungen vornehmen</TEXT>
+     </CUS_ACTT>
+    </ACTIVITY_TITLE>
+    <OBJECTS>
+     <CUS_ACTOBJ>
+      <ACT_ID>/ADESSO/SDA_002</ACT_ID>
+      <OBJECTTYPE>C</OBJECTTYPE>
+      <OBJECTNAME>/ADESSO/VC_MDC_MANDT</OBJECTNAME>
+      <TCODE>SM34</TCODE>
+      <SUBOBJNAME>/ADESSO/VC</SUBOBJNAME>
+      <IMG_POS>01</IMG_POS>
+     </CUS_ACTOBJ>
+    </OBJECTS>
+   </CUS1>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FKT Gruppe</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_DEV_FKT_GRUPPETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_DEV_FKT_GRUPPE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_DEV_ARTIKELDATEN_LESEN</FUNCNAME>
+     <SHORT_TEXT>Artikeldaten lesen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>EAN_NR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>Z_DEV_NR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>KURZTEXT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>Z_DEV_KURZTEXT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>LANGTEXT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>Z_DEV_LANGTEXT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>VK_PREIS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>Z_DEV_BETRAG</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>MWSTSATZ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>Z_DEV_PROZENT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EAN_NR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DE Schlüssel</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>KURZTEXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DE Kurzbeschrebung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LANGTEXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DE Langtext</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VK_PREIS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DE Beträge</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MWSTSATZ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DE Prozentwerte</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_DEV_ENTHALTENE_MWST</FUNCNAME>
+     <SHORT_TEXT>Fuba enthaltene mwst</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>BRUTTOWERT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>P</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MWSTSATZ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>P</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>MWST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>P</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BRUTTOWERT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Brutto inkl. MWST</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MWSTSATZ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mehrwertsteuersatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MWST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>enthaltene MWST</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

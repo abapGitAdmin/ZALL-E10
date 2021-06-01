@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGC_MESSAGE_UTILMD_IN</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Nachrichtenklasse UTILMD für alte Workflow-Prozesse</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MESSAGE_UTILMD_IN</CLSNAME>
+     <CMPNAME>Z_CHANGE_NAMES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ändert die Namen entsprechend der SWS Vorgaben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MESSAGE_UTILMD_IN</CLSNAME>
+     <CMPNAME>Z_DELETE_UNNEEDED_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Unnötige Daten werden aus den Schrittdaten gelöscht</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MESSAGE_UTILMD_IN</CLSNAME>
+     <CMPNAME>Z_DETERMINE_BMID_Z22</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Determine BMID for Distributor Change</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MESSAGE_UTILMD_IN</CLSNAME>
+     <CMPNAME>Z_FILL_ADD_DATES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Befüllt Z-Datümer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MESSAGE_UTILMD_IN</CLSNAME>
+     <CMPNAME>Z_INBOUND_DETERMINE_POD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>INT_UI, EXT_UI und BU_PARTNER erm., ggf. über ZPI BAdI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MESSAGE_UTILMD_IN</CLSNAME>
+     <CMPNAME>Z_INBOUND_DETERMINE_SERVPROV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>DISTRIBUTOR, OLD_SERVPROV und NEW_SERVPROV ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

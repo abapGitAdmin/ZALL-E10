@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ADESSO/MDC_AUTO_CHANGE_METHOD</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>CHAR30</DOMNAME>
+    <HEADLEN>50</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>SDÄ: Methode für automatische Stammdatenänderung</DDTEXT>
+    <REPTEXT>Methode für automatische Stammdatenänderung</REPTEXT>
+    <SCRTEXT_S>AutoMethod</SCRTEXT_S>
+    <SCRTEXT_M>Automatische Methode</SCRTEXT_M>
+    <SCRTEXT_L>Methode für automat. Stammdatenänderung</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

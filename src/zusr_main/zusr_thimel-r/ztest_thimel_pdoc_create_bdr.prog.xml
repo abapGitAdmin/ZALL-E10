@@ -1,0 +1,905 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZTEST_THIMEL_PDOC_CREATE_BDR</NAME>
+    <SUBC>1</SUBC>
+    <RSTAT>P</RSTAT>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <DYNPROS>
+    <item>
+     <HEADER>
+      <PROGRAM>ZTEST_THIMEL_PDOC_CREATE_BDR</PROGRAM>
+      <SCREEN>1001</SCREEN>
+      <LANGUAGE>E</LANGUAGE>
+      <DESCRIPT>Test Dynpro Thimel</DESCRIPT>
+      <TYPE>N</TYPE>
+      <NEXTSCREEN>1001</NEXTSCREEN>
+      <LINES>027</LINES>
+      <COLUMNS>120</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>TEST</NAME>
+       <TEXT>________________________________________________</TEXT>
+       <LINE>003</LINE>
+       <COLUMN>002</COLUMN>
+       <LENGTH>048</LENGTH>
+       <VISLENGTH>048</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>* MODULE STATUS_1001.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>* MODULE USER_COMMAND_1001.</LINE>
+      </RPY_DYFLOW>
+     </FLOW_LOGIC>
+    </item>
+   </DYNPROS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>BK1</KEY>
+     <ENTRY>Auswahl Prozesskopf</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BK2</KEY>
+     <ENTRY>Nachrichtenkategorie</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Prozess-ID</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T02</KEY>
+     <ENTRY>Proz.-Sicht</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T03</KEY>
+     <ENTRY>Prozessart</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T04</KEY>
+     <ENTRY>Z14: Stammdaten für Zählpunkt</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T05</KEY>
+     <ENTRY>Z27: Übertrag. von Bewegungsdaten</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T06</KEY>
+     <ENTRY>Z28: Übertragung Energie und Leistungsmax.</ENTRY>
+     <LENGTH>42</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Geschäftsdatenanfrage anlegen</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_OWNSP</KEY>
+     <ENTRY>Eigener Serviceanbieter</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PID</KEY>
+     <ENTRY>Prozess-ID</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PIDT</KEY>
+     <ENTRY>Beschreibung der Prozess-ID</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PTY</KEY>
+     <ENTRY>Prozessart</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PTYT</KEY>
+     <ENTRY>Beschreibung der Prozessart</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PVW</KEY>
+     <ENTRY>Prozess-Sicht</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PVWT</KEY>
+     <ENTRY>Beschreibung der Prozess-Sicht</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RCVER</KEY>
+     <ENTRY>Dritter Serviceanbieter</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BK1</KEY>
+       <ENTRY>Process Header Selection</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BK2</KEY>
+       <ENTRY>Message Category</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T01</KEY>
+       <ENTRY>Process ID</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T02</KEY>
+       <ENTRY>Process View</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T03</KEY>
+       <ENTRY>Process Type</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T04</KEY>
+       <ENTRY>Z14: Master Data for Point of Delivery</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T05</KEY>
+       <ENTRY>Z27: Transfer of Transaction Data</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T06</KEY>
+       <ENTRY>Z28: Transfer of Energy and Demand Maximum</ENTRY>
+       <LENGTH>42</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Create Business Data Request</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_OWNSP</KEY>
+       <ENTRY>Own Service Provider</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PID</KEY>
+       <ENTRY>Process ID</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PIDT</KEY>
+       <ENTRY>Description of Process ID</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PTY</KEY>
+       <ENTRY>Process Type</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PTYT</KEY>
+       <ENTRY>Description of Process Type</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PVW</KEY>
+       <ENTRY>Process View</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PVWT</KEY>
+       <ENTRY>Description of Process View</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_RCVER</KEY>
+       <ENTRY>Third-Party Service Provider</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_Z14</KEY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_Z27</KEY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_Z28</KEY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZTEST_THIMEL_PDOC_CREATE_BDR</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0024</VERSION>
+      <TXTLINES>00065</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZTEST_THIMEL_PDOC_CREATE_BDR</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00024</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit diesem Report können Sie eine oder mehrere Geschäftsdatenanfragen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>anlegen und an andere Marktteilnehmer senden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AM</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Hinweis&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AM</TDFORMAT>
+       <TDLINE>Dieser Report unterstützt ausschließlich Geschäftsdatenanfragen mit den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Nachrichtenkategorien Z14 (Stammdaten am Zählpunkt), Z27 (Übertragung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>von Bewegungsdaten) und Z28 (Übertragung Energiemenge und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Leistungsmaximum). Außerdem werden nur Geschäftsdatenanfragen mit Bezug</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>auf GPKE (Geschäftsprozesse zur Kundenbelieferung mit Elektrizität),</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>GeLi Gas (Geschäftsprozesse Lieferantenwechsel Gas) und die Einspeisung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>von Energie unterstützt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können eine kundenspezifische Implementierung des Business Add-Ins</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(BAdI) &lt;DS:SIMG./IDXGC/BADI_BDR&gt;BAdI: Geschäftsdatenanfragen&lt;/&gt; anlegen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Mit diesem BAdI werden das Layout der Eingabefelder und die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Eingabefeldprüfungen gesteuert. Wenn das System keine Implementierung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ermitteln kann, wird die Fallback-Klasse &lt;AB&gt;/IDXGC/CL_DEF_BADI_BDR&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aufgerufen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie den Report starten, müssen Sie folgende Daten eingeben:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Eigener Serviceanbieter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Dritter Serviceanbieter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Prozess-ID</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Nachrichtenkategorie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Auf dem Bild &lt;LS&gt;Geschäftsdatenanfrage&lt;/&gt; müssen Sie je nach Prozesstyp</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und Nachrichtenkategorie die folgenden Informationen angeben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Für initiale Prozesse mit der Nachrichtenkategorie Z14:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Zählpunktbezeichnung (ZP) (sofern bekannt)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Dies ist die erste Spalte in der Tabelle.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Zählpunktadresse (NAD+DP)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Dies sind die hellblau hervorgehobenen Spalten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Geschäftspartner-ID oder Geschäftspartnerdaten (NAD+UD)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Dies sind die grün hervorgehobenen Spalten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Messstellenadresse (NAD+Z03)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Dies sind die orange hervorgehobenen Spalten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Für Folgeprozesse mit der Nachrichtenkategorie Z14:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Zählpunktbezeichnung (ZP)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Für Folgeprozesse mit der Nachrichtenkategorie Z27 oder Z28:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Zählpunktbezeichnung (ZP)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Ab-Datum</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Bis-Datum</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zusätzlich müssen Sie für alle Prozesse auch die Lieferrichtung angeben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können steuern, ob die Prozessschritte im Dialog oder im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Hintergrundmodus ausgeführt werden sollen: Wenn Sie das Ankreuzfeld</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE./IDXGC/DE_PROC_STEP_ASYNCHRON&gt;Asynchrone Ausführung&lt;/&gt; markieren,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>findet keine weitere Verarbeitung statt. Das Prozessdokument wird</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>angelegt, der erste Schritt der Geschäftsdatenanfrage wartet jedoch, bis</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Prozess durch den Hintergrundprozess erneut gestartet wird. Wenn Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die asynchrone Ausführung verwenden möchten, müssen Sie den Report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:RE./IDXGC/RP_API_TRIGG_PROC_MASS&gt;Massenauslöser für Prozesse&lt;/&gt; als</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>periodischen Hintergrundjob einplanen. Dieser prüft, welche Prozesse</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ausgeführt werden sollen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Um die Geschäftsdatenanfrage anzulegen und zu übermitteln, können Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>folgende Funktionen verwenden:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Um mehrere Geschäftsdatenanfragen anzulegen, fügen Sie weitere Zeilen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hinzu.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Um die angegebenen Daten zu prüfen, wählen Sie &lt;LS&gt;Eingabedaten prüfen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Um Geschäftsdatenanfragen zu versenden, markieren Sie die entsprechenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zeilen und wählen &lt;LS&gt;Geschäftsdatenanfrage senden&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System legt für jede versendete Geschäftsdatenanfragenachricht ein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Prozessdokument an. Über die Prozessreferenz können Sie direkt zu jedem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Prozessdokument navigieren.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Um diesen Report aufzurufen, wählen Sie vom Bild &lt;LS&gt;SAP Easy Access&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aus &lt;LS&gt;Versorgungsindustrie → Unternehmensübergreifender Datenaustausch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>→ Intercompany Data Exchange Common Layer for Germany → Prozessdokument</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>→ Geschäftsdatenanfrage → Anlegen von Geschäftsdatenanfrage&lt;/&gt;, oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>rufen Sie die Transaktion &lt;AB&gt;/IDXGC/BDRCREATE&lt;/&gt; auf.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZTEST_THIMEL_PDOC_CREATE_BDR</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0024</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00066</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZTEST_THIMEL_PDOC_CREATE_BDR</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00024</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You use this report to create and send one or more business data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>requests to other market participants.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AM</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Note&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AM</TDFORMAT>
+       <TDLINE>This report only supports business data requests with message category</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Z14 (master data at point of delivery), Z27 (Transfer of Transaction</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Data), and Z28 (Transfer of Energy and Demand Maximum). In addition,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>only business data requests related to GPKE (Business Processes for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Supplying Customers with Electricity), GeLi Gas (Business Processes for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a Change in Gas Supplier), and energy feed-in are supported.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can create a customer-specific implementation of the Business Add-In</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(BAdI)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:SIMG./IDXGC/BADI_BDR&gt;BAdI: Business Data Requests.&lt;/&gt; This BAdI is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>used to control the layout of input fields and input field checks. If</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the system cannot find an implementation, it calls fallback class</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;AB&gt;/IDXGC/CL_DEF_BADI_BDR&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When you start the report, you must enter the following data:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Own Service Provider</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Third-Party Service Provider</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Process ID</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Message Category</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>On the &lt;LS&gt;Business Data Request&lt;/&gt; screen, you must specify the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following information depending on the process type and message</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>category.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For initial processes with message category Z14:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Point of delivery ID (PoD) (if known)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>This is the first column in the table.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Point of delivery address (NAD+DP)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>These are the columns highlighted in light blue.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Business partner ID or business partner data (NAD+UD)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>These are the columns highlighted in green.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Measuring point address (NAD+Z03)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>These are the columns highlighted in orange.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For follow-up processes with message category Z14:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Point of delivery ID (PoD)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>For follow-up processes with message category Z27 or Z28:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Point of delivery ID (PoD)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>From Date</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>To Date</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For all processes, you must also specify the supply direction.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can control whether the process steps are to be executed in dialog</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>or background mode: If you select the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>  &lt;DS:DE./IDXGC/DE_PROC_STEP_ASYNCHRON&gt;Asynchronous Execution&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>checkbox, no further processing takes place. The process document is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>created but the first step of the business data request waits until the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>process is restarted through the background process. If you want to use</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>asynchronous execution, you must schedule the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>     &lt;DS:RE./IDXGC/RP_API_TRIGG_PROC_MASS&gt;Mass Trigger for Processes&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>report as a periodic background job. This checks the processes that are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to be executed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>To create and submit the business data request, you can use the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following functions:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>To create multiple business data requests, add additional rows.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>To check the specified data, click &lt;LS&gt;Check input data&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>To send business data requests, select the relevant rows and click</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Send business data request&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system creates a process document for each sent business data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>request message. You can directly navigate to each process document by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>choosing the process reference.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>To access this report from the &lt;LS&gt;SAP Easy Access&lt;/&gt; screen, choose</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Utilities Industry → Intercompany Data Exchange → Intercompany Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Exchange Common Layer for Germany → Process Document → Business Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Request → Creation of Business Data Request&lt;/&gt; or call transaction</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;AB&gt;/IDXGC/BDRCREATE&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

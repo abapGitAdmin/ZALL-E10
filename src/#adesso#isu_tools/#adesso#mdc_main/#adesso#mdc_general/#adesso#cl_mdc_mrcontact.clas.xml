@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_MDC_MRCONTACT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Methoden zum Zugriff auf die GP zur Ablesekarte</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_MRCONTACT</CLSNAME>
+     <CMPNAME>CREATE_MRCONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Neue Zuordnung Geschäftspartner der Ablesekarte anlegen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_MRCONTACT</CLSNAME>
+     <CMPNAME>DB_SELECT_MRCONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abfrage auf Tabelle /IDXGC/MRCONTACT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_MRCONTACT</CLSNAME>
+     <CMPNAME>STOP_MRCONTACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zuordnung Geschäftspartner der Ablesekarte abgrenzen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

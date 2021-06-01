@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Test IE</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZTEST_SAPNUTS_FMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZTEST_SAPNUTS_FM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZSAPNUTS_RFC_FM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>TEST RFC FM</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_MATNR</PARAMETER>
+       <TYP>MARA-MATNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_MARA</PARAMETER>
+       <TYP>MARA</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Materialnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_MARA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Allgemeine Materialdaten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EXCEPTION</FUNCNAME>
+     <SHORT_TEXT>TEST IE</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>INT1</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>INT2</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RESULT</PARAMETER>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>LOESE_EXCEP</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>INT1</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INT2</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RESULT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LOESE_EXCEP</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Exception ausgelöst</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

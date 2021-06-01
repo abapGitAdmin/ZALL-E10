@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/ADESSO/G_INFO</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>Info (Gas)</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/ADESSO/G_INFO</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>0</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STAND</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>D</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <NOTNULL>X</NOTNULL>
+     <DATATYPE>DATS</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  DATS</MASK>
+     <DDTEXT>Tagesgenauer Stand der Datenbank</DDTEXT>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STANDJAHR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>INT2</DATATYPE>
+     <LENG>000005</LENG>
+     <MASK>  INT2</MASK>
+     <DDTEXT>Stand der Datenbank; Jahr</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STANDMONAT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>INT2</DATATYPE>
+     <LENG>000005</LENG>
+     <MASK>  INT2</MASK>
+     <DDTEXT>Stand der Datenbank; Monat</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DATENBANKFORMAT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000050</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000025</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Access® 97 oder Access® 2000</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>KALENDERWOCHE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>INT2</DATATYPE>
+     <LENG>000005</LENG>
+     <MASK>  INT2</MASK>
+     <DDTEXT>Stand der Datenbank; Kalenderwoche</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

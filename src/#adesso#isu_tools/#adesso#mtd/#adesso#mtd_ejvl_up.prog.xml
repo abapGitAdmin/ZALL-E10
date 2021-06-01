@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>/ADESSO/MTD_EJVL_UP</NAME>
+    <SUBC>1</SUBC>
+    <APPL>E</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Upload und Anpassung der JVL-Daten der ABPs</ENTRY>
+     <LENGTH>43</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>EXP_PATH</KEY>
+     <ENTRY>Unix-Pfad</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FILE</KEY>
+     <ENTRY>Datei-Name EJVL-Datei</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FILE2</KEY>
+     <ENTRY>Datei JVL-ABP</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PECHT</KEY>
+     <ENTRY>Echtlauf</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFAEDN</KEY>
+     <ENTRY>Alte Fälligkeit (nur für 525)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFIRMA</KEY>
+     <ENTRY>Migrationsfirma</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PTAGE</KEY>
+     <ENTRY>Karenz auf Tagesdatum (Sperre)</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PTEMKSV</KEY>
+     <ENTRY>Umschlüsselung über TEMKSV</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

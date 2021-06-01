@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSCH_06_TD_LEVEL</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>13</SCRLEN3>
+    <DDTEXT>Schwierigkeit</DDTEXT>
+    <SCRTEXT_S>Schwrgkt</SCRTEXT_S>
+    <SCRTEXT_M>Schwierigkeit</SCRTEXT_M>
+    <SCRTEXT_L>Schwierigkeit</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGC_CHECK_METHOD_MDCHG</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Prüfmethoden für CL MDCHG</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_CHECK_METHOD_MDCHG</CLSNAME>
+     <CMPNAME>AC_ERROR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_CHECK_METHOD_MDCHG</CLSNAME>
+     <CMPNAME>AC_NEG_ANSWER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_CHECK_METHOD_MDCHG</CLSNAME>
+     <CMPNAME>AC_POS_ANSWER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergebnis der Prüfmethode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_CHECK_METHOD_MDCHG</CLSNAME>
+     <CMPNAME>GR_PREVIOUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

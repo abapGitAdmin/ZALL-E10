@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NSPC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <NSPC>
+    <NAMESPACE>/ADO/</NAMESPACE>
+    <REPLICENSE>20724887902289130650</REPLICENSE>
+   </NSPC>
+   <NSPC_TEXT>
+    <SPRAS>D</SPRAS>
+    <DESCRIPTN>adesso Entwicklungen</DESCRIPTN>
+    <OWNER>adesso AG</OWNER>
+   </NSPC_TEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

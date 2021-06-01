@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Stammdatenleser</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GC_ANLAGENART_PANL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anlagenart</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GC_LASTPROFIL_NSP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lastprofil EDM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GC_METMETHOD_E14</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zählverfahren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_ALL_SERVPROV_DISTRIBUTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt alle zugeordneten Netzbetreiber zu einem ZP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_ANLAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Anlage zu einem Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_COM_DISC_PERC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Gemeinderabatt einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_CONTRACT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Vertrag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_CONTRACT_COMMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den SW SG Kommentar für Vertragskennzeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_DEVICE_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt alle Gerätedaten zu einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_DIV_FROM_DIVCAT_AND_INSTLN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Sparte aus Spartentyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_ENDSETTLDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Bilanzierungsbeginndatum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_EVER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Vertragsdaten zu einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_EXT_UI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den externen Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_FALLGRUPPE_GABI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Fallgruppenzuordnung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_GAS_QUALITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Gas-Qualität</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_INSTLN_FACTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Anlagefakten einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_INT_UI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den internen Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_KZ_HHK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Haushaltskundenkennzeichen einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_LOSS_FACTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Verlustfaktor Trafo einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_MABIS_TIME_SERIES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Zeitreihentyp einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_MARKET_AREA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Marktgebiet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_MAXDEMAND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die bisher gem. Maximalleistung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_MDL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Messdienstleister</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_METMETHOD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Zählverfahren der Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_MSB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Messstellenbetreiber</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_NETZBETREIBERWECHSEL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt einen Netzbetreiberwechsel im Vertr zum Vertrbegin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_OWN_MSB_MDL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die eigenen MSB und MDL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_PARTNER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Geschäftspartner zu einem ZP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_PERIOD_LENGTH</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Periodenlänge einer Portion</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_PERVERBR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Periodenverbrauch einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_PORTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Portion einer Ableseeinheit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_PROFIL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Profil einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_PROGYEARCONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Jahresverbrauch einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_QUANTITY_TRANSFORMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Wandlerfaktor aus Wicklungsgruppe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_REGIO_STRUCTURE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Regionalstruktur</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_REGISTER_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Zählwerksdaten zu einem Gerät</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SERVICES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Services am ZP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SERVICETYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt einen Servicetypdaten zur Serviceart</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SERVPROV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Serviceanbieter zur ServiceID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SETTLEMENT_TERRITORY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Bilanzierungsgebiet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SETTLUNIT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Bilanzierungseinheiten zum Lieferanten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SPARTE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Sparte zu einem Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SPEBENE_LIEFERSTELLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Spannungsebene der Lieferstelle einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SPEBENE_MESSUNG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Spannungsebene der Messung einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_STARTSETTLDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Bilanzierungsbeginndatum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_TTYP_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Tariftypmerkmale eines Tariftyps</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_UISETTLUNIT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Bilanzierungseinheiten zum Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_V_EANL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Anlagedaten zu einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>IS_NETZ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft das System ob es sich um das Netzsystem handelt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>IS_REG_DIVISION_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft ob die Sparte eine regulierte Sparte ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>IS_REG_PROCESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft ob es ein regulierter Prozess ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AGC_MASTERDATA</CLSNAME>
+     <CMPNAME>MAP_EANL_CODES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Codes zu Spannungsebene und Druckstufe</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

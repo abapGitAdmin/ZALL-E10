@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Methoden zum Beschaffen von Containerdaten</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_ACLASS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Abrechnungsklasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_CCAT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Klärungsfallkategorie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_CUSTOMER_FLAG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt kundenspezifisches Kennzeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_GRID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Netz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_INSTLN_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Anlagentyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_ISU_TASK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Datenaustauschaufgabe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_MANDT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Mandanten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_METMETHOD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Zählverfahren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_POD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_REGIOGROUP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Regionalstruktur</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/IF_BPM_FILL_CONTAINER</CLSNAME>
+     <CMPNAME>GET_SYSID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Systemkennung</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/ADESSO/WO_WOSTA</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Ausbuchung: Status der auszubuchenden Posten</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>/ADESSO/WO_WOSTA</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Vormerkung Ausbuchung</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/WO_WOSTA</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Zur Korrektur / Prüfung</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/WO_WOSTA</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Geprüft</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/WO_WOSTA</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>10</DOMVALUE_L>
+     <DDTEXT>Bereit zur Genehmigung</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/WO_WOSTA</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>11</DOMVALUE_L>
+     <DDTEXT>Genehmigung 1</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/WO_WOSTA</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>12</DOMVALUE_L>
+     <DDTEXT>Genehmigt</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/WO_WOSTA</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>13</DOMVALUE_L>
+     <DDTEXT>Abgelehnt</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>/ADESSO/WO_WOSTA</DOMNAME>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>20</DOMVALUE_L>
+     <DDTEXT>Ausgebucht</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADO/CL_WB_REST</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Wallbe REST Client zur Anbindung der API</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADO/CL_WB_REST</CLSNAME>
+     <CMPNAME>CALL_WALLBE_API</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aufruf der Wallbe API</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADO/CL_WB_REST</CLSNAME>
+     <CMPNAME>SAVE_CP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Sichern von Ladeprozessen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADO/CL_WB_REST</CLSNAME>
+     <CMPNAME>SAVE_CS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Sichern von Ladestationen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADO/CL_WB_REST</CLSNAME>
+     <CMPNAME>SAVE_LOADEDKWH</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Sichern von geladenen KWH (Statistik)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADO/CL_WB_REST</CLSNAME>
+     <CMPNAME>SAVE_OP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Sichern von Betreibern/Operatoren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADO/CL_WB_REST</CLSNAME>
+     <CMPNAME>SAVE_REVENUE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Sichern von geladenen Einnahmen (Statistik)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADO/CL_WB_REST</CLSNAME>
+     <CMPNAME>SAVE_USER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Sichern von Usern</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

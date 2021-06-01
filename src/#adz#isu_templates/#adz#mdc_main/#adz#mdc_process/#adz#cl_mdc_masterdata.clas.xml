@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Allgemeine Klasse für Methoden zum Stammdatenzugriff</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_ANLAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Anlage zu einem ZP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_CONN_OBJ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt das Anschlussobjekt zu einer Verbrauchstelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_EVER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_EXT_UI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den externen Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_INT_UI</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den internen Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_PREMISE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Verbrauchselle zu einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SERVICETYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt einen Servicetypdaten zur Serviceart</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SERVPROV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt den Serviceanbieter zur ServiceID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_SPARTE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Sparte zu einem Zählpunkt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADZ/CL_MDC_MASTERDATA</CLSNAME>
+     <CMPNAME>GET_V_EANL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Anlagedaten (View V_EANL) zu einer Anlage</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

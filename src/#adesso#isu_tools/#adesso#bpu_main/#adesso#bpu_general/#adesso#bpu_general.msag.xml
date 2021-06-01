@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>BPEM-UT: Nachrichtenklasse für generelle Implementierungen</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Schrittdaten für neuen BPEM-Fall konnten nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Kein Eintrag in Tabelle &amp;1 mit Schlüssel &amp;2 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Kein Eintrag in Tabelle &amp;1 mit Schlüssel &amp;2 und &amp;3 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehlende Importparameter zur Ermittlung von Objekt &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Methode &amp;1 zur Ermittlung von Klärungsfallobjekten nicht vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Fehler bei der Datenermittlung von Objekt &amp;1 für Klärungsfallobjekte.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Fehler beim Speichern des Tracking zur Lösungsmethodenausführung.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Importparameter für Methode &amp;1 nicht korrekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Klärungsfall konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Bitte geben Sie ein gültiges Datum ein.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/BPU_GENERAL</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Bitte geben Sie einen Text ein.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

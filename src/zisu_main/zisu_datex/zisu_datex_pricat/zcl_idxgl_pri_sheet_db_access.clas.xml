@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_IDXGL_PRI_SHEET_DB_ACCESS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Zugriffsklasse für /IDXGL/PRI_SHEET</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IDXGL_PRI_SHEET_DB_ACCESS</CLSNAME>
+     <CMPNAME>CHECK_PRI_SHEET_EXISTS_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Check data exist in table /IDXGL/PRI_SHEET for startdate</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IDXGL_PRI_SHEET_DB_ACCESS</CLSNAME>
+     <CMPNAME>GET_LATEST_PRI_SHEET_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>neuestes Preisblatt holen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

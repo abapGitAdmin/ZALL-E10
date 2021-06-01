@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMOSB_DE_PRICE_CAT_DESC</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>ZMOSB_DE_PRICE_CAT_DESC</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>06</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Beschreibung des Preiskatalogs</DDTEXT>
+    <REPTEXT>Beschreibung des Preiskatalogs</REPTEXT>
+    <SCRTEXT_S>PRICAT</SCRTEXT_S>
+    <SCRTEXT_M>Preiskatalog</SCRTEXT_M>
+    <SCRTEXT_L>Beschreibung des Preiskatalogs</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

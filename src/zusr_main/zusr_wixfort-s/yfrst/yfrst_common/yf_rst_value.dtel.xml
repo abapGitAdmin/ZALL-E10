@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>YF_RST_VALUE</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <DDTEXT>XString</DDTEXT>
+    <SCRTEXT_S>XString</SCRTEXT_S>
+    <SCRTEXT_M>binary String</SCRTEXT_M>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>RSTR</DATATYPE>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_MDC_IM_DATEXCONNECT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>SDÄ: Klasse zum BAdI ISU_IDE_DATEXCONNECT</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_IM_DATEXCONNECT</CLSNAME>
+     <CMPNAME>GET_PODS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zählpunkte zum Objekt selektieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_IM_DATEXCONNECT</CLSNAME>
+     <CMPNAME>GR_PREVIOUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_IM_DATEXCONNECT</CLSNAME>
+     <CMPNAME>GS_MESSAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachrichtentyp Für ISU</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_IM_DATEXCONNECT</CLSNAME>
+     <CMPNAME>GT_MESSAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp zum ISU Message-Objekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_IM_DATEXCONNECT</CLSNAME>
+     <CMPNAME>PROCESS_INVOICE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Instanzmethode zu DATEXCONNECT_PROCESS_INVOICE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_MDC_IM_DATEXCONNECT</CLSNAME>
+     <CMPNAME>SWITCH_OUT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Instanzmethode zu DATEXCONNECT_SWITCH_OUT</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

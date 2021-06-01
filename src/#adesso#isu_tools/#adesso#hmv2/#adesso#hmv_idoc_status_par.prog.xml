@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>/ADESSO/HMV_IDOC_STATUS_PAR</NAME>
+    <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <FIXPT>X</FIXPT>
+    <LDBNAME>D$S</LDBNAME>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>201</KEY>
+     <ENTRY>Auswahl der Werte zur Gruppierung von Arbeitsvorräten</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>202</KEY>
+     <ENTRY>Auswahl der Selektionsoption zur Bildung getrennter Arbeitsvorräte</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>203</KEY>
+     <ENTRY>-</ENTRY>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>205</KEY>
+     <ENTRY>Verborgene Selektionsoptionen zeigen</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>206</KEY>
+     <ENTRY>Selektionsoptionen verbergen</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>207</KEY>
+     <ENTRY>Programmdokumentation</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>210</KEY>
+     <ENTRY>Zusätzliche Selektionskriterien</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>211</KEY>
+     <ENTRY>Parallelisierung über Selektionsoption</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>212</KEY>
+     <ENTRY>Parameter für Parallelisierung</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>213</KEY>
+     <ENTRY>Reportsteuerung</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>214</KEY>
+     <ENTRY>Report und Arbeitsvorrat</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>221</KEY>
+     <ENTRY>bereits eingeplante Jobs: Fülle Varianten</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>222</KEY>
+     <ENTRY>Jobstart im Hintergrund</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>223</KEY>
+     <ENTRY>asynchroner Jobstart in Dialogprozessen (statisch)</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>224</KEY>
+     <ENTRY>asynchroner Jobstart in Dialogprozessen (mit dynamischer Steuerung)</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>231</KEY>
+     <ENTRY>Eingeplante Jobs</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>232</KEY>
+     <ENTRY>Hintergrund</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>233</KEY>
+     <ENTRY>Dialog</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>234</KEY>
+     <ENTRY>Dialog dynamisch</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>300</KEY>
+     <ENTRY>Vorbereitung Parallelverarbeitung: Initialisierung ...</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>301</KEY>
+     <ENTRY>Vorbereitung Parallelverarbeitung: Datenvorselektion ...</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>302</KEY>
+     <ENTRY>Vorbereitung Parallelverarbeitung: Arbeitslastverteilung...</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>303</KEY>
+     <ENTRY>Vorbereitung beendet. Parallelverarbeitung beginnt ...</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>304</KEY>
+     <ENTRY>Parallelverarbeitung ...</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>305</KEY>
+     <ENTRY>Parallelverarbeitung beendet!</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>401</KEY>
+     <ENTRY>Parallel ausgeführter Report</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>402</KEY>
+     <ENTRY>Benutzte Variante</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>403</KEY>
+     <ENTRY>Anzahl paralleler Jobs</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>404</KEY>
+     <ENTRY>Anzahl Jobs insgesamt</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>405</KEY>
+     <ENTRY>Datenvorselektion durch den FB</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>406</KEY>
+     <ENTRY>Selektierte Tabelle</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>407</KEY>
+     <ENTRY>Erste selektierte Tabelle</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>408</KEY>
+     <ENTRY>Zweite selektierte Tabelle</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>409</KEY>
+     <ENTRY>Soll</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>410</KEY>
+     <ENTRY>Ist</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>411</KEY>
+     <ENTRY>Gefüllte Selektionoption</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>412</KEY>
+     <ENTRY>Tabelle</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>413</KEY>
+     <ENTRY>Feld</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>414</KEY>
+     <ENTRY>Servergruppe</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>415</KEY>
+     <ENTRY>Ereignis für Folgejob</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>416</KEY>
+     <ENTRY>Für die Arbeitslast wird die Anzahl der Werte kumuliert.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>417</KEY>
+     <ENTRY>Für die Arbeitslast zählt nur das Vorkommen eines Wertes.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>418</KEY>
+     <ENTRY>Anzahl der Einträge</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>419</KEY>
+     <ENTRY>Summe</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>420</KEY>
+     <ENTRY>Minimum</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>421</KEY>
+     <ENTRY>Maximum</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>422</KEY>
+     <ENTRY>Durchschnitt</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>423</KEY>
+     <ENTRY>Varianz</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>424</KEY>
+     <ENTRY>Standardabweichung</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>425</KEY>
+     <ENTRY>daher wurde die Arbeitslast linear auf Jobs verteilt.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>426</KEY>
+     <ENTRY>daher wurde die Jobzuordnung nach aufsteigender Arbeitslast durchgeführt.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>427</KEY>
+     <ENTRY>Laufzeiten für Job</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>428</KEY>
+     <ENTRY>Gestartet in Paralleljob</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>429</KEY>
+     <ENTRY>Variante</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>430</KEY>
+     <ENTRY>Arbeitslast</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>431</KEY>
+     <ENTRY>Endestatus</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>432</KEY>
+     <ENTRY>offen</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>433</KEY>
+     <ENTRY>initialisiert</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>434</KEY>
+     <ENTRY>gestartet</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>435</KEY>
+     <ENTRY>erfolgreich beendet</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>436</KEY>
+     <ENTRY>beendet mit Informationsmeldung(en)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>437</KEY>
+     <ENTRY>fehlerhaft beendet</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>438</KEY>
+     <ENTRY>beendet mit Warnung(en)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>439</KEY>
+     <ENTRY>abgebrochen</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>440</KEY>
+     <ENTRY>Start</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>441</KEY>
+     <ENTRY>Ende</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>442</KEY>
+     <ENTRY>Laufzeit</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>443</KEY>
+     <ENTRY>Asynchroner RFC</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>444</KEY>
+     <ENTRY>Reportlaufzeit incl. SUBMIT</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>445</KEY>
+     <ENTRY>Datenvorselektion gesamt</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>446</KEY>
+     <ENTRY>Datenvorselektion 1. Stufe</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>447</KEY>
+     <ENTRY>Datenvorselektion 2. Stufe</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>448</KEY>
+     <ENTRY>Datenvorselektion</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>449</KEY>
+     <ENTRY>Laufzeiten für Jobvorbereitung</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>450</KEY>
+     <ENTRY>Feld für Aufteilung</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>451</KEY>
+     <ENTRY>Ausführender Server</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>452</KEY>
+     <ENTRY>RFC-Meldung</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>453</KEY>
+     <ENTRY>Selektionskriterien</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>454</KEY>
+     <ENTRY>Selektion für &quot;Füllwert&quot;</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>455</KEY>
+     <ENTRY>Selektion für Verteilung</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>456</KEY>
+     <ENTRY>Nicht verwendete Kriterien</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>457</KEY>
+     <ENTRY>nur Primärschlüssel der ersten Tabelle</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>458</KEY>
+     <ENTRY>Datenvorselektion &quot;Füllwert&quot;</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>459</KEY>
+     <ENTRY>Datenvorselektion Verteilung</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>460</KEY>
+     <ENTRY>* * *   T E S T L A U F !   * * *</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>461</KEY>
+     <ENTRY>Generierte Routinen für Datenvorselektion</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>462</KEY>
+     <ENTRY>Gewichtungsfaktorfeld</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>463</KEY>
+     <ENTRY>SUBMIT Returncode</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>464</KEY>
+     <ENTRY>Report meldet am Ende</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>HMV: Ermitteln von IDOC-Status</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_DATUM</KEY>
+     <ENTRY>Geändert am</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_INTUI</KEY>
+     <ENTRY>Interner Zählpunkt</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_SERV</KEY>
+     <ENTRY>Eigener ServiceAnb.</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_SERVE</KEY>
+     <ENTRY>Fremder ServiceAnb.</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_TASKI</KEY>
+     <ENTRY>DatenAust-Aufgabe</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>_DEXPROC</KEY>
+     <ENTRY>DatAust-Prozesse</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$PAV0001</KEY>
+     <ENTRY>Geändert am</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$PAV0004</KEY>
+     <ENTRY>Fremder ServiceAnb.</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$PAV0002</KEY>
+     <ENTRY>DatenAust-Aufgabe</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$PAV0005</KEY>
+     <ENTRY>Interner Zählpunkt</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$PAV0003</KEY>
+     <ENTRY>Eigener ServiceAnb.</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$SOV0001</KEY>
+     <ENTRY>Geändert am</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$SOV0004</KEY>
+     <ENTRY>Fremder ServiceAnb.</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$SOV0002</KEY>
+     <ENTRY>DatenAust-Aufgabe</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$SOV0005</KEY>
+     <ENTRY>Interner Zählpunkt</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>$SOV0003</KEY>
+     <ENTRY>Eigener ServiceAnb.</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_REPRT</KEY>
+     <ENTRY>Paralleler Start des Reports</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_VARNT</KEY>
+     <ENTRY>Benutze Variante</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_JOBS</KEY>
+     <ENTRY>Anzahl paralleler Jobs</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_JOBPL</KEY>
+     <ENTRY>Anzahl eingeplanter Jobs</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_EV20</KEY>
+     <ENTRY>Endeereignis</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_SVGP1</KEY>
+     <ENTRY>Start auf Servergruppe</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_EV30</KEY>
+     <ENTRY>Endeereignis</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_WKLDJ</KEY>
+     <ENTRY>Arbeitslast je Job</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_SVGP2</KEY>
+     <ENTRY>Start auf Servergruppe</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_EV40</KEY>
+     <ENTRY>Endeereignis</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_TEST</KEY>
+     <ENTRY>Testmodus</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_PROT</KEY>
+     <ENTRY>Protokolldetails</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_PRIMM</KEY>
+     <ENTRY>Reportlisten sofort drucken?</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IF_FROUT</KEY>
+     <ENTRY>Gen. Tabellen-Select ausgeben?</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IT_ERROR</KEY>
+     <ENTRY>Fehlernachrichten</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>GF_OWNFM</KEY>
+     <ENTRY>Datenvorselektion durch FB</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>GF_PTAB</KEY>
+     <ENTRY>Datenvorselektion aus Tabelle</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>GF_STAB</KEY>
+     <ENTRY>           und</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>GF_WTFLD</KEY>
+     <ENTRY>Gewichtungsfaktorfeld</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Data-Provider-Basiskl.</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>ABTEILUNGSET_CREATE_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  AbteilungSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>ABTEILUNGSET_DELETE_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  AbteilungSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>ABTEILUNGSET_GET_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  AbteilungSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>ABTEILUNGSET_GET_ENTITYSET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  AbteilungSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>ABTEILUNGSET_UPDATE_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  AbteilungSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>MITARBEITERSET_CREATE_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  MitarbeiterSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>MITARBEITERSET_DELETE_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  MitarbeiterSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>MITARBEITERSET_GET_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  MitarbeiterSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>MITARBEITERSET_GET_ENTITYSET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  MitarbeiterSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZADE_ABT_MA_DPC</CLSNAME>
+     <CMPNAME>MITARBEITERSET_UPDATE_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  MitarbeiterSet</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

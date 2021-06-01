@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BPEM-UT: Allgemeine Klasse für Hilfsmethoden</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>DET_AUTO_EXEC_CHECK_RESULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfergebnis für autom. Ausführung von Lösungspr. ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>DET_CASETXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klärungsfalltext ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>DET_CASE_OBJECTS_AND_METHODS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekte und Methoden für Datenbereitstellung ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>DET_CCAT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klärungsfallkategorie ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>DET_DESCRIPTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klärfallbeschreibung ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>DET_DUE_DATE_TIME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fälligkeitsdatum ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>DET_PRIO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>DET_PROCESSES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prozesse ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>DET_RULES_AND_METHODS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Regeln und Methoden für Datenbereitstellung ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>GET_CASES_BY_PARAM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt Klärungsfälle auf Basis übergebener Parameter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/ADESSO/CL_BPU_UTILITY</CLSNAME>
+     <CMPNAME>MOVE_CORRESPONDING_IGNORE_INIT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>MOVE-CORRESPONDING für alle nicht initialen Felder</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

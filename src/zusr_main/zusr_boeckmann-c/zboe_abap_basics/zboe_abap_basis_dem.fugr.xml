@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Test Funktionsgruppe</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBOE_ABAP_BASIS_DEMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBOE_ABAP_BASIS_DEM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_BOE_GET_FLUEGE_FUBA</FUNCNAME>
+     <SHORT_TEXT>Funktionsbaustein Flüge</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>S_CARR_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_FLUEGE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZBOE_FLISTE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kurzbezeichnung der Fluggesellschaft</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_FLUEGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle von Flugverbindungen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_BOE_KALKULATIONFUBA</FUNCNAME>
+     <SHORT_TEXT>FuBa Kalkulation</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_OPERAND1</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IM_OPERAND2</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IM_OPERATOR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>C</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_ERGEBNIS</PARAMETER>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NULLDIVISION</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>OPERATOR_UNGUELTIG</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_OPERAND1</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IM_OPERAND2</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IM_OPERATOR</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_ERGEBNIS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NULLDIVISION</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Division durch Null</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OPERATOR_UNGUELTIG</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Ungültiger Operator</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_BOE_TESTFUBA</FUNCNAME>
+     <SHORT_TEXT>Test FuBa</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_TEST</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_TEST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Testbeschreibung</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

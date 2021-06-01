@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ADESSO/MDC_MRCONTCT</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>SDÄ: Nachrichtenklasse für Ablesekarteninformationen</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/MDC_MRCONTCT</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Zu viele Einträge in Tabelle /IDXGC/MRCONTACT mit Anlage &amp;1 und Datum &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/MDC_MRCONTCT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Anlage zum internen Zählpunkt &amp;1 konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/MDC_MRCONTCT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Fehler beim Aktualisieren von Datenbanktabelle /IDXGC/MRCONTACT.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/MDC_MRCONTCT</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Eintrag zum gleichen Datum in Tabelle /IDXGC/MRCONTACT schon vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/ADESSO/MDC_MRCONTCT</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Beginndatum (&amp;1) darf nicht größer als das Endedatum (&amp;2).</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

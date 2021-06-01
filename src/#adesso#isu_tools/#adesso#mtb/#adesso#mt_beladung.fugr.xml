@@ -1,0 +1,5443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Migrationstoolbox Beladeseite</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/ADESSO/LMT_BELADUNGF01</SOBJ_NAME>
+    <SOBJ_NAME>/ADESSO/LMT_BELADUNGTOP</SOBJ_NAME>
+    <SOBJ_NAME>/ADESSO/SAPLMT_BELADUNG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_ACCOUNT</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (ACCOUNT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_ACC_NOTE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (ACC_NOTE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_ADRSTREET</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (ADRSTREET)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_ADRSTRTISU</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (ADRSTRTISU)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_BBP_MULT</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (BBP_MULT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_BCONTACT</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (BCONTACT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_BCONT_NOTE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (BCONT_NOTE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_CONNOBJ</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (CONNOBJ)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_CON_NOTE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (CON_NOTE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DEVGRP</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DEVGRP)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DEVICE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DEVICE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBJECT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_OBJECT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Migrationsobjekt</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DEVICERATE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DEVICERATE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DEVICEREL</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DEVICEREL)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DEVINFOREC</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DEVINFOREC)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beleadung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DEVLOC</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DEVLOC)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DISC_DOC</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DISC_DOC)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DISC_ENTER</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DISC_ENTER)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DISC_ORDER</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DISC_ORDER)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DISC_RCENT</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DISC_RCENT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DISC_RCORD</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DISC_RCORD)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DLC_NOTE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DLC_NOTE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DOCUMENT</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DOCUMENT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_DUNNING</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (DUNNING)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beleadung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_FACTS</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (FACTS)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_INSTLN</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (INSTLN)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_INSTLNCHA</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (INSTLNCHA)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_INSTLNCHNN</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (INSTLNCHA)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_INSTLN_NN</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (INSTLN)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_INSTPLAN</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (INSTPLAN)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_INST_MGMT</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (INST_MGMT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBJECT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_OBJECT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Migrationsobjekt</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_INST_MGMT_INF</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (INST_MGMT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBJECT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_OBJECT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Migrationsobjekt</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_LOADPROF</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (ACC_NOTE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_LOT</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (LOT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_METERREAD</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (METERREAD)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_MOVE_IN</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (MOVE_IN)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_MOVE_IN_H</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (MOVE_IN_H)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beleadung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_MOVE_OUT</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (MOVE_OUT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_NOTE_CON</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (NOTE_CON)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_NOTE_DLC</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (NOTE_DLC)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_PARTNER</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (PARTNER)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_PARTN_NOTE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (PARTN_NOTE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_PAYMENT</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (PAYMENT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beleadung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_PAYMENT_02</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (PAYMENT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_PAYMENT_NEU</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (PAYMENT)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_PAYSAM</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (PAYSAM)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_POD</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (POD)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_PODCHANGE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (PODCHANGE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_PODSERVICE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (PODSERVICE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_PREMISE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (PREMISE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_REFVALUES</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (REFVALUES)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_BEL_STRT_ROUTE</FUNCNAME>
+     <SHORT_TEXT>Migrationsdatei erstellen (STRT_ROUTE)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_PFAD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_OPEN</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_CLOSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GEN_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für IS-U Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_ENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Entladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PFAD_DAT_BEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pfad für IS-U-Migration (Beladung)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl Objekte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_OPEN</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Öffnen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CLOSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Schließen der Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GEN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim generierten Report</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/ADESSO/MTB_REP_GENERATE</FUNCNAME>
+     <SHORT_TEXT>Reportgenerierung für Migrationsobjekte</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBJECT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_OBJECT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>REP_NAME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PROGRAMM</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>FORM_NAME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEXT30</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>SYN_FEHLER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEXT60</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>CODING</PARAMETER>
+       <DBSTRUCT>RSSOURCE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Migrationsobjekt</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>REP_NAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP-Programmname</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FORM_NAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Text 30 Stellen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SYN_FEHLER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Textfeld der Länge 60</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CODING</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>generierte ABAP-Anweisungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>interner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Migrationstoolbox: Füllen Hilfstabelle</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/ADESSO/LMTE_FILL_HT_GERTOP</SOBJ_NAME>
+    <SOBJ_NAME>/ADESSO/SAPLMTE_FILL_HT_GER</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/ADESSO/MTE_FILL_HT_GER</FUNCNAME>
+     <SHORT_TEXT>Füllen der Hilftabelle für INST_MGMT (auch Tarifwechsel erkennbar)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>FIRMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EMG_FIRMA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>X_ANLAGE</PARAMETER>
+       <DBFIELD>EANL-ANLAGE</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <DBSTRUCT>/ADESSO/MT_MESSAGES</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_UPDATE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_HISTORY</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>FIRMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Firma (Mandant) für Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>X_ANLAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anlage</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANZ_OBJ</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MELDUNG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stuktur für Meldungen bei Migration</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler im Datensatz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_UPDATE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>abspeichern nicht möglich</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_HISTORY</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>keine Daten in Tabelle EGERH</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

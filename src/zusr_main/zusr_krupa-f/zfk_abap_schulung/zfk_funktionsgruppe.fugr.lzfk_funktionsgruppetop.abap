@@ -1,0 +1,3 @@
+FUNCTION-POOL ZFK_FUNKTIONSGRUPPE.          "MESSAGE-ID ..
+
+* INCLUDE LZFK_FUNKTIONSGRUPPED...           " Local class definition
